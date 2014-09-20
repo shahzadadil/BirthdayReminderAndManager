@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="AddLabel" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>تذكير عيد ميلاد</value>
+  </data>
+  <data name="BdayCardsPgTitle" xml:space="preserve">
+    <value>بطاقات</value>
+  </data>
+  <data name="BdayMsgLabel" xml:space="preserve">
+    <value>رسالة عيد ميلاد</value>
+  </data>
+  <data name="BdayReminderSettingsTitle" xml:space="preserve">
+    <value>إعدادات تذكير عيد ميلاد</value>
+  </data>
+  <data name="BdaySetupMessage" xml:space="preserve">
+    <value>ليس لديك أية جهات اتصال المحفوظة حاليا. هل ترغب في تحميل جهات الاتصال الخاصة بك في فيس بوك؟</value>
+  </data>
+  <data name="BdaySetupTitle" xml:space="preserve">
+    <value>أعياد الميلاد في الإعداد</value>
+  </data>
+  <data name="BirthdayLabel" xml:space="preserve">
+    <value>عيد ميلاد</value>
+  </data>
+  <data name="BirthdayMessage" xml:space="preserve">
+    <value>كثير كثير سعيدة بإرجاع اليوم:). عيد ميلاد سعيد!!</value>
+  </data>
+  <data name="BirthdayOnLabel" xml:space="preserve">
+    <value>عيد ميلاد في</value>
+  </data>
+  <data name="BirthdayReminderMessage" xml:space="preserve">
+    <value>في عيد ميلاد اليوم. اضغط لإرسال رسالة له</value>
+  </data>
+  <data name="BirthdayWishTitle" xml:space="preserve">
+    <value>وتود</value>
+  </data>
+  <data name="CallLabel" xml:space="preserve">
+    <value>المكالمة</value>
+  </data>
+  <data name="CardLimitExceedCaption" xml:space="preserve">
+    <value>وقد تجاوز الحد</value>
+  </data>
+  <data name="CardLimitMsg" xml:space="preserve">
+    <value>لا يمكن إضافة أكثر من 10 بطاقات. الرجاء حذف بعض البطاقات القديمة إذا كنت ترغب في إضافة بطاقات جديدة.</value>
+  </data>
+  <data name="ChooseCardLabel" xml:space="preserve">
+    <value>اختر بطاقة</value>
+  </data>
+  <data name="ConnOpenWarnCaption" xml:space="preserve">
+    <value>الاتصال مشغول</value>
+  </data>
+  <data name="ContactNoLabel" xml:space="preserve">
+    <value>اتصل برقم</value>
+  </data>
+  <data name="ContactNotUpdatedMessage" xml:space="preserve">
+    <value>قد لا تم متزامنة جهات الاتصال الخاصة بك في كل حين. هل تريد التحديث الآن؟</value>
+  </data>
+  <data name="ContactsTitle" xml:space="preserve">
+    <value>جهات الاتصال</value>
+  </data>
+  <data name="ContactSyncRedirectMsg" xml:space="preserve">
+    <value>جهات الاتصال الخاصة بك وسوف الآن تكون متزامنة، وسيتم توجيهك إلى "شاشة مزامنة جهات الاتصال". هل ترغب في مزامنة جهات الاتصال الخاصة بك الآن؟</value>
+  </data>
+  <data name="CreateBdayReminder" xml:space="preserve">
+    <value>يتم الحصول على إنشاء تذكير عيد ميلاد</value>
+  </data>
+  <data name="DeleteConfirmMessage" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد إزالة العناصر المحددة؟</value>
+  </data>
+  <data name="DeleteLabel" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="DownloadImagesTitle" xml:space="preserve">
+    <value>تحميل الصور الشخصية</value>
+  </data>
+  <data name="DownloadingFbContact" xml:space="preserve">
+    <value>يتم الحصول على تحميل جهات الاتصال من فيسبوك</value>
+  </data>
+  <data name="DownloadnProfileImgMsg" xml:space="preserve">
+    <value>هل تريد تنزيل الصور الشخصية لأصدقائك؟ بعد تحميل الصور، سوف تكون قادراً على رؤية فتوتوس بهم في بلاط ابدأ. ولكن يرجى أن يكون المريض كما قد تستغرق هذه العملية بضع دقائق اعتماداً على سرعة الاتصال بالإنترنت. هل ترغب في تحميل الصور الآن؟ </value>
+  </data>
+  <data name="EmailLabel" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="ErrAddCard" xml:space="preserve">
+    <value>خطأ في إضافة بطاقة</value>
+  </data>
+  <data name="ErrAddFriend" xml:space="preserve">
+    <value>خطأ في إضافة صديق</value>
+  </data>
+  <data name="ErrAppBarDisplay" xml:space="preserve">
+    <value>حدث خطأ أثناء عرض شريط التطبيق</value>
+  </data>
+  <data name="ErrAppBarLoad" xml:space="preserve">
+    <value>خطأ في تحميل شريط التطبيق</value>
+  </data>
+  <data name="ErrAppInitialise" xml:space="preserve">
+    <value>حدث خطأ أثناء التحقق من التهيئة. قد لا تعمل بعض الخصائص الوظيفية.</value>
+  </data>
+  <data name="ErrBindingData" xml:space="preserve">
+    <value>خطأ في الحصول على بيانات ليتم عرضها</value>
+  </data>
+  <data name="ErrBuildBdayList" xml:space="preserve">
+    <value>خطأ بناء قائمة أعياد ميلاد</value>
+  </data>
+  <data name="ErrDeleting" xml:space="preserve">
+    <value>حدث خطأ أثناء حذف</value>
+  </data>
+  <data name="ErrDisplaSaveBtn" xml:space="preserve">
+    <value>حدث خطأ أثناء عرض الزر حفظ</value>
+  </data>
+  <data name="ErrFbLogin" xml:space="preserve">
+    <value>خطأ في تسجيل الدخول إلى فيس بوك</value>
+  </data>
+  <data name="ErrFbLogout" xml:space="preserve">
+    <value>خطأ تسجيل الخروج من ألفيس بوك</value>
+  </data>
+  <data name="ErrInitialiseTitle" xml:space="preserve">
+    <value>خطأ التهيئة</value>
+  </data>
+  <data name="ErrLoadSyncScreen" xml:space="preserve">
+    <value>خطأ في تحميل المزامنة الشاشة</value>
+  </data>
+  <data name="ErrNavigatingSettings" xml:space="preserve">
+    <value>حدث خطأ أثناء الانتقال إلى إعدادات</value>
+  </data>
+  <data name="ErrOnNavigation" xml:space="preserve">
+    <value>خطأ في الملاحة</value>
+  </data>
+  <data name="ErrOpeningApp" xml:space="preserve">
+    <value>خطأ في فتح التطبيق</value>
+  </data>
+  <data name="ErrPostingToWall" xml:space="preserve">
+    <value>خطأ في نشر على حائط ألفيس بوك</value>
+  </data>
+  <data name="ErrRenewBgndTask" xml:space="preserve">
+    <value>حدث خطأ أثناء تجديد عامل الخلفية</value>
+  </data>
+  <data name="ErrSaveBday" xml:space="preserve">
+    <value>حدث خطأ أثناء حفظ أعياد الميلاد</value>
+  </data>
+  <data name="ErrSaveBdayNContact" xml:space="preserve">
+    <value>حدث خطأ أثناء حفظ أعياد الميلاد والاتصالات</value>
+  </data>
+  <data name="ErrSaveSettings" xml:space="preserve">
+    <value>حدث خطأ أثناء حفظ الإعدادات</value>
+  </data>
+  <data name="ErrSavingFrndDtls" xml:space="preserve">
+    <value>حدث خطأ أثناء حفظ تفاصيل صديق</value>
+  </data>
+  <data name="ErrSelecting" xml:space="preserve">
+    <value>حدث خطأ أثناء التحديد</value>
+  </data>
+  <data name="ErrSendingEmail" xml:space="preserve">
+    <value>خطأ في إرسال البريد الإلكتروني</value>
+  </data>
+  <data name="ErrSendingMessage" xml:space="preserve">
+    <value>خطأ في إرسال الرسالة</value>
+  </data>
+  <data name="FbLoginFailedText" xml:space="preserve">
+    <value>تسجيل الدخول إلى فيس بوك فشل</value>
+  </data>
+  <data name="FbLoginFailedTitle" xml:space="preserve">
+    <value>فشل تسجيل الدخول</value>
+  </data>
+  <data name="FrndDtlsPgTitlle" xml:space="preserve">
+    <value>تفاصيل صديق</value>
+  </data>
+  <data name="FrndDtlsTitle" xml:space="preserve">
+    <value>تفاصيل صديق</value>
+  </data>
+  <data name="FrndDtlsUpdated" xml:space="preserve">
+    <value>وقد تم تحديث تفاصيل صديق موجود</value>
+  </data>
+  <data name="FrndDtlsUpdatedTitle" xml:space="preserve">
+    <value>صديق التفاصيل تحديث</value>
+  </data>
+  <data name="HappyBdayMessage" xml:space="preserve">
+    <value>عيد ميلاد سعيد</value>
+  </data>
+  <data name="ImageUploadDownloadBusyMsg" xml:space="preserve">
+    <value>يتم الحصول على الصورة حفظ أو حذف. الرجاء الانتظار لبضع ثوان، ثم حاول مرة أخرى.</value>
+  </data>
+  <data name="LastSyncedLabel" xml:space="preserve">
+    <value>مزامن آخر</value>
+  </data>
+  <data name="LaterLabel" xml:space="preserve">
+    <value>في وقت لاحق</value>
+  </data>
+  <data name="LaterThisWkLabel" xml:space="preserve">
+    <value>في وقت لاحق من هذا الأسبوع</value>
+  </data>
+  <data name="LoadingFbPageMsg" xml:space="preserve">
+    <value>تحميل صفحة فيس بوك</value>
+  </data>
+  <data name="LoadingSettingsLabel" xml:space="preserve">
+    <value>تحميل الإعدادات الخاصة بك</value>
+  </data>
+  <data name="LoginFbBtnnLabel" xml:space="preserve">
+    <value>تسجيل الدخول إلى فيس بوك</value>
+  </data>
+  <data name="LogoutFbBtnLabel" xml:space="preserve">
+    <value>قم بتسجيل الخروج من ألفيس بوك</value>
+  </data>
+  <data name="MainPageAllTitle" xml:space="preserve">
+    <value>جميع</value>
+  </data>
+  <data name="MainPageMostRcntTitle" xml:space="preserve">
+    <value>الأخيرة</value>
+  </data>
+  <data name="MainPageTtitle" xml:space="preserve">
+    <value>أعياد الميلاد</value>
+  </data>
+  <data name="MessageLabel" xml:space="preserve">
+    <value>رسالة</value>
+  </data>
+  <data name="MsgPostedFb" xml:space="preserve">
+    <value>وقد تم نشر الرسالة الخاصة بك</value>
+  </data>
+  <data name="NameLabel" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="NewFrndAddedTitle" xml:space="preserve">
+    <value>وقد تم إضافة صديق جديد</value>
+  </data>
+  <data name="NewFrndCreatedMsg" xml:space="preserve">
+    <value>تم بنجاح إضافة صديق جديد مع تفاصيل</value>
+  </data>
+  <data name="NotKnownLabel" xml:space="preserve">
+    <value>ولم يعرف</value>
+  </data>
+  <data name="PictureLabel" xml:space="preserve">
+    <value>الصورة</value>
+  </data>
+  <data name="PostToWall" xml:space="preserve">
+    <value>وظيفة الجدار</value>
+  </data>
+  <data name="ProfileTitle" xml:space="preserve">
+    <value>الشخصية</value>
+  </data>
+  <data name="RateAppBtnLabel" xml:space="preserve">
+    <value>تقييم هذا التطبيق</value>
+  </data>
+  <data name="RateAppText" xml:space="preserve">
+    <value>إذا كنت مثل التطبيق لدينا، وجعلت حياتك أسهل، الرجاء معدل ذلك!</value>
+  </data>
+  <data name="RemindByEmailLabel" xml:space="preserve">
+    <value>تذكير بالبريد الإلكتروني</value>
+  </data>
+  <data name="ReminderTitle" xml:space="preserve">
+    <value>تذكير</value>
+  </data>
+  <data name="ReminderUpdatedTitle" xml:space="preserve">
+    <value>تحديث التذكيرات</value>
+  </data>
+  <data name="ReminderUpdateSuccess" xml:space="preserve">
+    <value>التذكير بنجاح تحديث لاعياد الميلاد</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ar</value>
+  </data>
+  <data name="RetrieveLocalContact" xml:space="preserve">
+    <value>استرداد تفاصيل جهة الاتصال المحلية</value>
+  </data>
+  <data name="RetrievingFbFriend" xml:space="preserve">
+    <value>استرداد تفاصيل أمام صديق</value>
+  </data>
+  <data name="SaveBdays" xml:space="preserve">
+    <value>إنقاذ أعياد الميلاد</value>
+  </data>
+  <data name="SaveLabel" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="SavingFrndDtls" xml:space="preserve">
+    <value>حفظ تفاصيل صديق</value>
+  </data>
+  <data name="SendAutoEmailLabel" xml:space="preserve">
+    <value>إرسال بريد إلكتروني تلقائي</value>
+  </data>
+  <data name="SendEmailText" xml:space="preserve">
+    <value>إذا كنت تعاني من أية مشاكل أو لديك أي اقتراحات/الطلبات، الرجاء لا تتردد في الاتصال بنا!</value>
+  </data>
+  <data name="SendPicLabel" xml:space="preserve">
+    <value>إرسال صور</value>
+  </data>
+  <data name="SendUsEmailBtnLabel" xml:space="preserve">
+    <value>أرسل لنا رسالة بالبريد الإلكتروني</value>
+  </data>
+  <data name="SetAsDefaultLabel" xml:space="preserve">
+    <value>تعيين كافتراضي</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>إعدادات</value>
+  </data>
+  <data name="SettingsSavedLabel" xml:space="preserve">
+    <value>الإعدادات المحفوظة</value>
+  </data>
+  <data name="SettingsUpdateSuccessMsg" xml:space="preserve">
+    <value>وقد تم تحديث الإعدادات بنجاح</value>
+  </data>
+  <data name="ShowNotifLabel" xml:space="preserve">
+    <value>إظهار إخطارات</value>
+  </data>
+  <data name="SupportEmailLabel" xml:space="preserve">
+    <value>دعم البريد الإلكتروني</value>
+  </data>
+  <data name="SyncContactsLabel" xml:space="preserve">
+    <value>مزامنة جهات الاتصال</value>
+  </data>
+  <data name="SyncFbContactLabel" xml:space="preserve">
+    <value>مزامنة جهات الاتصال فيسبوك</value>
+  </data>
+  <data name="SyncIntervalLabel" xml:space="preserve">
+    <value>مزامنة داخلية</value>
+  </data>
+  <data name="SyncIntrvlOptionAfter" xml:space="preserve">
+    <value>بعد</value>
+  </data>
+  <data name="SyncIntrvlOptionBefore" xml:space="preserve">
+    <value>قبل</value>
+  </data>
+  <data name="SyncIntrvlOptionDaily" xml:space="preserve">
+    <value>اليومية</value>
+  </data>
+  <data name="SyncIntrvlOptionHour" xml:space="preserve">
+    <value>ساعات</value>
+  </data>
+  <data name="SyncIntrvlOptionManual" xml:space="preserve">
+    <value>دليل</value>
+  </data>
+  <data name="SyncIntrvlOptionMin" xml:space="preserve">
+    <value>دقيقة</value>
+  </data>
+  <data name="SyncIntrvlOptionMonthly" xml:space="preserve">
+    <value>الشهري</value>
+  </data>
+  <data name="SyncIntrvlOptionOnTime" xml:space="preserve">
+    <value>في الوقت المحدد</value>
+  </data>
+  <data name="SyncIntrvlOptionSec" xml:space="preserve">
+    <value>ثانية</value>
+  </data>
+  <data name="SyncIntrvlOptionWeekly" xml:space="preserve">
+    <value>التنزيلات</value>
+  </data>
+  <data name="SyncLocalContactLabel" xml:space="preserve">
+    <value>مزامنة جهات الاتصال المحلية</value>
+  </data>
+  <data name="SyncNowBtnLabel" xml:space="preserve">
+    <value>المزامنة الآن</value>
+  </data>
+  <data name="TodayLabel" xml:space="preserve">
+    <value>اليوم</value>
+  </data>
+  <data name="TomorrowLabel" xml:space="preserve">
+    <value>الغد</value>
+  </data>
+  <data name="UpdateBdayRemindr" xml:space="preserve">
+    <value>تحديث تذكير عيد ميلاد</value>
+  </data>
+  <data name="WarnDtlsReq" xml:space="preserve">
+    <value>التفاصيل المطلوبة</value>
+  </data>
+  <data name="WarnInternetMsg" xml:space="preserve">
+    <value>لا يمكن الاتصال بإنترنت. الرجاء المحاولة مرة أخرى مع "اتصال إنترنت" لعمل.</value>
+  </data>
+  <data name="WarnNameBdayCompulsory" xml:space="preserve">
+    <value>الاسم وتاريخ الميلاد إجبارية</value>
+  </data>
+  <data name="WarnNwTitle" xml:space="preserve">
+    <value>خطأ في شبكة الاتصال</value>
+  </data>
+  <data name="WarnReEnableBgTask" xml:space="preserve">
+    <value>تم تعطيل عامل الخلفية لهذا التطبيق. الرجاء إعادة تمكين للحصول على التنبيهات والإشعارات. اذهب إلى إعدادات--تطبيقات--مهام في الخلفية. حدد خانة الاختيار لتمكين مهام في الخلفية.</value>
+  </data>
+  <data name="WarnSelectItem" xml:space="preserve">
+    <value>الرجاء تحديد عنصر، وثم حاول مرة أخرى</value>
+  </data>
+  <data name="WarnTryAgain" xml:space="preserve">
+    <value>الرجاء المحاولة مرة أخرى</value>
+  </data>
+  <data name="WarnValidHourValue" xml:space="preserve">
+    <value>الرجاء إدخال قيمة صحيحة ساعة بين 0 و 23</value>
+  </data>
+  <data name="WarnValidMinValue" xml:space="preserve">
+    <value>الرجاء إدخال قيمة صحيحة دقيقة بين 0 و 59</value>
+  </data>
+  <data name="WarnValidSecvalue" xml:space="preserve">
+    <value>الرجاء إدخال قيمة صحيحة ثانية بين 0 و 59</value>
+  </data>
+  <data name="WhenToRemindLabel" xml:space="preserve">
+    <value>متى يجب أن أذكر</value>
+  </data>
+  <data name="WishByEmailLabel" xml:space="preserve">
+    <value>أتمنى عن طريق البريد الإلكتروني</value>
+  </data>
+  <data name="YesLabel" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="YourContactNoLabel" xml:space="preserve">
+    <value>رقم الاتصال الخاص بك</value>
+  </data>
+  <data name="YourEmailLabel" xml:space="preserve">
+    <value>البريد الإلكتروني الخاص بك</value>
+  </data>
+  <data name="YourNameLabel" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+</root>

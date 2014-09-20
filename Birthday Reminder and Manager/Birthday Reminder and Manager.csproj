@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{71AE7A43-2956-4996-928B-1162437C542A}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BirthdayReminder</RootNamespace>
+    <AssemblyName>BirthdayReminder</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>hi-IN%3bfr%3bit%3bes%3bth%3bth-TH%3bde%3bru%3bar%3ben%3ben-IN%3ben-GB</SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>Birthday_Reminder_and_Manager_$(Configuration)_$(Platform).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>BirthdayReminder.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ExpressionBlendVersion>5.0.30924.0</ExpressionBlendVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\StorageInitializer.cs" />
+    <Compile Include="FacebookLogin.xaml.cs">
+      <DependentUpon>FacebookLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FriendDetails.xaml.cs">
+      <DependentUpon>FriendDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FacebookConnect.xaml.cs">
+      <DependentUpon>FacebookConnect.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PostToFacebookWall.xaml.cs">
+      <DependentUpon>PostToFacebookWall.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\AppResources.hi-IN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.hi-IN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectCard.xaml.cs">
+      <DependentUpon>SelectCard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StartChecks.xaml.cs">
+      <DependentUpon>StartChecks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ReminderUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="FacebookLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FriendDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FacebookConnect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PostToFacebookWall.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SelectCard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StartChecks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Birthday_Reminder_and_Manager_2013_12_10_15_35_10.sap" />
+    <None Include="Birthday_Reminder_and_Manager_2014_02_15_21_28_26.sap" />
+    <None Include="Birthday_Reminder_and_Manager_2014_02_15_21_37_31.sap" />
+    <None Include="Birthday_Reminder_and_Manager_2014_02_15_21_43_42.sap" />
+    <None Include="Birthday_Reminder_and_Manager_2014_02_16_01_20_22.sap" />
+    <None Include="packages.config" />
+    <None Include="Performance1.psess" />
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="AppResLib.dll" />
+    <Content Include="AppResLib.dll.0401.mui" />
+    <Content Include="AppResLib.dll.0402.mui" />
+    <Content Include="AppResLib.dll.0403.mui" />
+    <Content Include="AppResLib.dll.0404.mui" />
+    <Content Include="AppResLib.dll.0405.mui" />
+    <Content Include="AppResLib.dll.0406.mui" />
+    <Content Include="AppResLib.dll.0407.mui" />
+    <Content Include="AppResLib.dll.0408.mui" />
+    <Content Include="AppResLib.dll.0409.mui" />
+    <Content Include="AppResLib.dll.040b.mui" />
+    <Content Include="AppResLib.dll.040c.mui" />
+    <Content Include="AppResLib.dll.040d.mui" />
+    <Content Include="AppResLib.dll.040e.mui" />
+    <Content Include="AppResLib.dll.0410.mui" />
+    <Content Include="AppResLib.dll.0411.mui" />
+    <Content Include="AppResLib.dll.0412.mui" />
+    <Content Include="AppResLib.dll.0413.mui" />
+    <Content Include="AppResLib.dll.0414.mui" />
+    <Content Include="AppResLib.dll.0415.mui" />
+    <Content Include="AppResLib.dll.0416.mui" />
+    <Content Include="AppResLib.dll.0418.mui" />
+    <Content Include="AppResLib.dll.0419.mui" />
+    <Content Include="AppResLib.dll.041a.mui" />
+    <Content Include="AppResLib.dll.041b.mui" />
+    <Content Include="AppResLib.dll.041c.mui" />
+    <Content Include="AppResLib.dll.041d.mui" />
+    <Content Include="AppResLib.dll.041e.mui" />
+    <Content Include="AppResLib.dll.041f.mui" />
+    <Content Include="AppResLib.dll.0421.mui" />
+    <Content Include="AppResLib.dll.0422.mui" />
+    <Content Include="AppResLib.dll.0423.mui" />
+    <Content Include="AppResLib.dll.0424.mui" />
+    <Content Include="AppResLib.dll.0425.mui" />
+    <Content Include="AppResLib.dll.0426.mui" />
+    <Content Include="AppResLib.dll.0427.mui" />
+    <Content Include="AppResLib.dll.0429.mui" />
+    <Content Include="AppResLib.dll.042c.mui" />
+    <Content Include="AppResLib.dll.042f.mui" />
+    <Content Include="AppResLib.dll.0439.mui" />
+    <Content Include="AppResLib.dll.043e.mui" />
+    <Content Include="AppResLib.dll.0443.mui" />
+    <Content Include="AppResLib.dll.0464.mui" />
+    <Content Include="AppResLib.dll.0804.mui" />
+    <Content Include="AppResLib.dll.0809.mui" />
+    <Content Include="AppResLib.dll.080a.mui" />
+    <Content Include="AppResLib.dll.0816.mui" />
+    <Content Include="AppResLib.dll.081a.mui" />
+    <Content Include="AppResLib.dll.0c0a.mui" />
+    <Content Include="AppResLib.dll.042a.mui" />
+    <Content Include="App_Readme\Content\CloudBlobInterfaces.png" />
+    <Content Include="App_Readme\Content\CloudQueueInterfaces.png" />
+    <Content Include="App_Readme\Content\CloudStorageClientResolver.png" />
+    <Content Include="App_Readme\Content\CloudTableInterfaces.png" />
+    <Content Include="App_Readme\Content\Site.css" />
+    <Content Include="App_Readme\Content\StorageInitializer.png" />
+    <Content Include="App_Readme\Phone.Storage.Readme.htm" />
+    <Content Include="Assets\Images\edit.png" />
+    <Content Include="ServiceReferences.ClientConfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\AppBar\add.png" />
+    <Content Include="Assets\Images\delete.png" />
+    <Content Include="Assets\AppBar\feature.email.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\AppBar\feature.phone.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\birthday_reminder_app_Icon.png" />
+    <Content Include="Assets\Images\EmailButtonIcon_48x48.png" />
+    <Content Include="Assets\Images\FbButtonIcon_48x48 copy.PNG" />
+    <Content Include="Assets\Images\feature.settings.png" />
+    <Content Include="Assets\Images\save.png" />
+    <Content Include="Assets\Images\SelectAllButtonIcon_48x48.png" />
+    <Content Include="Assets\Kitchen-Birthday-cake-icon -512.png" />
+    <Content Include="Libraries\Facebook.Client.dll" />
+    <Content Include="Libraries\Facebook.dll" />
+    <Content Include="README_FIRST.txt" />
+    <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
+    <Resource Include="Assets\PanoramaBackground.png" />
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="feature.search.png" />
+    <Resource Include="PanoramaBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.ar.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.en-GB.resx" />
+    <EmbeddedResource Include="Resources\AppResources.en-IN.resx" />
+    <EmbeddedResource Include="Resources\AppResources.en.resx" />
+    <EmbeddedResource Include="Resources\AppResources.es.resx" />
+    <EmbeddedResource Include="Resources\AppResources.fr.resx" />
+    <EmbeddedResource Include="Resources\AppResources.hi-IN.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.hi-IN.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.it.resx" />
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ru.resx" />
+    <EmbeddedResource Include="Resources\AppResources.th-TH.resx" />
+    <EmbeddedResource Include="Resources\AppResources.th.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Data.Services.Client">
+      <HintPath>..\packages\Phone.Storage.1.0.1\lib\sl40-wp71\Data.Services.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook, Version=6.0.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Facebook.6.6.0\lib\wp8\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Client, Version=0.8.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Shahzad\Personal\Projects\Birthday Reminder\facebook sdk gihub source\facebook-winclient-sdk-master\Bin\Release\wp8\Facebook.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Phone.Controls" />
+    <Reference Include="Microsoft.Phone.Controls.Toolkit">
+      <HintPath>..\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions.Phone, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.Extensions.Phone.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Common">
+      <HintPath>..\packages\Microsoft.WindowsAzure.Common.1.1.1\lib\wp80\Microsoft.WindowsAzure.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Common.WindowsPhone">
+      <HintPath>..\packages\Microsoft.WindowsAzure.Common.1.1.1\lib\wp80\Microsoft.WindowsAzure.Common.WindowsPhone.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage">
+      <HintPath>..\packages\WindowsAzure.Storage.4.0.1\lib\wp8\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Phone.Storage">
+      <HintPath>..\packages\Phone.Storage.1.0.1\lib\sl40-wp71\Phone.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="SilverlightActivator, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\SilverlightActivator.1.0.4\lib\sl4-wp71\SilverlightActivator.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BirthdayReminderAgent\BirthdayReminderAgent.csproj">
+      <Project>{60B7441A-54EC-4504-BBBB-4C5BDD207EE8}</Project>
+      <Name>BirthdayReminderAgent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BirthdayReminderCore\BirthdayReminderCore.csproj">
+      <Project>{B2CB180A-3146-4B5B-8489-1568AE50C4AE}</Project>
+      <Name>BirthdayReminderCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\ProfileImages\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="MSAdvertising, Version=6.1">
+      <Name>Microsoft Advertising SDK for Windows Phone 8 %28XAML%29</Name>
+    </SDKReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+</Project>

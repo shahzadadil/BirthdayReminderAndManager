@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <Languages xmlns="">
+    <Language code="en-US" />
+    <Language code="it" />
+    <Language code="fr" />
+    <Language code="es" />
+    <Language code="th-TH" />
+    <Language code="th" />
+    <Language code="de" />
+    <Language code="ru" />
+    <Language code="ar" />
+    <Language code="hi-IN" />
+    <Language code="en" />
+    <Language code="en-IN" />
+    <Language code="en-GB" />
+  </Languages>
+  <App xmlns="" ProductID="{71ae7a43-2956-4996-928b-1162437c542a}" Title="@AppResLib.dll,-100" RuntimeType="Silverlight" Version="2.5.1.0" Genre="apps.normal" Author="Md Shahzad Adil" Description="Store the birthdays of all your contacts and facebook friends and get reminded of the birthdays on time" Publisher="Md Shahzad Adil" PublisherID="{88920181-7b3f-4e53-afcf-1086102587f9}">
+    <IconPath IsRelative="true" IsResource="false">Assets\birthday_reminder_app_Icon.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_CONTACTS" />
+      <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
+      <Capability Name="ID_CAP_PHONEDIALER" />
+      <Capability Name="ID_CAP_PUSH_NOTIFICATION" />
+      <Capability Name="ID_CAP_REMOVABLE_STORAGE" />
+      <Capability Name="ID_CAP_APPOINTMENTS" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="StartChecks.xaml" />
+      <ExtendedTask Name="BirthdayReminderAgentTask">
+        <BackgroundServiceAgent Specifier="ScheduledTaskAgent" Name="BirthdayReminderAgent" Source="BirthdayReminderAgent" Type="BirthdayReminderAgent.ScheduledAgent" />
+      </ExtendedTask>
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="BirthdayReminderToken" TaskName="_default">
+        <TemplateCycle>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\birthday_reminder_app_Icon.png</SmallImageURI>
+          <Title>@AppResLib.dll,-200</Title>
+          <Photo01ImageURI IsRelative="true" IsResource="false">Assets\birthday_reminder_app_Icon.png</Photo01ImageURI>
+          <Photo02ImageURI IsRelative="true" IsResource="false">
+          </Photo02ImageURI>
+          <Photo03ImageURI IsRelative="true" IsResource="false">
+          </Photo03ImageURI>
+          <Photo04ImageURI IsRelative="true" IsResource="false">
+          </Photo04ImageURI>
+          <Photo05ImageURI IsRelative="true" IsResource="false">
+          </Photo05ImageURI>
+          <Photo06ImageURI IsRelative="true" IsResource="false">
+          </Photo06ImageURI>
+          <Photo07ImageURI IsRelative="true" IsResource="false">
+          </Photo07ImageURI>
+          <Photo08ImageURI IsRelative="true" IsResource="false">
+          </Photo08ImageURI>
+          <Photo09ImageURI IsRelative="true" IsResource="false">
+          </Photo09ImageURI>
+          <Count>0</Count>
+          <HasLarge>True</HasLarge>
+          <DeviceLockImageURI IsRelative="true" IsResource="false">
+          </DeviceLockImageURI>
+        </TemplateCycle>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>

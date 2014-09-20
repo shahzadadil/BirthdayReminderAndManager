@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>के बारे में</value>
+  </data>
+  <data name="AddLabel" xml:space="preserve">
+    <value>जोड़ें</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>जन्मदिन अनुस्मारक</value>
+  </data>
+  <data name="BdayCardsPgTitle" xml:space="preserve">
+    <value>कार्ड</value>
+  </data>
+  <data name="BdayMsgLabel" xml:space="preserve">
+    <value>जन्मदिन संदेश</value>
+  </data>
+  <data name="BdayReminderSettingsTitle" xml:space="preserve">
+    <value>जन्मदिन अनुस्मारक सेटिंग</value>
+  </data>
+  <data name="BdaySetupMessage" xml:space="preserve">
+    <value>आप वर्तमान में सहेजा गया कोई भी संपर्क नहीं है। आप अपने संपर्कों facebook डाउनलोड करना चाहते हैं?</value>
+  </data>
+  <data name="BdaySetupTitle" xml:space="preserve">
+    <value>सेटअप जन्मदिन</value>
+  </data>
+  <data name="BirthdayLabel" xml:space="preserve">
+    <value>जन्मदिन</value>
+  </data>
+  <data name="BirthdayMessage" xml:space="preserve">
+    <value>कई कई खुश रिटर्न का दिन:)। जन्मदिन की शुभकामनाएँ!!</value>
+  </data>
+  <data name="BirthdayOnLabel" xml:space="preserve">
+    <value>जन्मदिन पर</value>
+  </data>
+  <data name="BirthdayReminderMessage" xml:space="preserve">
+    <value>का आज जन्मदिन। उसे एक संदेश भेजने के लिए टैप करें</value>
+  </data>
+  <data name="BirthdayWishTitle" xml:space="preserve">
+    <value>इच्छाओं</value>
+  </data>
+  <data name="CallLabel" xml:space="preserve">
+    <value>कॉल</value>
+  </data>
+  <data name="CardLimitExceedCaption" xml:space="preserve">
+    <value>सीमा पार कर गया है</value>
+  </data>
+  <data name="CardLimitMsg" xml:space="preserve">
+    <value>10 से अधिक कार्ड नहीं जोड़ा जा सकता। यदि आप नया कार्ड जोड़ने के लिए चाहते हैं तो कृपया कुछ पुराने कार्ड हटाएँ।</value>
+  </data>
+  <data name="ChooseCardLabel" xml:space="preserve">
+    <value>कार्ड का चयन</value>
+  </data>
+  <data name="ConnOpenWarnCaption" xml:space="preserve">
+    <value>कनेक्शन व्यस्त है</value>
+  </data>
+  <data name="ContactNoLabel" xml:space="preserve">
+    <value>संपर्क नंबर</value>
+  </data>
+  <data name="ContactNotUpdatedMessage" xml:space="preserve">
+    <value>थोड़ी देर में अपने संपर्कों के समकालिक नहीं किया गया है। क्या आप उन्हें अब अद्यतन करना चाहते हैं?</value>
+  </data>
+  <data name="ContactsTitle" xml:space="preserve">
+    <value>संपर्क</value>
+  </data>
+  <data name="ContactSyncRedirectMsg" xml:space="preserve">
+    <value>आपके संपर्क अब समकालिक होना होगा और आप संपर्क सिंक स्क्रीन करने के लिए पुनः निर्देशित किया जाएगा। क्या आप अब अपने संपर्कों को सिंक्रनाइज़ करने के लिए चाहते हैं?</value>
+  </data>
+  <data name="CreateBdayReminder" xml:space="preserve">
+    <value>जन्मदिन अनुस्मारक निर्मित हो रही हैं</value>
+  </data>
+  <data name="DeleteConfirmMessage" xml:space="preserve">
+    <value>आप सुनिश्चित करें कि आप चयनित आइटम निकालना चाहते हैं?</value>
+  </data>
+  <data name="DeleteLabel" xml:space="preserve">
+    <value>हटाएँ</value>
+  </data>
+  <data name="DownloadImagesTitle" xml:space="preserve">
+    <value>प्रोफ़ाइल छवियों को डाउनलोड करें</value>
+  </data>
+  <data name="DownloadingFbContact" xml:space="preserve">
+    <value>संपर्कों Facebook डाउनलोड हो रही हैं</value>
+  </data>
+  <data name="DownloadnProfileImgMsg" xml:space="preserve">
+    <value>आप अपने मित्रों के प्रोफ़ाइल चित्र डाउनलोड करने के लिए क्या चाहते हैं? छवियों को डाउनलोड करने के बाद, आप प्रारंभ टाइल में उनके phtotos को देखने के लिए सक्षम हो जाएगा। लेकिन कृपया धैर्य रखें के रूप में इस प्रक्रिया आपके इंटरनेट कनेक्शन की गति के आधार पर कुछ मिनट लग सकते हैं। छवियाँ अब डाउनलोड करने के लिए क्या आप चाहते हैं?</value>
+  </data>
+  <data name="EmailLabel" xml:space="preserve">
+    <value>ईमेल</value>
+  </data>
+  <data name="ErrAddCard" xml:space="preserve">
+    <value>त्रुटि जोड़ने के कार्ड</value>
+  </data>
+  <data name="ErrAddFriend" xml:space="preserve">
+    <value>त्रुटि जोड़ने के दोस्त</value>
+  </data>
+  <data name="ErrAppBarDisplay" xml:space="preserve">
+    <value>त्रुटि अनुप्रयोग पट्टी प्रदर्शित करना</value>
+  </data>
+  <data name="ErrAppBarLoad" xml:space="preserve">
+    <value>त्रुटि लोड हो रहा है App पट्टी</value>
+  </data>
+  <data name="ErrAppInitialise" xml:space="preserve">
+    <value>त्रुटि initialisation जाँच के दौरान। Functionalities के कुछ काम नहीं हो सकता।</value>
+  </data>
+  <data name="ErrBindingData" xml:space="preserve">
+    <value>डेटा प्रदर्शित करने के लिए प्राप्त करने में त्रुटि</value>
+  </data>
+  <data name="ErrBuildBdayList" xml:space="preserve">
+    <value>त्रुटि भवन जन्मदिन सूची</value>
+  </data>
+  <data name="ErrDeleting" xml:space="preserve">
+    <value>हटाने के दौरान त्रुटि</value>
+  </data>
+  <data name="ErrDisplaSaveBtn" xml:space="preserve">
+    <value>त्रुटि प्रदर्शित करने बटन को बचाने</value>
+  </data>
+  <data name="ErrFbLogin" xml:space="preserve">
+    <value>फेसबुक के लिए लॉग करने त्रुटि</value>
+  </data>
+  <data name="ErrFbLogout" xml:space="preserve">
+    <value>Facebook से बाहर लॉगिंग त्रुटि</value>
+  </data>
+  <data name="ErrInitialiseTitle" xml:space="preserve">
+    <value>Initialisation त्रुटि</value>
+  </data>
+  <data name="ErrLoadSyncScreen" xml:space="preserve">
+    <value>त्रुटि लोडिंग सिंक स्क्रीन</value>
+  </data>
+  <data name="ErrNavigatingSettings" xml:space="preserve">
+    <value>सेटिंग्स करने के लिए नेविगेट करते समय त्रुटि</value>
+  </data>
+  <data name="ErrOnNavigation" xml:space="preserve">
+    <value>नेविगेशन पर त्रुटि</value>
+  </data>
+  <data name="ErrOpeningApp" xml:space="preserve">
+    <value>त्रुटि उद्घाटन आवेदन</value>
+  </data>
+  <data name="ErrPostingToWall" xml:space="preserve">
+    <value>फेसबुक वॉल पर पोस्टिंग त्रुटि</value>
+  </data>
+  <data name="ErrRenewBgndTask" xml:space="preserve">
+    <value>पृष्ठभूमि एजेंट के नवीनीकरण के दौरान त्रुटि</value>
+  </data>
+  <data name="ErrSaveBday" xml:space="preserve">
+    <value>जन्मदिन को सहेजने में त्रुटि</value>
+  </data>
+  <data name="ErrSaveBdayNContact" xml:space="preserve">
+    <value>जन्मदिन और संपर्कों को सहेजने में त्रुटि</value>
+  </data>
+  <data name="ErrSaveSettings" xml:space="preserve">
+    <value>सेटिंग्स सहेजने में त्रुटि</value>
+  </data>
+  <data name="ErrSavingFrndDtls" xml:space="preserve">
+    <value>मित्र जानकारी को सहेजने में त्रुटि</value>
+  </data>
+  <data name="ErrSelecting" xml:space="preserve">
+    <value>चयन के दौरान त्रुटि</value>
+  </data>
+  <data name="ErrSendingEmail" xml:space="preserve">
+    <value>त्रुटि भेज ईमेल</value>
+  </data>
+  <data name="ErrSendingMessage" xml:space="preserve">
+    <value>त्रुटि संदेश भेजने</value>
+  </data>
+  <data name="FbLoginFailedText" xml:space="preserve">
+    <value>Facebook में विफल करने के लिए लॉगिन</value>
+  </data>
+  <data name="FbLoginFailedTitle" xml:space="preserve">
+    <value>लॉगिन विफल रहा</value>
+  </data>
+  <data name="FrndDtlsPgTitlle" xml:space="preserve">
+    <value>दोस्त विवरण</value>
+  </data>
+  <data name="FrndDtlsTitle" xml:space="preserve">
+    <value>दोस्त विवरण</value>
+  </data>
+  <data name="FrndDtlsUpdated" xml:space="preserve">
+    <value>मौजूदा दोस्त का विवरण अद्यतन किया गया</value>
+  </data>
+  <data name="FrndDtlsUpdatedTitle" xml:space="preserve">
+    <value>दोस्त अद्यतन विवरण</value>
+  </data>
+  <data name="HappyBdayMessage" xml:space="preserve">
+    <value>जन्मदिन की शुभकामनाएँ</value>
+  </data>
+  <data name="ImageUploadDownloadBusyMsg" xml:space="preserve">
+    <value>छवि हो रही है सहेजा गया या नष्ट कर दिया। कृपया एक कुछ सेकंड के लिए प्रतीक्षा करें और पुन: प्रयास करें।</value>
+  </data>
+  <data name="LastSyncedLabel" xml:space="preserve">
+    <value>पिछला Synced</value>
+  </data>
+  <data name="LaterLabel" xml:space="preserve">
+    <value>बाद में</value>
+  </data>
+  <data name="LaterThisWkLabel" xml:space="preserve">
+    <value>बाद में इस सप्ताह</value>
+  </data>
+  <data name="LoadingFbPageMsg" xml:space="preserve">
+    <value>फेसबुक पेज लोड हो रहा है</value>
+  </data>
+  <data name="LoadingSettingsLabel" xml:space="preserve">
+    <value>आपकी सेटिंग्स लोड कर रहा है</value>
+  </data>
+  <data name="LoginFbBtnnLabel" xml:space="preserve">
+    <value>करने के लिए Facebook में लॉग इन करें</value>
+  </data>
+  <data name="LogoutFbBtnLabel" xml:space="preserve">
+    <value>फेसबुक से बाहर लॉग करें</value>
+  </data>
+  <data name="MainPageAllTitle" xml:space="preserve">
+    <value>सभी</value>
+  </data>
+  <data name="MainPageMostRcntTitle" xml:space="preserve">
+    <value>हाल ही में</value>
+  </data>
+  <data name="MainPageTtitle" xml:space="preserve">
+    <value>जन्मदिन</value>
+  </data>
+  <data name="MessageLabel" xml:space="preserve">
+    <value>संदेश</value>
+  </data>
+  <data name="MsgPostedFb" xml:space="preserve">
+    <value>आपका संदेश पोस्ट किया गया है</value>
+  </data>
+  <data name="NameLabel" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="NewFrndAddedTitle" xml:space="preserve">
+    <value>नए दोस्त में जोड़ा गया है</value>
+  </data>
+  <data name="NewFrndCreatedMsg" xml:space="preserve">
+    <value>एक नए दोस्त के विवरण के साथ सफलतापूर्वक जोड़ा गया है</value>
+  </data>
+  <data name="NotKnownLabel" xml:space="preserve">
+    <value>ज्ञात नहीं</value>
+  </data>
+  <data name="PictureLabel" xml:space="preserve">
+    <value>चित्र</value>
+  </data>
+  <data name="PostToWall" xml:space="preserve">
+    <value>वॉल पोस्ट करने के लिए</value>
+  </data>
+  <data name="ProfileTitle" xml:space="preserve">
+    <value>प्रोफ़ाइल</value>
+  </data>
+  <data name="RateAppBtnLabel" xml:space="preserve">
+    <value>दर इस App</value>
+  </data>
+  <data name="RateAppText" xml:space="preserve">
+    <value>अगर तुम हमारे app की तरह है और यह आपके जीवन आसान बना दिया है, यह दर कृपया!</value>
+  </data>
+  <data name="RemindByEmailLabel" xml:space="preserve">
+    <value>ईमेल द्वारा याद दिलाना</value>
+  </data>
+  <data name="ReminderTitle" xml:space="preserve">
+    <value>अनुस्मारक</value>
+  </data>
+  <data name="ReminderUpdatedTitle" xml:space="preserve">
+    <value>अनुस्मारक अद्यतित</value>
+  </data>
+  <data name="ReminderUpdateSuccess" xml:space="preserve">
+    <value>जन्मदिन के लिए सफलतापूर्वक अद्यतन अनुस्मारक</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>hi-IN</value>
+  </data>
+  <data name="RetrieveLocalContact" xml:space="preserve">
+    <value>स्थानीय सम्पर्क करने का विवरण प्राप्त कर रहा है</value>
+  </data>
+  <data name="RetrievingFbFriend" xml:space="preserve">
+    <value>Facebook दोस्त जानकारी पुनःप्राप्त</value>
+  </data>
+  <data name="SaveBdays" xml:space="preserve">
+    <value>जन्मदिन की बचत</value>
+  </data>
+  <data name="SaveLabel" xml:space="preserve">
+    <value>सहेजें</value>
+  </data>
+  <data name="SavingFrndDtls" xml:space="preserve">
+    <value>दोस्त विवरण की बचत</value>
+  </data>
+  <data name="SendAutoEmailLabel" xml:space="preserve">
+    <value>स्वतः ईमेल भेजें</value>
+  </data>
+  <data name="SendEmailText" xml:space="preserve">
+    <value>अगर आप किसी भी मुद्दे का सामना कर रहे हैं या आप किसी भी सुझाव/अनुरोध है, कृपया हमसे संपर्क करने के लिए स्वतंत्र लग रहा है!</value>
+  </data>
+  <data name="SendPicLabel" xml:space="preserve">
+    <value>चित्र भेजें</value>
+  </data>
+  <data name="SendUsEmailBtnLabel" xml:space="preserve">
+    <value>हमें एक ईमेल भेजें</value>
+  </data>
+  <data name="SetAsDefaultLabel" xml:space="preserve">
+    <value>डिफ़ॉल्ट रूप में सेट करें</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="SettingsSavedLabel" xml:space="preserve">
+    <value>सहेजी गई सेटिंग्स</value>
+  </data>
+  <data name="SettingsUpdateSuccessMsg" xml:space="preserve">
+    <value>सेटिंग्स सफलतापूर्वक अद्यतन किया गया है</value>
+  </data>
+  <data name="ShowNotifLabel" xml:space="preserve">
+    <value>सूचनाएँ दिखाएँ</value>
+  </data>
+  <data name="SupportEmailLabel" xml:space="preserve">
+    <value>ईमेल समर्थन</value>
+  </data>
+  <data name="SyncContactsLabel" xml:space="preserve">
+    <value>सिंक संपर्क</value>
+  </data>
+  <data name="SyncFbContactLabel" xml:space="preserve">
+    <value>सिंक Facebook संपर्क</value>
+  </data>
+  <data name="SyncIntervalLabel" xml:space="preserve">
+    <value>आंतरिक सिंक्रनाइज़ेशन</value>
+  </data>
+  <data name="SyncIntrvlOptionAfter" xml:space="preserve">
+    <value>के बाद</value>
+  </data>
+  <data name="SyncIntrvlOptionBefore" xml:space="preserve">
+    <value>से पहले</value>
+  </data>
+  <data name="SyncIntrvlOptionDaily" xml:space="preserve">
+    <value>दैनिक</value>
+  </data>
+  <data name="SyncIntrvlOptionHour" xml:space="preserve">
+    <value>घंटे</value>
+  </data>
+  <data name="SyncIntrvlOptionManual" xml:space="preserve">
+    <value>मैनुअल</value>
+  </data>
+  <data name="SyncIntrvlOptionMin" xml:space="preserve">
+    <value>मिनट</value>
+  </data>
+  <data name="SyncIntrvlOptionMonthly" xml:space="preserve">
+    <value>मासिक</value>
+  </data>
+  <data name="SyncIntrvlOptionOnTime" xml:space="preserve">
+    <value>समय पर</value>
+  </data>
+  <data name="SyncIntrvlOptionSec" xml:space="preserve">
+    <value>सेकंड</value>
+  </data>
+  <data name="SyncIntrvlOptionWeekly" xml:space="preserve">
+    <value>साप्ताहिक</value>
+  </data>
+  <data name="SyncLocalContactLabel" xml:space="preserve">
+    <value>सिंक स्थानीय संपर्क</value>
+  </data>
+  <data name="SyncNowBtnLabel" xml:space="preserve">
+    <value>अभी सिंक्रनाइज़ करें</value>
+  </data>
+  <data name="TodayLabel" xml:space="preserve">
+    <value>आज</value>
+  </data>
+  <data name="TomorrowLabel" xml:space="preserve">
+    <value>कल</value>
+  </data>
+  <data name="UpdateBdayRemindr" xml:space="preserve">
+    <value>जन्मदिन अनुस्मारक को अद्यतन</value>
+  </data>
+  <data name="WarnDtlsReq" xml:space="preserve">
+    <value>आवश्यक विवरण</value>
+  </data>
+  <data name="WarnInternetMsg" xml:space="preserve">
+    <value>इंटरनेट से कनेक्ट नहीं कर सकता। कृपया एक कार्यशील इंटरनेट कनेक्शन के साथ पुन: प्रयास करें।</value>
+  </data>
+  <data name="WarnNameBdayCompulsory" xml:space="preserve">
+    <value>नाम और जन्मदिन अनिवार्य हैं</value>
+  </data>
+  <data name="WarnNwTitle" xml:space="preserve">
+    <value>नेटवर्क त्रुटि</value>
+  </data>
+  <data name="WarnReEnableBgTask" xml:space="preserve">
+    <value>पृष्ठभूमि एजेंट इस अनुप्रयोग के लिए अक्षम किया गया है। कृपया अलर्ट और सूचनाएँ प्राप्त करने के लिए पुन: सक्षम। सेटिंग्स - अनुप्रयोगों - पृष्ठभूमि कार्य पर जाएँ। पृष्ठभूमि कार्य को सक्षम करने के लिए चेकबॉक्स का चयन करें।</value>
+  </data>
+  <data name="WarnSelectItem" xml:space="preserve">
+    <value>कृपया किसी आइटम का चयन करें और तब पुन: प्रयास करें</value>
+  </data>
+  <data name="WarnTryAgain" xml:space="preserve">
+    <value>कृपया पुन: प्रयास करें</value>
+  </data>
+  <data name="WarnValidHourValue" xml:space="preserve">
+    <value>कृपया 0 और 23 के बीच एक घंटे के मान्य मान दर्ज करें</value>
+  </data>
+  <data name="WarnValidMinValue" xml:space="preserve">
+    <value>कृपया कोई मान्य मिनट मान 0 और 59 के बीच दर्ज करें</value>
+  </data>
+  <data name="WarnValidSecvalue" xml:space="preserve">
+    <value>कृपया कोई मान्य सेकंड मान 0 और 59 के बीच दर्ज करें</value>
+  </data>
+  <data name="WhenToRemindLabel" xml:space="preserve">
+    <value>जब याद दिलाने के लिए</value>
+  </data>
+  <data name="WishByEmailLabel" xml:space="preserve">
+    <value>ईमेल द्वारा इच्छा</value>
+  </data>
+  <data name="YesLabel" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="YourContactNoLabel" xml:space="preserve">
+    <value>अपनी संपर्क नंबर</value>
+  </data>
+  <data name="YourEmailLabel" xml:space="preserve">
+    <value>आपका ईमेल</value>
+  </data>
+  <data name="YourNameLabel" xml:space="preserve">
+    <value>तुम्हारा नाम</value>
+  </data>
+</root>

@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>о</value>
+  </data>
+  <data name="AddLabel" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Напоминание о дне рождения</value>
+  </data>
+  <data name="BdayCardsPgTitle" xml:space="preserve">
+    <value>карты</value>
+  </data>
+  <data name="BdayMsgLabel" xml:space="preserve">
+    <value>День рождения сообщение</value>
+  </data>
+  <data name="BdayReminderSettingsTitle" xml:space="preserve">
+    <value>ДЕНЬ РОЖДЕНИЯ ПАРАМЕТРЫ НАПОМИНАНИЙ</value>
+  </data>
+  <data name="BdaySetupMessage" xml:space="preserve">
+    <value>Вы не имеют каких-либо контакты, сохраненные в настоящее время. Вы хотели бы скачать ваши контакты facebook?</value>
+  </data>
+  <data name="BdaySetupTitle" xml:space="preserve">
+    <value>Настройка дней рождения</value>
+  </data>
+  <data name="BirthdayLabel" xml:space="preserve">
+    <value>День рождения</value>
+  </data>
+  <data name="BirthdayMessage" xml:space="preserve">
+    <value>Многие многие рады возвращению дня:). Поздравляю с днем рождения!!</value>
+  </data>
+  <data name="BirthdayOnLabel" xml:space="preserve">
+    <value>День рождения</value>
+  </data>
+  <data name="BirthdayReminderMessage" xml:space="preserve">
+    <value>в день рождения сегодня. Нажмите, чтобы отправить ему сообщение</value>
+  </data>
+  <data name="BirthdayWishTitle" xml:space="preserve">
+    <value>пожелания</value>
+  </data>
+  <data name="CallLabel" xml:space="preserve">
+    <value>Вызов</value>
+  </data>
+  <data name="CardLimitExceedCaption" xml:space="preserve">
+    <value>Превышен предел</value>
+  </data>
+  <data name="CardLimitMsg" xml:space="preserve">
+    <value>Нельзя добавлять более чем 10 карт. Пожалуйста, удалите некоторые старые карты, если вы хотите добавить новые карты.</value>
+  </data>
+  <data name="ChooseCardLabel" xml:space="preserve">
+    <value>Выбрать карту</value>
+  </data>
+  <data name="ConnOpenWarnCaption" xml:space="preserve">
+    <value>Подключение занят</value>
+  </data>
+  <data name="ContactNoLabel" xml:space="preserve">
+    <value>Контактный номер</value>
+  </data>
+  <data name="ContactNotUpdatedMessage" xml:space="preserve">
+    <value>Ваши контакты не были синхронизированы в то время. Вы хотите обновить их сейчас?</value>
+  </data>
+  <data name="ContactsTitle" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="ContactSyncRedirectMsg" xml:space="preserve">
+    <value>Ваши контакты будут теперь быть синхронизированы, и вы будете перенаправлены на экран Sync контакта. Вы хотите синхронизировать ваши контакты теперь?</value>
+  </data>
+  <data name="CreateBdayReminder" xml:space="preserve">
+    <value>Как создаются день рождения напоминания</value>
+  </data>
+  <data name="DeleteConfirmMessage" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить выбранные элементы?</value>
+  </data>
+  <data name="DeleteLabel" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="DownloadImagesTitle" xml:space="preserve">
+    <value>Скачать изображения профиля</value>
+  </data>
+  <data name="DownloadingFbContact" xml:space="preserve">
+    <value>Получение загружаются Facebook контакты</value>
+  </data>
+  <data name="DownloadnProfileImgMsg" xml:space="preserve">
+    <value>«Вы хотите загрузить профиль изображения ваших друзей? После загрузки изображений, можно увидеть их phtotos в начало фрагмента. Но будьте терпеливы, как этот процесс может занять несколько минут в зависимости от скорости подключения к Интернету. Вы хотите скачать образы сейчас?»</value>
+  </data>
+  <data name="EmailLabel" xml:space="preserve">
+    <value>Отправить по электронной почте</value>
+  </data>
+  <data name="ErrAddCard" xml:space="preserve">
+    <value>Ошибка добавления карты</value>
+  </data>
+  <data name="ErrAddFriend" xml:space="preserve">
+    <value>Ошибка добавления друга</value>
+  </data>
+  <data name="ErrAppBarDisplay" xml:space="preserve">
+    <value>Ошибка отображения панели приложения</value>
+  </data>
+  <data name="ErrAppBarLoad" xml:space="preserve">
+    <value>Ошибка загрузки панель приложения</value>
+  </data>
+  <data name="ErrAppInitialise" xml:space="preserve">
+    <value>Ошибка во время инициализации проверки. Некоторые функции могут не работать.</value>
+  </data>
+  <data name="ErrBindingData" xml:space="preserve">
+    <value>Ошибка при получении данных для отображения</value>
+  </data>
+  <data name="ErrBuildBdayList" xml:space="preserve">
+    <value>Ошибка здание день рождения список</value>
+  </data>
+  <data name="ErrDeleting" xml:space="preserve">
+    <value>Ошибка во время удаления</value>
+  </data>
+  <data name="ErrDisplaSaveBtn" xml:space="preserve">
+    <value>Ошибка отображения кнопка Сохранить</value>
+  </data>
+  <data name="ErrFbLogin" xml:space="preserve">
+    <value>Ошибка входа в Facebook</value>
+  </data>
+  <data name="ErrFbLogout" xml:space="preserve">
+    <value>Ошибка регистрации вне от Facebook</value>
+  </data>
+  <data name="ErrInitialiseTitle" xml:space="preserve">
+    <value>Ошибка инициализации</value>
+  </data>
+  <data name="ErrLoadSyncScreen" xml:space="preserve">
+    <value>Экран Sync ошибка загрузки</value>
+  </data>
+  <data name="ErrNavigatingSettings" xml:space="preserve">
+    <value>Ошибка при переходе к параметрам</value>
+  </data>
+  <data name="ErrOnNavigation" xml:space="preserve">
+    <value>Ошибка навигации</value>
+  </data>
+  <data name="ErrOpeningApp" xml:space="preserve">
+    <value>Ошибка при открытии приложения</value>
+  </data>
+  <data name="ErrPostingToWall" xml:space="preserve">
+    <value>Ошибка размещения на стене в Facebook</value>
+  </data>
+  <data name="ErrRenewBgndTask" xml:space="preserve">
+    <value>Ошибка при обновлении агента фоновых</value>
+  </data>
+  <data name="ErrSaveBday" xml:space="preserve">
+    <value>Ошибка при сохранении дни рождения</value>
+  </data>
+  <data name="ErrSaveBdayNContact" xml:space="preserve">
+    <value>Ошибка при сохранении дни рождения и контакты</value>
+  </data>
+  <data name="ErrSaveSettings" xml:space="preserve">
+    <value>Ошибка при сохранении параметров</value>
+  </data>
+  <data name="ErrSavingFrndDtls" xml:space="preserve">
+    <value>Ошибка при сохранении детали друга</value>
+  </data>
+  <data name="ErrSelecting" xml:space="preserve">
+    <value>Ошибка во время выбора</value>
+  </data>
+  <data name="ErrSendingEmail" xml:space="preserve">
+    <value>Ошибка отправки почты</value>
+  </data>
+  <data name="ErrSendingMessage" xml:space="preserve">
+    <value>Отправка сообщения об ошибке</value>
+  </data>
+  <data name="FbLoginFailedText" xml:space="preserve">
+    <value>Войти в facebook не удалось</value>
+  </data>
+  <data name="FbLoginFailedTitle" xml:space="preserve">
+    <value>Ошибка входа</value>
+  </data>
+  <data name="FrndDtlsPgTitlle" xml:space="preserve">
+    <value>Детали друга</value>
+  </data>
+  <data name="FrndDtlsTitle" xml:space="preserve">
+    <value>Детали друга</value>
+  </data>
+  <data name="FrndDtlsUpdated" xml:space="preserve">
+    <value>Подробная информация о существующих друг был обновлен</value>
+  </data>
+  <data name="FrndDtlsUpdatedTitle" xml:space="preserve">
+    <value>Детали друга обновлена</value>
+  </data>
+  <data name="HappyBdayMessage" xml:space="preserve">
+    <value>Поздравляю с днем рождения</value>
+  </data>
+  <data name="ImageUploadDownloadBusyMsg" xml:space="preserve">
+    <value>Получение изображения сохранены или удалены. Пожалуйста подождите несколько секунд и повторите попытку.</value>
+  </data>
+  <data name="LastSyncedLabel" xml:space="preserve">
+    <value>Последней синхронизации</value>
+  </data>
+  <data name="LaterLabel" xml:space="preserve">
+    <value>Позже</value>
+  </data>
+  <data name="LaterThisWkLabel" xml:space="preserve">
+    <value>Позднее на этой неделе</value>
+  </data>
+  <data name="LoadingFbPageMsg" xml:space="preserve">
+    <value>Получение загружается страница Facebook</value>
+  </data>
+  <data name="LoadingSettingsLabel" xml:space="preserve">
+    <value>Загрузка параметров</value>
+  </data>
+  <data name="LoginFbBtnnLabel" xml:space="preserve">
+    <value>Войти в Facebook</value>
+  </data>
+  <data name="LogoutFbBtnLabel" xml:space="preserve">
+    <value>Выйдите из Facebook</value>
+  </data>
+  <data name="MainPageAllTitle" xml:space="preserve">
+    <value>все</value>
+  </data>
+  <data name="MainPageMostRcntTitle" xml:space="preserve">
+    <value>последние</value>
+  </data>
+  <data name="MainPageTtitle" xml:space="preserve">
+    <value>Дни рождения</value>
+  </data>
+  <data name="MessageLabel" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="MsgPostedFb" xml:space="preserve">
+    <value>Опубликовано ваше сообщение</value>
+  </data>
+  <data name="NameLabel" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="NewFrndAddedTitle" xml:space="preserve">
+    <value>Был добавлен новый друг</value>
+  </data>
+  <data name="NewFrndCreatedMsg" xml:space="preserve">
+    <value>Новый друг с деталями был успешно добавлен</value>
+  </data>
+  <data name="NotKnownLabel" xml:space="preserve">
+    <value>Не известно</value>
+  </data>
+  <data name="PictureLabel" xml:space="preserve">
+    <value>Фотография</value>
+  </data>
+  <data name="PostToWall" xml:space="preserve">
+    <value>Сообщение на стене</value>
+  </data>
+  <data name="ProfileTitle" xml:space="preserve">
+    <value>профиль</value>
+  </data>
+  <data name="RateAppBtnLabel" xml:space="preserve">
+    <value>Оценить этот App</value>
+  </data>
+  <data name="RateAppText" xml:space="preserve">
+    <value>«Если вам нравится наше приложение, и она сделала вашу жизнь проще, пожалуйста, оцените его!»</value>
+  </data>
+  <data name="RemindByEmailLabel" xml:space="preserve">
+    <value>Напомнить по электронной почте</value>
+  </data>
+  <data name="ReminderTitle" xml:space="preserve">
+    <value>напоминание</value>
+  </data>
+  <data name="ReminderUpdatedTitle" xml:space="preserve">
+    <value>Обновление напоминания</value>
+  </data>
+  <data name="ReminderUpdateSuccess" xml:space="preserve">
+    <value>Успешно Обновлено напоминания о днях рождения</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ru</value>
+  </data>
+  <data name="RetrieveLocalContact" xml:space="preserve">
+    <value>Получение местные контактные данные</value>
+  </data>
+  <data name="RetrievingFbFriend" xml:space="preserve">
+    <value>Получение данных Facebook другу</value>
+  </data>
+  <data name="SaveBdays" xml:space="preserve">
+    <value>Сохранение дни рождения</value>
+  </data>
+  <data name="SaveLabel" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="SavingFrndDtls" xml:space="preserve">
+    <value>Сохранение детали друга</value>
+  </data>
+  <data name="SendAutoEmailLabel" xml:space="preserve">
+    <value>Отправить письмо для авто</value>
+  </data>
+  <data name="SendEmailText" xml:space="preserve">
+    <value>«Если вы испытываете любые проблемы или у вас есть любые предложения/запросы, пожалуйста, свяжитесь с нами!»</value>
+  </data>
+  <data name="SendPicLabel" xml:space="preserve">
+    <value>Отправить фотографии</value>
+  </data>
+  <data name="SendUsEmailBtnLabel" xml:space="preserve">
+    <value>Отправьте нам письмо</value>
+  </data>
+  <data name="SetAsDefaultLabel" xml:space="preserve">
+    <value>Установить по умолчанию</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="SettingsSavedLabel" xml:space="preserve">
+    <value>Параметры, сохраненные</value>
+  </data>
+  <data name="SettingsUpdateSuccessMsg" xml:space="preserve">
+    <value>Настройки были успешно обновлены</value>
+  </data>
+  <data name="ShowNotifLabel" xml:space="preserve">
+    <value>Показать уведомления</value>
+  </data>
+  <data name="SupportEmailLabel" xml:space="preserve">
+    <value>Поддержка электронной почты</value>
+  </data>
+  <data name="SyncContactsLabel" xml:space="preserve">
+    <value>Синхронизация контактов</value>
+  </data>
+  <data name="SyncFbContactLabel" xml:space="preserve">
+    <value>Синхронизировать контакты Facebook</value>
+  </data>
+  <data name="SyncIntervalLabel" xml:space="preserve">
+    <value>Синхронизация внутреннего</value>
+  </data>
+  <data name="SyncIntrvlOptionAfter" xml:space="preserve">
+    <value>После</value>
+  </data>
+  <data name="SyncIntrvlOptionBefore" xml:space="preserve">
+    <value>До</value>
+  </data>
+  <data name="SyncIntrvlOptionDaily" xml:space="preserve">
+    <value>Ежедневно</value>
+  </data>
+  <data name="SyncIntrvlOptionHour" xml:space="preserve">
+    <value>Часы</value>
+  </data>
+  <data name="SyncIntrvlOptionManual" xml:space="preserve">
+    <value>Вручную</value>
+  </data>
+  <data name="SyncIntrvlOptionMin" xml:space="preserve">
+    <value>Минут</value>
+  </data>
+  <data name="SyncIntrvlOptionMonthly" xml:space="preserve">
+    <value>Ежемесячно</value>
+  </data>
+  <data name="SyncIntrvlOptionOnTime" xml:space="preserve">
+    <value>На время</value>
+  </data>
+  <data name="SyncIntrvlOptionSec" xml:space="preserve">
+    <value>Секунд</value>
+  </data>
+  <data name="SyncIntrvlOptionWeekly" xml:space="preserve">
+    <value>Загрузок</value>
+  </data>
+  <data name="SyncLocalContactLabel" xml:space="preserve">
+    <value>Местные контакты Sync</value>
+  </data>
+  <data name="SyncNowBtnLabel" xml:space="preserve">
+    <value>Sync теперь</value>
+  </data>
+  <data name="TodayLabel" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="TomorrowLabel" xml:space="preserve">
+    <value>Завтра</value>
+  </data>
+  <data name="UpdateBdayRemindr" xml:space="preserve">
+    <value>Обновление день рождения напоминания</value>
+  </data>
+  <data name="WarnDtlsReq" xml:space="preserve">
+    <value>Необходимые сведения</value>
+  </data>
+  <data name="WarnInternetMsg" xml:space="preserve">
+    <value>Не удается подключиться к Интернету. Пожалуйста, попробуйте еще раз с рабочего подключения к Интернету.</value>
+  </data>
+  <data name="WarnNameBdayCompulsory" xml:space="preserve">
+    <value>Имя и день рождения являются обязательными</value>
+  </data>
+  <data name="WarnNwTitle" xml:space="preserve">
+    <value>Ошибка сети</value>
+  </data>
+  <data name="WarnReEnableBgTask" xml:space="preserve">
+    <value>Фоновый агент был отключен для данного приложения. Пожалуйста включите для получения оповещений и уведомлений. Перейти в настройки - приложения - фоновые задачи. Установите флажок, чтобы включить фоновые задачи.</value>
+  </data>
+  <data name="WarnSelectItem" xml:space="preserve">
+    <value>Пожалуйста, выберите элемент и затем попробуйте еще раз</value>
+  </data>
+  <data name="WarnTryAgain" xml:space="preserve">
+    <value>Пожалуйста, попробуйте снова</value>
+  </data>
+  <data name="WarnValidHourValue" xml:space="preserve">
+    <value>Пожалуйста, введите действительный час значение между 0 и 23</value>
+  </data>
+  <data name="WarnValidMinValue" xml:space="preserve">
+    <value>Введите допустимое значение минут между 0 и 59</value>
+  </data>
+  <data name="WarnValidSecvalue" xml:space="preserve">
+    <value>Пожалуйста, введите действительный секунд значение между 0 и 59</value>
+  </data>
+  <data name="WhenToRemindLabel" xml:space="preserve">
+    <value>Когда следует напомнить</value>
+  </data>
+  <data name="WishByEmailLabel" xml:space="preserve">
+    <value>Желаю по электронной почте</value>
+  </data>
+  <data name="YesLabel" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="YourContactNoLabel" xml:space="preserve">
+    <value>Ваш контактный номер</value>
+  </data>
+  <data name="YourEmailLabel" xml:space="preserve">
+    <value>Ваш электронный адрес</value>
+  </data>
+  <data name="YourNameLabel" xml:space="preserve">
+    <value>Ваше имя</value>
+  </data>
+</root>
