@@ -13,7 +13,7 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="PortraitOrLandscape"  Orientation="Portrait"
-    shell:SystemTray.IsVisible="False">
+    shell:SystemTray.IsVisible="True">
 
     <phone:PhoneApplicationPage.Resources>
         
@@ -110,68 +110,83 @@
               Visibility="Collapsed"></Grid>
         <!--Panorama control-->
         <Grid>
-            <phone:Panorama Name="MainPagePanorama"
-            Title="{Binding Path=LocalizedResources.MainPageTtitle, 
-                                        Source={StaticResource LocalizedStrings}}">
+            <StackPanel>
+                <StackPanel Height="100" VerticalAlignment="Top">
+                	<StackPanel.Background>
+                            <RadialGradientBrush>
+                                <GradientStop Color="#FF403F3F" Offset="0"/>
+                                <GradientStop Color="#FF1F1E1E" Offset="1"/>
+                            </RadialGradientBrush>
+                    </StackPanel.Background>
+                    <TextBlock Text="{Binding Path=LocalizedResources.MainPageTtitle, 
+                               Source={StaticResource LocalizedStrings}}"
+                               Height="100" FontSize="{StaticResource PhoneFontSizeExtraExtraLarge}"
+                               Margin="10,0,0,0">
+                        
+                    </TextBlock>
+                </StackPanel>
+                <StackPanel>
+                    <phone:Panorama Name="MainPagePanorama">
 
-                <!--Panorama item one-->
-                <phone:PanoramaItem Name="MostRecentPanorama"
+                        <!--Panorama item one-->
+                        <phone:PanoramaItem Name="MostRecentPanorama"
                 Header="{Binding Path=LocalizedResources.MainPageMostRcntTitle, 
-                                        Source={StaticResource LocalizedStrings}}" FontSize="20">
-                    <toolkit:LongListMultiSelector x:Name="RecentBirthdayList"  Margin="0,-38,-22,2" 
+                                        Source={StaticResource LocalizedStrings}}" FontSize="20"
+                                            >
+                            <toolkit:LongListMultiSelector x:Name="RecentBirthdayList"  Margin="-10,-38,-22,2" 
                                         ItemsSource="{Binding RecentBirthdays}">
-                        <toolkit:LongListMultiSelector.ListHeaderTemplate>
-                            <DataTemplate>
-                                <Grid Margin="12,0,0,38">
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="Auto"/>
-                                        <RowDefinition Height="*"/>
-                                    </Grid.RowDefinitions>
+                                <toolkit:LongListMultiSelector.ListHeaderTemplate>
+                                    <DataTemplate>
+                                        <Grid Margin="12,0,0,38">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="*"/>
+                                            </Grid.RowDefinitions>
 
-                                </Grid>
-                            </DataTemplate>
-                        </toolkit:LongListMultiSelector.ListHeaderTemplate>
-                        <toolkit:LongListMultiSelector.ItemTemplate>
-                            <DataTemplate>
-                                <StackPanel Orientation="Horizontal" Margin="12,2,0,4" Height="105" Width="432"
-                                        Tap="RecentBirthdayListTap">
-                                    <Grid>
-                                        <Grid Background="Black"
-                                                Opacity="0.2"></Grid>
-                                        <Grid>
-                                            <Image Source="{Binding ProfilePicUrl}" Width="99" Height="99"></Image>
                                         </Grid>
+                                    </DataTemplate>
+                                </toolkit:LongListMultiSelector.ListHeaderTemplate>
+                                <toolkit:LongListMultiSelector.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal" Margin="12,2,0,4" Height="105" Width="432"
+                                        Tap="RecentBirthdayListTap">
+                                            <Grid>
+                                                <Grid Background="Black"
+                                                Opacity="0.2"></Grid>
+                                                <Grid>
+                                                    <Image Source="{Binding ProfilePicUrl}" Width="99" Height="99"></Image>
+                                                </Grid>
 
-                                    </Grid>
-                                    <StackPanel Width="311" Margin="8,-7,0,0" >
-                                        <TextBlock Text="{Binding Name}" TextWrapping="Wrap" 
+                                            </Grid>
+                                            <StackPanel Width="311" Margin="8,-7,0,0" >
+                                                <TextBlock Text="{Binding Name}" TextWrapping="Wrap" 
                                                Margin="10,0" Style="{StaticResource PhoneTextExtraLargeStyle}" 
                                                FontSize="{StaticResource PhoneFontSizeLarge}" />
-                                        <TextBlock Text="{Binding TimeToEventText}" TextWrapping="Wrap" 
+                                                <TextBlock Text="{Binding TimeToEventText}" TextWrapping="Wrap" 
                                                Margin="10,-2,10,0" Style="{StaticResource PhoneTextSubtleStyle}" />
-                                    </StackPanel>
-                                </StackPanel>
-                            </DataTemplate>
-                        </toolkit:LongListMultiSelector.ItemTemplate>
-                    </toolkit:LongListMultiSelector>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </toolkit:LongListMultiSelector.ItemTemplate>
+                            </toolkit:LongListMultiSelector>
 
-                </phone:PanoramaItem>
+                        </phone:PanoramaItem>
 
-                <!--Panorama item two-->
-                <phone:PanoramaItem Name="AllItemPanorama">
-                    <!--Double line list with image placeholder and text wrapping using a floating header that scrolls with the content-->
-                    <phone:PanoramaItem.Header>
-                        <Grid Margin="0" Width="405" VerticalAlignment="Center">
+                        <!--Panorama item two-->
+                        <phone:PanoramaItem Name="AllItemPanorama">
+                            <!--Double line list with image placeholder and text wrapping using a floating header that scrolls with the content-->
+                            <phone:PanoramaItem.Header>
+                                <Grid Margin="0" Width="405" VerticalAlignment="Center">
 
 
-                            <TextBlock Grid.Column="0" Text="{Binding Path=LocalizedResources.MainPageAllTitle, 
+                                    <TextBlock Grid.Column="0" Text="{Binding Path=LocalizedResources.MainPageAllTitle, 
                                         Source={StaticResource LocalizedStrings}}"
 										VerticalAlignment="Center"></TextBlock>
 
-                        </Grid>
-                    </phone:PanoramaItem.Header>
+                                </Grid>
+                            </phone:PanoramaItem.Header>
 
-                    <toolkit:LongListMultiSelector  Name="AllBirthdayList"
+                            <toolkit:LongListMultiSelector  Name="AllBirthdayList"
                     Margin="0,-38,-22,2" ItemsSource="{Binding AlphaGroupAllBirthdays}"
                                         IsGroupingEnabled="true"
                                         HideEmptyGroups ="true"
@@ -179,27 +194,27 @@
 										GroupHeaderTemplate="{StaticResource GroupHeaderTemplateAlphabetical}" 
 										JumpListStyle="{StaticResource JumpListStyleAlphabetical}"
 										LayoutMode="List">
-                        <toolkit:LongListMultiSelector.ListHeaderTemplate>
-                            <DataTemplate>
-                                <Grid Margin="12,0,0,38">
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="Auto"/>
-                                        <RowDefinition Height="*"/>
-                                    </Grid.RowDefinitions>
+                                <toolkit:LongListMultiSelector.ListHeaderTemplate>
+                                    <DataTemplate>
+                                        <Grid Margin="12,0,0,38">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="*"/>
+                                            </Grid.RowDefinitions>
 
-                                </Grid>
-                            </DataTemplate>
-                        </toolkit:LongListMultiSelector.ListHeaderTemplate>
+                                        </Grid>
+                                    </DataTemplate>
+                                </toolkit:LongListMultiSelector.ListHeaderTemplate>
 
-                    </toolkit:LongListMultiSelector>
-                </phone:PanoramaItem>
+                            </toolkit:LongListMultiSelector>
+                        </phone:PanoramaItem>
 
-                <!--Panorama item three-->
-                <phone:PanoramaItem  Name="BirthdayCardPanorama"
+                        <!--Panorama item three-->
+                        <phone:PanoramaItem  Name="BirthdayCardPanorama"
                 Header="{Binding Path=LocalizedResources.BdayCardsPgTitle, 
                                         Source={StaticResource LocalizedStrings}}"
                                         Orientation="Horizontal" Width="433">
-                    <toolkit:LongListMultiSelector  Name="BirthdayCardList"
+                            <toolkit:LongListMultiSelector  Name="BirthdayCardList"
                                         Margin="0,-38,-22,2" 
                                         
                                         ItemsSource="{Binding BirthdayCards}"
@@ -212,12 +227,12 @@
                                                 ItemTemplate="{StaticResource CardItemTemplate}"
                                                 >
 
-                    </toolkit:LongListMultiSelector>
+                            </toolkit:LongListMultiSelector>
 
-                </phone:PanoramaItem>
+                        </phone:PanoramaItem>
 
 
-                <!--<phone:PanoramaItem Header="Messages">
+                        <!--<phone:PanoramaItem Header="Messages">
             	<Grid>
             		<phone:LongListSelector Margin="0,-38,0,0" ItemsSource="{Binding Items}">
                     <phone:LongListSelector.ListHeaderTemplate>
@@ -247,7 +262,9 @@
                 </phone:LongListSelector>
 				</Grid>
             </phone:PanoramaItem>-->
-            </phone:Panorama>
+                    </phone:Panorama>
+                </StackPanel>
+            </StackPanel>
         </Grid>
         
 

@@ -26,7 +26,7 @@ namespace BirthdayReminder
                     if (cardEntity != null)
                         App.UserPreferences.BirthdayWish.CustomPicUrl = cardEntity.Url;
                 }
-                SettingsUtility.updateUserSettings(App.UserPreferences);
+                SettingsUtility.UpdateUserSettings(App.UserPreferences);
             }
             catch (Exception ex)
             {

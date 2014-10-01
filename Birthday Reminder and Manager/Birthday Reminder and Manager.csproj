@@ -15,7 +15,7 @@
     <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
     <SilverlightApplication>true</SilverlightApplication>
-    <SupportedCultures>hi-IN%3bfr%3bit%3bes%3bth%3bth-TH%3bde%3bru%3bar%3ben%3ben-IN%3ben-GB</SupportedCultures>
+    <SupportedCultures>hi-IN%3bfr%3bit%3bes%3bth%3bth-TH%3bde%3bru%3bar%3ben%3ben-IN%3ben-GB%3bar-EG%3bcs%3bcs-CZ%3bfi%3bfi-FI%3bel%3bel-GR%3bhu%3bhu-HU%3bja%3bja-JP%3bms%3bms-MY%3bpl%3bpl-PL%3bpt%3bsv</SupportedCultures>
     <XapOutputs>true</XapOutputs>
     <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
     <XapFilename>Birthday_Reminder_and_Manager_$(Configuration)_$(Platform).xap</XapFilename>
@@ -119,11 +119,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AppResources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\AppResources.hi-IN.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>AppResources.hi-IN.resx</DependentUpon>
     </Compile>
     <Compile Include="SelectCard.xaml.cs">
       <DependentUpon>SelectCard.xaml</DependentUpon>
@@ -295,28 +290,45 @@
     <Resource Include="PanoramaBackground.png" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.ar-EG.resx" />
     <EmbeddedResource Include="Resources\AppResources.ar.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.cs-CZ.resx" />
+    <EmbeddedResource Include="Resources\AppResources.cs.resx" />
     <EmbeddedResource Include="Resources\AppResources.de.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.el-GR.resx" />
+    <EmbeddedResource Include="Resources\AppResources.el.resx" />
     <EmbeddedResource Include="Resources\AppResources.en-GB.resx" />
     <EmbeddedResource Include="Resources\AppResources.en-IN.resx" />
     <EmbeddedResource Include="Resources\AppResources.en.resx" />
     <EmbeddedResource Include="Resources\AppResources.es.resx" />
+    <EmbeddedResource Include="Resources\AppResources.fi-FI.resx" />
+    <EmbeddedResource Include="Resources\AppResources.fi.resx" />
     <EmbeddedResource Include="Resources\AppResources.fr.resx" />
     <EmbeddedResource Include="Resources\AppResources.hi-IN.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.hi-IN.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.hu-HU.resx" />
+    <EmbeddedResource Include="Resources\AppResources.hu.resx" />
     <EmbeddedResource Include="Resources\AppResources.it.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ja-JP.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ja.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ms-MY.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ms.resx" />
+    <EmbeddedResource Include="Resources\AppResources.pl-PL.resx" />
+    <EmbeddedResource Include="Resources\AppResources.pl.resx" />
+    <EmbeddedResource Include="Resources\AppResources.pt.resx" />
     <EmbeddedResource Include="Resources\AppResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\AppResources.ru.resx" />
+    <EmbeddedResource Include="Resources\AppResources.sv.resx" />
     <EmbeddedResource Include="Resources\AppResources.th-TH.resx" />
     <EmbeddedResource Include="Resources\AppResources.th.resx" />
   </ItemGroup>

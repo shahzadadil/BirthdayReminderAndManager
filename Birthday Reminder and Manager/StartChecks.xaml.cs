@@ -18,7 +18,7 @@ namespace BirthdayReminder
 {
     public partial class StartChecks
     {
-        Boolean IsSourceToast;
+        Boolean _isSourceToast;
 
         public StartChecks()
         {
@@ -31,7 +31,7 @@ namespace BirthdayReminder
             {
                 string parameter;
                 if (NavigationContext.QueryString.TryGetValue(UriParameter.Action, out parameter))
-                    IsSourceToast = true;
+                    _isSourceToast = true;
 
                 if (!String.IsNullOrEmpty(App.AppLaunchError))
                 {
@@ -53,11 +53,17 @@ namespace BirthdayReminder
             try
             {
                 SetLicenseInfo();
-                AppUtility.UpdateSchema();
-                AppUtility.MigrateXmlDataToDatabase();
-                ReminderUtility.ClearAllRemindersOnUpgrade();
-                updateLocalizedRes();
-                BirthdayUtility.SaveLocalCards();
+                var isDbUpgraded = AppUtility.UpdateSchema();
+
+                if (!isDbUpgraded)
+                {
+                    AppUtility.MigrateXmlDataToDatabase();
+                    ReminderUtility.ClearAllRemindersOnUpgrade();
+                    BirthdayUtility.SaveLocalCards();
+                }
+                
+                UpdateLocalizedRes();
+                
                 CheckFriendBirthdayFile();
             }
             catch (Exception ex)
@@ -70,21 +76,31 @@ namespace BirthdayReminder
 
         private void SetLicenseInfo()
         {
-            #if DEBUG
+            //#if DEBUG
 
-            App.IsTrial = MessageBox.Show("Use app as trial ?", "Trial or Full", MessageBoxButton.OKCancel) == MessageBoxResult.OK;
+            //App.IsTrial = MessageBox.Show("Use app as trial ?", "Trial or Full", MessageBoxButton.OKCancel) == MessageBoxResult.OK;
 
-            #endif  
+            //#endif  
         }
 
         /// <summary>
         /// Updates the resource with current language to be used by Agent
         /// </summary>
-        private void updateLocalizedRes()
+        private static void UpdateLocalizedRes()
         {
             IsolatedStorageFileStream stream = null;
             try
             {
+                var fileStore = IsolatedStorageFile.GetUserStoreForApplication();
+
+                if (fileStore.FileExists(FileSystem.ResourceFile))
+                {
+                    return;
+                }
+
+                stream = fileStore.OpenFile(FileSystem.ResourceFile, System.IO.FileMode.Create);
+                var serializer = new XmlSerializer(typeof(LocalizedResources));
+
                 var resource = new LocalizedResources
                 {
                     BdayTileLabel = AppResources.BirthdayLabel,
@@ -92,9 +108,6 @@ namespace BirthdayReminder
                     UpdateBdayReminder = AppResources.UpdateBdayRemindr
                 };
 
-                var fileStore = IsolatedStorageFile.GetUserStoreForApplication();
-                stream = fileStore.OpenFile(FileSystem.ResourceFile, System.IO.FileMode.Create);
-                var serializer = new XmlSerializer(typeof(LocalizedResources));
                 serializer.Serialize(stream, resource);
             }
             finally
@@ -137,7 +150,7 @@ namespace BirthdayReminder
             {
                 ReminderUtility.UpdateCalendarEntries();                    
 
-                if (IsSourceToast)
+                if (_isSourceToast)
                 {
                     MessageBox.Show(AppResources.ReminderUpdateSuccess, AppResources.ReminderUpdatedTitle, MessageBoxButton.OK);
                 }

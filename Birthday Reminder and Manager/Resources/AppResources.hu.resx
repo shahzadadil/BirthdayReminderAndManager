@@ -17,457 +17,457 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>es</value>
+    <value>hu</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>Recordatorio de cumpleaños</value>
+    <value>Születésnapi emlékeztető</value>
   </data>
   <data name="DownloadingFbContact" xml:space="preserve">
-    <value>Contactos de Facebook están consiguiendo descargar</value>
+    <value>Facebook kapcsolatok egyre letöltött</value>
   </data>
   <data name="CreateBdayReminder" xml:space="preserve">
-    <value>Se elaboran recordatorios de cumpleaños</value>
+    <value>Születésnapi emlékeztető szerzés létrehozása</value>
   </data>
   <data name="ErrBuildBdayList" xml:space="preserve">
-    <value>Lista de cumpleaños error Building</value>
+    <value>Hiba a születésnapi Listakészítés</value>
   </data>
   <data name="ErrSaveBday" xml:space="preserve">
-    <value>Error al guardar los cumpleaños</value>
+    <value>Hiba születésnapok</value>
   </data>
   <data name="ErrSaveBdayNContact" xml:space="preserve">
-    <value>Error al guardar los cumpleaños y contactos</value>
+    <value>Születésnapok és kapcsolatok hiba</value>
   </data>
   <data name="FbLoginFailedText" xml:space="preserve">
-    <value>Iniciar sesión en facebook fallado</value>
+    <value>Belépés a facebook sikertelen</value>
   </data>
   <data name="FbLoginFailedTitle" xml:space="preserve">
-    <value>Login Failed</value>
+    <value>Sikertelen bejelentkezés</value>
   </data>
   <data name="FrndDtlsTitle" xml:space="preserve">
-    <value>Detalles de amigo</value>
+    <value>Részleteit barátja</value>
   </data>
   <data name="RetrieveLocalContact" xml:space="preserve">
-    <value>Recuperar los datos de contacto locales</value>
+    <value>Helyi kapcsolati beolvasása</value>
   </data>
   <data name="RetrievingFbFriend" xml:space="preserve">
-    <value>Recuperar datos de Facebook amigo</value>
+    <value>Részleteit barátja Facebook beolvasása</value>
   </data>
   <data name="SaveBdays" xml:space="preserve">
-    <value>Cumpleaños de ahorro</value>
+    <value>Megtakarítás születésnapok</value>
   </data>
   <data name="AddLabel" xml:space="preserve">
-    <value>Añadir</value>
+    <value>Add hozzá</value>
   </data>
   <data name="BirthdayLabel" xml:space="preserve">
-    <value>Cumpleaños</value>
+    <value>Születésnap</value>
   </data>
   <data name="BirthdayMessage" xml:space="preserve">
-    <value>Muchas felicidades del día:). ¡¡Feliz cumpleaños!!</value>
+    <value>Sok Isten éltessen sokáig a nap:). Boldog szülinapot!!</value>
   </data>
   <data name="BirthdayOnLabel" xml:space="preserve">
-    <value>Cumpleaños en</value>
+    <value>Születésnapi a</value>
   </data>
   <data name="CallLabel" xml:space="preserve">
-    <value>Llamada</value>
+    <value>Hívja</value>
   </data>
   <data name="ContactNoLabel" xml:space="preserve">
-    <value>Número de contacto</value>
+    <value>Telefonszám</value>
   </data>
   <data name="EmailLabel" xml:space="preserve">
-    <value>Correo electrónico</value>
+    <value>E-mailben</value>
   </data>
   <data name="ErrDisplaSaveBtn" xml:space="preserve">
-    <value>Error Mostrar botón guardar</value>
+    <value>Hiba Megment gomb megjelenítése</value>
   </data>
   <data name="ErrOnNavigation" xml:space="preserve">
-    <value>Error en la navegación</value>
+    <value>Hiba a navigációs</value>
   </data>
   <data name="ErrPostingToWall" xml:space="preserve">
-    <value>Error publicar en el muro de Facebook</value>
+    <value>Hiba a Facebook fal</value>
   </data>
   <data name="ErrSavingFrndDtls" xml:space="preserve">
-    <value>Error al guardar los datos amigo</value>
+    <value>Hiba részleteit barátja</value>
   </data>
   <data name="ErrSendingMessage" xml:space="preserve">
-    <value>Enviar mensaje</value>
+    <value>Hibaüzenet küldése</value>
   </data>
   <data name="FrndDtlsPgTitlle" xml:space="preserve">
-    <value>Detalles de amigo</value>
+    <value>Részleteit barátja</value>
   </data>
   <data name="FrndDtlsUpdated" xml:space="preserve">
-    <value>Se ha actualizado la información del amigo existente</value>
+    <value>Frissült a részleteit a meglévő barátja</value>
   </data>
   <data name="FrndDtlsUpdatedTitle" xml:space="preserve">
-    <value>Amigo actualizó</value>
+    <value>Barátom részletek frissítve</value>
   </data>
   <data name="MainPageAllTitle" xml:space="preserve">
-    <value>todos</value>
+    <value>minden</value>
   </data>
   <data name="MainPageMostRcntTitle" xml:space="preserve">
-    <value>recientes</value>
+    <value>Legutóbbi</value>
   </data>
   <data name="MainPageTtitle" xml:space="preserve">
-    <value>Cumpleaños</value>
+    <value>Születésnapok</value>
   </data>
   <data name="MessageLabel" xml:space="preserve">
-    <value>Mensaje</value>
+    <value>Üzenet</value>
   </data>
   <data name="NameLabel" xml:space="preserve">
-    <value>Nombre</value>
+    <value>név</value>
   </data>
   <data name="NewFrndAddedTitle" xml:space="preserve">
-    <value>Se ha añadido nuevo amigo</value>
+    <value>Új barátja van hozzáadott</value>
   </data>
   <data name="NewFrndCreatedMsg" xml:space="preserve">
-    <value>Se ha añadido correctamente un nuevo amigo con los detalles</value>
+    <value>Sikeresen hozzáadta egy új barátja, a részleteket</value>
   </data>
   <data name="NotKnownLabel" xml:space="preserve">
-    <value>No se conoce</value>
+    <value>Nem ismert</value>
   </data>
   <data name="PostToWall" xml:space="preserve">
-    <value>Poste a la pared</value>
+    <value>Hozzászólás a fal</value>
   </data>
   <data name="SaveLabel" xml:space="preserve">
-    <value>Salvar</value>
+    <value>Mentés</value>
   </data>
   <data name="SavingFrndDtls" xml:space="preserve">
-    <value>Ahorro detalles de amigo</value>
+    <value>Részleteit barátja mentése</value>
   </data>
   <data name="SendAutoEmailLabel" xml:space="preserve">
-    <value>Enviar correo electrónico automático</value>
+    <value>Küldjön automatikus e-mailt</value>
   </data>
   <data name="SettingsLabel" xml:space="preserve">
-    <value>Configuración</value>
+    <value>Beállítások</value>
   </data>
   <data name="WarnDtlsReq" xml:space="preserve">
-    <value>Detalles requeridos</value>
+    <value>Szükséges részletek</value>
   </data>
   <data name="WarnNameBdayCompulsory" xml:space="preserve">
-    <value>Nombre y cumpleaños son obligatorios</value>
+    <value>Név- és születésnapi kötelezőek</value>
   </data>
   <data name="AboutTitle" xml:space="preserve">
-    <value>acerca de</value>
+    <value>körülbelül</value>
   </data>
   <data name="BdayMsgLabel" xml:space="preserve">
-    <value>Mensaje de cumpleaños</value>
+    <value>Születésnapi üzenet</value>
   </data>
   <data name="BdayReminderSettingsTitle" xml:space="preserve">
-    <value>CONFIGURACIÓN DE RECORDATORIO DE CUMPLEAÑOS</value>
+    <value>SZÜLETÉSNAPI EMLÉKEZTETŐ BEÁLLÍTÁSAI</value>
   </data>
   <data name="BdaySetupMessage" xml:space="preserve">
-    <value>No tienes ningún contacto guardado actualmente. ¿Te gustaría descargar tus contactos de facebook?</value>
+    <value>Nincs semmilyen jelenleg mentett névjegyeket. Szeretne letölteni a facebook kapcsolatok?</value>
   </data>
   <data name="BdaySetupTitle" xml:space="preserve">
-    <value>Configuración de cumpleaños</value>
+    <value>A telepítő születésnapok</value>
   </data>
   <data name="BirthdayWishTitle" xml:space="preserve">
-    <value>deseos</value>
+    <value>kívánság</value>
   </data>
   <data name="ContactNotUpdatedMessage" xml:space="preserve">
-    <value>Tus contactos no han sido sincronizados en un tiempo. ¿Quieres actualizarlos ahora?</value>
+    <value>A névjegyek nem szinkronban egy darabig. Szeretné most frissíteni?</value>
   </data>
   <data name="ContactsTitle" xml:space="preserve">
-    <value>contactos</value>
+    <value>kapcsolatok</value>
   </data>
   <data name="ContactSyncRedirectMsg" xml:space="preserve">
-    <value>Ahora sería sincronizar sus contactos y se le redireccionará a la pantalla de sincronización de contacto. ¿Desea sincronizar tus contactos ahora?</value>
+    <value>Kíván most szinkronizált a névjegyeket, és lesz irányítva a kapcsolatot szinkron képernyőn. Szeretné szinkronizálni a névjegyeket most?</value>
   </data>
   <data name="ErrAppBarDisplay" xml:space="preserve">
-    <value>Error Mostrar barra de aplicación</value>
+    <value>App büfé bemutatás hiba</value>
   </data>
   <data name="ErrAppBarLoad" xml:space="preserve">
-    <value>Error de carga de la aplicación Bar</value>
+    <value>Hiba betöltése App Bar</value>
   </data>
   <data name="ErrAppInitialise" xml:space="preserve">
-    <value>Error durante la comprobación de la puesta en marcha. Algunas de las funcionalidades pueden no funcionar.</value>
+    <value>Hiba a startup-ellenőrzés során. Néhány a funkciók nem működnek.</value>
   </data>
   <data name="ErrFbLogin" xml:space="preserve">
-    <value>Error iniciar sesión en Facebook</value>
+    <value>Hiba fakitermelés-ban-hoz Facebook</value>
   </data>
   <data name="ErrFbLogout" xml:space="preserve">
-    <value>Error de registro fuera de Facebook</value>
+    <value>Hiba fakitermelés ki a Facebook</value>
   </data>
   <data name="ErrInitialiseTitle" xml:space="preserve">
-    <value>Error durante el inicio</value>
+    <value>Hibaüzenet indítás során</value>
   </data>
   <data name="ErrLoadSyncScreen" xml:space="preserve">
-    <value>Pantalla de error carga Sync</value>
+    <value>Rakodási szinkronizál képernyő hiba</value>
   </data>
   <data name="ErrNavigatingSettings" xml:space="preserve">
-    <value>Error mientras navega a Settings</value>
+    <value>Hiba történt a hajózás-hoz elintézés</value>
   </data>
   <data name="ErrOpeningApp" xml:space="preserve">
-    <value>Solicitud de apertura de error</value>
+    <value>Hiba a nyitó alkalmazás</value>
   </data>
   <data name="ErrSaveSettings" xml:space="preserve">
-    <value>Error al guardar la configuración</value>
+    <value>Hiba a beállítások mentése</value>
   </data>
   <data name="ErrSendingEmail" xml:space="preserve">
-    <value>Error enviando correo electrónico</value>
+    <value>Hibaüzenet küldése e-mailben</value>
   </data>
   <data name="HappyBdayMessage" xml:space="preserve">
-    <value>Feliz cumpleaños</value>
+    <value>Boldog szülinapot</value>
   </data>
   <data name="LastSyncedLabel" xml:space="preserve">
-    <value>Última sincronizado</value>
+    <value>Utolsó szinkronizálása</value>
   </data>
   <data name="LaterLabel" xml:space="preserve">
-    <value>Más tarde</value>
+    <value>Később</value>
   </data>
   <data name="LoadingSettingsLabel" xml:space="preserve">
-    <value>Carga la configuración</value>
+    <value>A beállítások betöltése</value>
   </data>
   <data name="LoginFbBtnnLabel" xml:space="preserve">
-    <value>Iniciar sesión en Facebook</value>
+    <value>Fatörzs-ban-hoz Facebook</value>
   </data>
   <data name="LogoutFbBtnLabel" xml:space="preserve">
-    <value>Cerrar sesión en Facebook</value>
+    <value>Jelentkezzen ki a Facebook</value>
   </data>
   <data name="MsgPostedFb" xml:space="preserve">
-    <value>Su mensaje ha sido contabilizado</value>
+    <value>Az üzenetet már elkönyvelték.</value>
   </data>
   <data name="PictureLabel" xml:space="preserve">
-    <value>Foto</value>
+    <value>Kép</value>
   </data>
   <data name="ProfileTitle" xml:space="preserve">
-    <value>Perfil</value>
+    <value>Profil</value>
   </data>
   <data name="RateAppBtnLabel" xml:space="preserve">
-    <value>Esta aplicación la tarifa</value>
+    <value>Arány ez App</value>
   </data>
   <data name="RateAppText" xml:space="preserve">
-    <value>Si te gusta nuestra aplicación e hizo la vida más fácil, por favor tarifa/comprarlo!</value>
+    <value>Ha úgy tetszik a mi app, és ez tette a élet könnyebb, kérlek arány/buy ez!</value>
   </data>
   <data name="RemindByEmailLabel" xml:space="preserve">
-    <value>Recordar por correo electrónico</value>
+    <value>Emlékeztesse meg e-mailben</value>
   </data>
   <data name="ReminderTitle" xml:space="preserve">
-    <value>recordatorio</value>
+    <value>emlékeztető</value>
   </data>
   <data name="ReminderUpdatedTitle" xml:space="preserve">
-    <value>Recordatorios actualizados</value>
+    <value>Frissített emlékeztetők</value>
   </data>
   <data name="ReminderUpdateSuccess" xml:space="preserve">
-    <value>Actualizados correctamente recordatorios de cumpleaños</value>
+    <value>Sikeresen frissített emlékeztetők születésnap</value>
   </data>
   <data name="SendEmailText" xml:space="preserve">
-    <value>Si usted está experimentando problemas o tienes cualquier sugerencia o solicitudes, por favor no dude en contactar con nosotros!</value>
+    <value>Ha problémákat tapasztal, vagy ha van olyan javaslatokat/kéréseket, ne habozzon, írjon nekünk!</value>
   </data>
   <data name="SendPicLabel" xml:space="preserve">
-    <value>Enviar fotos</value>
+    <value>Küldje el a képeket</value>
   </data>
   <data name="SendUsEmailBtnLabel" xml:space="preserve">
-    <value>Envíenos un correo electrónico</value>
+    <value>Küldjön nekünk egy e-mailt</value>
   </data>
   <data name="SettingsSavedLabel" xml:space="preserve">
-    <value>Ajustes guardados</value>
+    <value>Mentett beállításokat</value>
   </data>
   <data name="SettingsUpdateSuccessMsg" xml:space="preserve">
-    <value>Ajustes han sido actualizados exitosamente</value>
+    <value>Beállítások frissítése sikerült</value>
   </data>
   <data name="ShowNotifLabel" xml:space="preserve">
-    <value>Mostrar notificaciones</value>
+    <value>Tájékoztató értesítések megjelenítése</value>
   </data>
   <data name="SupportEmailLabel" xml:space="preserve">
-    <value>Soporte por correo electrónico</value>
+    <value>Segély Email</value>
   </data>
   <data name="SyncContactsLabel" xml:space="preserve">
-    <value>Sincronización de los contactos</value>
+    <value>Szinkronizál kapcsolatok</value>
   </data>
   <data name="SyncFbContactLabel" xml:space="preserve">
-    <value>Sincronización de contactos Facebook</value>
+    <value>Szinkronizál Facebook kapcsolatok</value>
   </data>
   <data name="SyncIntervalLabel" xml:space="preserve">
-    <value>Sincronización interna</value>
+    <value>Szinkronizálása a belső</value>
   </data>
   <data name="SyncIntrvlOptionAfter" xml:space="preserve">
-    <value>Después de</value>
+    <value>Után</value>
   </data>
   <data name="SyncIntrvlOptionBefore" xml:space="preserve">
-    <value>Antes de</value>
+    <value>Előtt</value>
   </data>
   <data name="SyncIntrvlOptionDaily" xml:space="preserve">
-    <value>Diario</value>
+    <value>Napi</value>
   </data>
   <data name="SyncIntrvlOptionHour" xml:space="preserve">
-    <value>Horas</value>
+    <value>Óra</value>
   </data>
   <data name="SyncIntrvlOptionManual" xml:space="preserve">
-    <value>Manual</value>
+    <value>Kézikönyv</value>
   </data>
   <data name="SyncIntrvlOptionMin" xml:space="preserve">
-    <value>Minutos</value>
+    <value>Perc</value>
   </data>
   <data name="SyncIntrvlOptionMonthly" xml:space="preserve">
-    <value>Mensual</value>
+    <value>Havi</value>
   </data>
   <data name="SyncIntrvlOptionOnTime" xml:space="preserve">
-    <value>El tiempo</value>
+    <value>Az idő</value>
   </data>
   <data name="SyncIntrvlOptionSec" xml:space="preserve">
-    <value>Segundos</value>
+    <value>Másodperc</value>
   </data>
   <data name="SyncIntrvlOptionWeekly" xml:space="preserve">
-    <value>Semanal</value>
+    <value>Heti</value>
   </data>
   <data name="SyncLocalContactLabel" xml:space="preserve">
-    <value>Sincronización de los contactos locales</value>
+    <value>Szinkronizál helyi kapcsolatok</value>
   </data>
   <data name="SyncNowBtnLabel" xml:space="preserve">
-    <value>Sincronizar ahora</value>
+    <value>Szinkronizálás indítása</value>
   </data>
   <data name="WarnInternetMsg" xml:space="preserve">
-    <value>No se puede conectar a Internet. Por favor, pruebe con una conexión a Internet activa.</value>
+    <value>Nem tud csatlakozni az internethez. Próbálja újra egy működő Internet kapcsolat.</value>
   </data>
   <data name="WarnNwTitle" xml:space="preserve">
-    <value>Error de red</value>
+    <value>Hálózati hiba</value>
   </data>
   <data name="WarnValidHourValue" xml:space="preserve">
-    <value>Por favor, introduzca un valor de hora válida entre 0 y 23</value>
+    <value>Adjon meg egy érvényes óra értéket 0 és 23 közötti</value>
   </data>
   <data name="WarnValidMinValue" xml:space="preserve">
-    <value>Introduzca un valor válido de minutos entre 0 y 59</value>
+    <value>Adjon meg egy érvényes perc értéke 0 és 59 közötti</value>
   </data>
   <data name="WarnValidSecvalue" xml:space="preserve">
-    <value>Por favor, introduzca un valor válido segundos entre 0 y 59</value>
+    <value>Adjon meg egy érvényes másodperc értéket 0 és 59 közötti</value>
   </data>
   <data name="WhenToRemindLabel" xml:space="preserve">
-    <value>Cuando recordamos</value>
+    <value>Mikor kell emlékeztetni</value>
   </data>
   <data name="WishByEmailLabel" xml:space="preserve">
-    <value>Deseo por correo electrónico</value>
+    <value>Kívánja e-mailben</value>
   </data>
   <data name="YesLabel" xml:space="preserve">
-    <value>Sí</value>
+    <value>igen</value>
   </data>
   <data name="YourContactNoLabel" xml:space="preserve">
-    <value>Su número de contacto</value>
+    <value>A telefonszám</value>
   </data>
   <data name="YourEmailLabel" xml:space="preserve">
-    <value>Su correo electrónico</value>
+    <value>Az e-mail</value>
   </data>
   <data name="YourNameLabel" xml:space="preserve">
-    <value>Te llamas</value>
+    <value>a neved</value>
   </data>
   <data name="DeleteLabel" xml:space="preserve">
-    <value>Borrar</value>
+    <value>Törlése</value>
   </data>
   <data name="BirthdayReminderMessage" xml:space="preserve">
-    <value>de cumpleaños hoy. Grifo para enviarle un mensaje</value>
+    <value>barátait ma ünnepli a születésnapját. Érintse meg, hogy küld neki egy üzenetet</value>
   </data>
   <data name="ErrBindingData" xml:space="preserve">
-    <value>Error al obtener datos</value>
+    <value>Hiba történt a megjelenítendő adatok</value>
   </data>
   <data name="ErrRenewBgndTask" xml:space="preserve">
-    <value>Error al renovar agente de fondo</value>
+    <value>Hiba történt, miközben a háttérben ügynök megújításáról</value>
   </data>
   <data name="WarnReEnableBgTask" xml:space="preserve">
-    <value>Agente de fondo se ha deshabilitado para esta aplicación. Por favor, vuelva a activar alertas y notificaciones. Ir a ajustes - aplicaciones - fondo tareas. Seleccione la casilla de verificación Habilitar las tareas secundarias.</value>
+    <value>Háttér ügynök az alkalmazás le van tiltva. Legyen szíves újra lehetővé teszi, hogy a figyelmeztetéseket és értesítéseket. Menj a beállítások - alkalmazások - háttér feladatok. Válassza ki a jelölőnégyzet bejelölésével engedélyezi a háttérben futó feladatot.</value>
   </data>
   <data name="UpdateBdayRemindr" xml:space="preserve">
-    <value>Actualización de recordatorios de cumpleaños</value>
+    <value>Frissítés születésnapi emlékeztető</value>
   </data>
   <data name="LaterThisWkLabel" xml:space="preserve">
-    <value>Más tarde esta semana</value>
+    <value>Később ezen a héten</value>
   </data>
   <data name="TodayLabel" xml:space="preserve">
-    <value>Hoy</value>
+    <value>Ma</value>
   </data>
   <data name="TomorrowLabel" xml:space="preserve">
-    <value>Mañana</value>
+    <value>Holnap</value>
   </data>
   <data name="ErrDeleting" xml:space="preserve">
-    <value>Error durante el borrado</value>
+    <value>Hiba a törlés közben</value>
   </data>
   <data name="ErrSelecting" xml:space="preserve">
-    <value>Error durante la selección</value>
+    <value>Hiba a kiválasztás során</value>
   </data>
   <data name="WarnSelectItem" xml:space="preserve">
-    <value>Por favor, seleccione un elemento y vuelva a intentarlo</value>
+    <value>Jelöljön ki egy elemet, és próbálja újra</value>
   </data>
   <data name="WarnTryAgain" xml:space="preserve">
-    <value>Por favor intentelo nuevamente</value>
+    <value>Legyen szíves megpróbál újra</value>
   </data>
   <data name="BdayCardsPgTitle" xml:space="preserve">
-    <value>tarjetas</value>
+    <value>kártyák</value>
   </data>
   <data name="DeleteConfirmMessage" xml:space="preserve">
-    <value>¿Está seguro que desea eliminar los elementos seleccionados?</value>
+    <value>Biztosan el szeretné távolítani a kijelölt elemeket?</value>
   </data>
   <data name="ErrAddCard" xml:space="preserve">
-    <value>Error agregar tarjeta</value>
+    <value>Hiba hozzáadásával kártya</value>
   </data>
   <data name="ErrAddFriend" xml:space="preserve">
-    <value>Error Agregar amigo</value>
+    <value>Hiba hozzáadásával barátja</value>
   </data>
   <data name="LoadingFbPageMsg" xml:space="preserve">
-    <value>Página de Facebook está consiguiendo cargada</value>
+    <value>Facebook oldal töltődik be</value>
   </data>
   <data name="DownloadImagesTitle" xml:space="preserve">
-    <value>Descargar imágenes de perfil</value>
+    <value>Profil képek letöltése</value>
   </data>
   <data name="DownloadnProfileImgMsg" xml:space="preserve">
-    <value>¿Quieres descargar imágenes de perfil de tus amigos? Después de descargar imágenes, usted será capaz de ver su phtotos en la ficha Inicio. Pero por favor sea paciente mientras este proceso puede tardar unos minutos dependiendo de tu velocidad de conexión a internet. ¿Desea descargar las imágenes ahora?</value>
+    <value>Szeretné letölteni a barátok arcél kép? Letöltés után képeket, lesz képes-hoz lát a phtotos a start csempe. De kérjük, legyen türelemmel, amint ez a folyamat az internetkapcsolat sebességétől függően néhány percet vehet igénybe. Szeretné a képek letöltése?</value>
   </data>
   <data name="SetAsDefaultLabel" xml:space="preserve">
-    <value>Establecer como predeterminado</value>
+    <value>Beállítása alapértelmezettként</value>
   </data>
   <data name="ChooseCardLabel" xml:space="preserve">
-    <value>Elija la tarjeta</value>
+    <value>Válassza ki a kártya</value>
   </data>
   <data name="CardLimitExceedCaption" xml:space="preserve">
-    <value>Ha excedido el límite</value>
+    <value>Túllépte a korlátot</value>
   </data>
   <data name="CardLimitMsg" xml:space="preserve">
-    <value>No pueden agregarse más de 10 tarjetas. Por favor eliminar algunas tarjetas antiguas si desea agregar nuevas tarjetas.</value>
+    <value>Több mint 10 kártyát nem adható hozzá. Legyen szíves töröl néhány régi kártyák, ha Ön akar-hoz összead új kártyákat.</value>
   </data>
   <data name="ConnOpenWarnCaption" xml:space="preserve">
-    <value>Conexión está ocupada</value>
+    <value>Connection Is Busy</value>
   </data>
   <data name="ImageUploadDownloadBusyMsg" xml:space="preserve">
-    <value>Imagen está guardado o borrado. Por favor, espere unos segundos y vuelva a intentarlo.</value>
+    <value>Kép kezd mentve vagy törölve. Kérjük, várjon néhány másodpercet, és próbálkozzon újra.</value>
   </data>
   <data name="AddEditFriendNotAllowed" xml:space="preserve">
-    <value>No se permite agregar a un nuevo amigo o editar los detalles amigo existentes en la versión de prueba de la aplicación. Por favor compre la versión completa para utilizar esta función y desbloquear muchas otras características.</value>
+    <value>Egy új barát hozzáadása vagy szerkesztése a meglévő barátom részleteket nem tartózkodhatnak az alkalmazás próbaverzióját. Kérjük vásárolni a teli változat-hoz használ ez vonás, és kinyit sok más lehetőséggel.</value>
   </data>
   <data name="BuyAppForCard" xml:space="preserve">
-    <value>La versión de prueba de la aplicación sólo permite hasta 5 tarjetas. Por favor compre la versión completa para ahorrar más tarjetas y desbloquear un montón de otras características.</value>
+    <value>A próba-változat-a kérelem csak lehetővé teszi, hogy akár 5 lapot. Kérjük vásárolni a teljes verziót, annak érdekében, hogy mentse több kártyát, és kinyit sok más jellegét meghatározza.</value>
   </data>
   <data name="BuyFullVersion" xml:space="preserve">
-    <value>Comprar la versión completa</value>
+    <value>Vásárolni a teli változat</value>
   </data>
   <data name="BuyLabel" xml:space="preserve">
-    <value>Comprar</value>
+    <value>Vásárlás</value>
   </data>
   <data name="DeletingCardsNotAllowed" xml:space="preserve">
-    <value>No está permitido eliminar las tarjetas en la versión de prueba de la aplicación. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>Lapok törlése nem engedélyezett az alkalmazás próbaverzióját. Kérjük vásárolni a teljes verziót használja ezt a funkciót, és kinyit sok más jellegét meghatározza.</value>
   </data>
   <data name="NotAllowedLabel" xml:space="preserve">
-    <value>No está permitido</value>
+    <value>Nem engedélyezett</value>
   </data>
   <data name="Only100CardsMessage" xml:space="preserve">
-    <value>La aplicación permite para ahorrar ahora sólo 100 tarjetas. Por favor eliminar algunas tarjetas antiguas para salvar a otros nuevos.</value>
+    <value>Az alkalmazás lehetővé teszi, hogy mentse 100 kártyák most. Legyen szíves töröl néhány régi kártyák újak mentéséhez.</value>
   </data>
   <data name="SyncFeatureNotAllowed" xml:space="preserve">
-    <value>Esta característica no está permitida en la versión de prueba de la aplicación. Por favor compre la versión completa de la aplicación para utilizar esta función y desbloquear muchas otras características.</value>
+    <value>Ez a funkció nem használható az alkalmazás próbaverzióját. Kérjük vásárolni a teljes verziót, az alkalmazás-hoz használ ez vonás, és kinyit sok más lehetőséggel.</value>
   </data>
   <data name="BuyAppForAddFriend" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite agregar o editar información de amigo. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>A próba-változat alkalmazása nem teszi lehetővé, hozzáadása vagy szerkesztése a barátom részletek. Kérjük vásárolni a teljes verziót használja ezt a funkciót, és kinyit sok más jellegét meghatározza.</value>
   </data>
   <data name="BuyAppForDelete" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite el borrado de artículos. Por favor compre la versión completa para eliminar elementos y desbloquear un montón de otras características.</value>
+    <value>A próba-változat-a kérelem nem teszi lehetővé az elemek törlését. Kérjük vásárolni a teljes verziót, hogy törli az elemet, és kinyit sok más jellegét meghatározza.</value>
   </data>
   <data name="BuyAppGenericMessage" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite esta función. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>A próba-változat alkalmazása nem teszi lehetővé ezt a funkciót. Kérjük vásárolni a teljes verziót használja ezt a funkciót, és kinyit sok más jellegét meghatározza.</value>
   </data>
   <data name="BuyAppSaveSettings" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite el cambio de configuración. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>A próba-változat alkalmazása nem teszi lehetővé a beállítások módosítása. Kérjük vásárolni a teljes verziót használja ezt a funkciót, és kinyit sok más jellegét meghatározza.</value>
   </data>
   <data name="BuyAppForAllFriends" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite más de 100 amigos para salvarse. Se han salvado sólo 100 amigos en facebook. Por favor compre la versión completa para salvar a todos los amigos de facebook y desbloquear un montón de otras características. Después de que usted compra la versión completa, por favor, sincronizar la lista de amigos por ir a la configuración con el fin de descargar a todos amigos.</value>
+    <value>A próba-változat alkalmazása nem teszi lehetővé a több, mint 100 meg kell menteni. Csak 100 facebook barátok mentette. Kérjük vásárolni a teljes verziót részére megtakarító minden facebook barátok, és kinyit sok más jellegét meghatározza. A teljes verzió megvásárlása után kérjük szinkronizálja az ismerősök listáján szereplő barátjának menni a beállítások letöltéséhez minden meg.</value>
   </data>
   <data name="DaysLabel" xml:space="preserve">
-    <value>Días</value>
+    <value>Nap</value>
   </data>
 </root>

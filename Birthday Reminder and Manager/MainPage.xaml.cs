@@ -67,9 +67,9 @@ namespace BirthdayReminder
 
 
                 //Launch the agent for test in debug mode only
-                #if DEBUG
-                                ScheduledActionService.LaunchForTest(BirthdayAppInfo.BackgroundAgentName, TimeSpan.FromSeconds(20));
-                #endif
+                //#if DEBUG
+                //                ScheduledActionService.LaunchForTest(BirthdayAppInfo.BackgroundAgentName, TimeSpan.FromSeconds(20));
+                //#endif
 
 
                 BindDataContext();
@@ -170,15 +170,15 @@ namespace BirthdayReminder
                         if (BirthdayCardList != null && BirthdayCardList.SelectedItems != null && BirthdayCardList.SelectedItems.Count > 0)
                         {
                             var service = new AzureStorageService(Services.AzureConnectionString, App.UserPreferences.UserDetails.FacebookId);
-                            var items = BirthdayCardList.SelectedItems as List<CardEntity>;
+                            var items = BirthdayCardList.SelectedItems;
                             var deletedCards = new List<int>();
 
                             if (items != null)
                             {
-                                foreach (var card in items)
+                                foreach (var cardEntity in items.Cast<CardEntity>())
                                 {
-                                    service.DeleteBlob(card.Url);
-                                    deletedCards.Add(card.Id);
+                                    service.DeleteBlob(Path.GetFileName(cardEntity.Url));
+                                    deletedCards.Add(cardEntity.Id);
                                 }
                             }
 
@@ -350,7 +350,7 @@ namespace BirthdayReminder
                 }
                 else if (e.ChosenPhoto != null)
                 {
-                    AddCard(e.ChosenPhoto);
+                    AddCard(e.ChosenPhoto, Path.GetFileName(e.OriginalFileName));
                 }
             }
             catch (Exception ex)
@@ -363,29 +363,30 @@ namespace BirthdayReminder
         /// Add a new birthday card
         /// </summary>
         /// <returns>Guid of the new card</returns>
-        private void AddCard(Stream imgStream)
+        private void AddCard(Stream imgStream, string fileName)
         {
-            var newCardId = BirthdayUtility.AddBirthdayCard();
+            var userId = App.UserPreferences.UserDetails.FacebookId;
 
-            UploadImageToServer(App.UserPreferences.UserDetails.FacebookId, newCardId, (FileStream)imgStream);
+            UploadImageToServer(userId, fileName, (FileStream)imgStream);
         }
 
-        private async void UploadImageToServer(String userId, int fileId, FileStream imageStream)
+        private async void UploadImageToServer(String userId, String fileName, FileStream imageStream)
         {
             try
             {
                 var service = new AzureStorageService(Services.AzureConnectionString, userId);
-                var status = await service.SaveFileToBlob(fileId + ".jpg", imageStream);
+                var status = await service.SaveFileToBlob(fileName, imageStream);
 
                 if (status.IsSuccess)
                 {
+                    var url = Services.CardBaseUrl + userId + "/" + fileName;
+                    var newCard = new CardEntity { Url = url };
+                    BirthdayUtility.AddBirthdayCard(newCard);
+
                     var birthdays = DataContext as Birthdays;
 
-                    BirthdayUtility.UpdateUrlInCard(fileId, status.IdentifierData);
-
                     if (birthdays != null)
-                        birthdays.BirthdayCards.Add(new CardEntity { Id = fileId, Url = status.IdentifierData });
-                    
+                        birthdays.BirthdayCards.Add(newCard);
                 }
                 else
                 {
@@ -482,6 +483,7 @@ namespace BirthdayReminder
                 birthday.TimeToEventText = birthday.TimeToEventText.Replace(Labels.TodayLabel, AppResources.TodayLabel);
                 birthday.TimeToEventText = birthday.TimeToEventText.Replace(Labels.TomorrowLabel, AppResources.TomorrowLabel);
                 birthday.TimeToEventText = birthday.TimeToEventText.Replace(Labels.LaterThisWkLabel, AppResources.LaterThisWkLabel);
+                birthday.TimeToEventText = birthday.TimeToEventText.Replace(Labels.DaysLabel, AppResources.DaysLabel);
             }
         }
 
@@ -496,7 +498,7 @@ namespace BirthdayReminder
                     var card = menuItem.DataContext as CardEntity;
                     if (card != null) App.UserPreferences.BirthdayWish.CustomPicUrl = card.Url;
                 }
-                SettingsUtility.updateUserSettings(App.UserPreferences);
+                SettingsUtility.UpdateUserSettings(App.UserPreferences);
             }
             catch (Exception ex)
             {

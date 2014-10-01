@@ -17,457 +17,457 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>es</value>
+    <value>ms</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>Recordatorio de cumpleaños</value>
+    <value>Peringatan hari lahir</value>
   </data>
   <data name="DownloadingFbContact" xml:space="preserve">
-    <value>Contactos de Facebook están consiguiendo descargar</value>
+    <value>Kenalan Facebook mendapat dimuat turun</value>
   </data>
   <data name="CreateBdayReminder" xml:space="preserve">
-    <value>Se elaboran recordatorios de cumpleaños</value>
+    <value>Peringatan hari lahir mendapat dicipta</value>
   </data>
   <data name="ErrBuildBdayList" xml:space="preserve">
-    <value>Lista de cumpleaños error Building</value>
+    <value>Senarai hari jadi bangunan ralat</value>
   </data>
   <data name="ErrSaveBday" xml:space="preserve">
-    <value>Error al guardar los cumpleaños</value>
+    <value>Ralat Menyimpan hari lahir</value>
   </data>
   <data name="ErrSaveBdayNContact" xml:space="preserve">
-    <value>Error al guardar los cumpleaños y contactos</value>
+    <value>Ralat Menyimpan hari lahir dan kenalan</value>
   </data>
   <data name="FbLoginFailedText" xml:space="preserve">
-    <value>Iniciar sesión en facebook fallado</value>
+    <value>Log masuk ke facebook yang gagal</value>
   </data>
   <data name="FbLoginFailedTitle" xml:space="preserve">
-    <value>Login Failed</value>
+    <value>Log masuk gagal</value>
   </data>
   <data name="FrndDtlsTitle" xml:space="preserve">
-    <value>Detalles de amigo</value>
+    <value>Butir-butir rakan</value>
   </data>
   <data name="RetrieveLocalContact" xml:space="preserve">
-    <value>Recuperar los datos de contacto locales</value>
+    <value>Mendapatkan semula maklumat tempatan</value>
   </data>
   <data name="RetrievingFbFriend" xml:space="preserve">
-    <value>Recuperar datos de Facebook amigo</value>
+    <value>Mendapatkan maklumat rakan Facebook</value>
   </data>
   <data name="SaveBdays" xml:space="preserve">
-    <value>Cumpleaños de ahorro</value>
+    <value>Penjimatan hari lahir</value>
   </data>
   <data name="AddLabel" xml:space="preserve">
-    <value>Añadir</value>
+    <value>Tambah</value>
   </data>
   <data name="BirthdayLabel" xml:space="preserve">
-    <value>Cumpleaños</value>
+    <value>Hari Keputeraan</value>
   </data>
   <data name="BirthdayMessage" xml:space="preserve">
-    <value>Muchas felicidades del día:). ¡¡Feliz cumpleaños!!</value>
+    <value>Ramai ramai yang gembira pulangan hari:). selamat hari jadi!!</value>
   </data>
   <data name="BirthdayOnLabel" xml:space="preserve">
-    <value>Cumpleaños en</value>
+    <value>Hari Keputeraan pada</value>
   </data>
   <data name="CallLabel" xml:space="preserve">
-    <value>Llamada</value>
+    <value>Panggilan</value>
   </data>
   <data name="ContactNoLabel" xml:space="preserve">
-    <value>Número de contacto</value>
+    <value>Nombor untuk dihubungi</value>
   </data>
   <data name="EmailLabel" xml:space="preserve">
-    <value>Correo electrónico</value>
+    <value>E-mel</value>
   </data>
   <data name="ErrDisplaSaveBtn" xml:space="preserve">
-    <value>Error Mostrar botón guardar</value>
+    <value>Ralat memaparkan butang Simpan</value>
   </data>
   <data name="ErrOnNavigation" xml:space="preserve">
-    <value>Error en la navegación</value>
+    <value>Ralat navigasi</value>
   </data>
   <data name="ErrPostingToWall" xml:space="preserve">
-    <value>Error publicar en el muro de Facebook</value>
+    <value>Ralat menyiarkan di dinding Facebook</value>
   </data>
   <data name="ErrSavingFrndDtls" xml:space="preserve">
-    <value>Error al guardar los datos amigo</value>
+    <value>Ralat Menyimpan butir-butir rakan</value>
   </data>
   <data name="ErrSendingMessage" xml:space="preserve">
-    <value>Enviar mensaje</value>
+    <value>Ralat menghantar mesej</value>
   </data>
   <data name="FrndDtlsPgTitlle" xml:space="preserve">
-    <value>Detalles de amigo</value>
+    <value>Butir-butir rakan</value>
   </data>
   <data name="FrndDtlsUpdated" xml:space="preserve">
-    <value>Se ha actualizado la información del amigo existente</value>
+    <value>Butir-butir rakan sedia ada telah dikemaskini</value>
   </data>
   <data name="FrndDtlsUpdatedTitle" xml:space="preserve">
-    <value>Amigo actualizó</value>
+    <value>Butir-butir rakan yang dikemaskini</value>
   </data>
   <data name="MainPageAllTitle" xml:space="preserve">
-    <value>todos</value>
+    <value>Semua</value>
   </data>
   <data name="MainPageMostRcntTitle" xml:space="preserve">
-    <value>recientes</value>
+    <value>semalam</value>
   </data>
   <data name="MainPageTtitle" xml:space="preserve">
-    <value>Cumpleaños</value>
+    <value>Hari lahir</value>
   </data>
   <data name="MessageLabel" xml:space="preserve">
-    <value>Mensaje</value>
+    <value>Mesej</value>
   </data>
   <data name="NameLabel" xml:space="preserve">
-    <value>Nombre</value>
+    <value>Nama</value>
   </data>
   <data name="NewFrndAddedTitle" xml:space="preserve">
-    <value>Se ha añadido nuevo amigo</value>
+    <value>Rakan baru telah ditambah</value>
   </data>
   <data name="NewFrndCreatedMsg" xml:space="preserve">
-    <value>Se ha añadido correctamente un nuevo amigo con los detalles</value>
+    <value>Seorang rakan yang baru dengan butir-butir telah berjaya ditambah</value>
   </data>
   <data name="NotKnownLabel" xml:space="preserve">
-    <value>No se conoce</value>
+    <value>Tidak dikenali</value>
   </data>
   <data name="PostToWall" xml:space="preserve">
-    <value>Poste a la pared</value>
+    <value>Pos ke dinding</value>
   </data>
   <data name="SaveLabel" xml:space="preserve">
-    <value>Salvar</value>
+    <value>Simpan</value>
   </data>
   <data name="SavingFrndDtls" xml:space="preserve">
-    <value>Ahorro detalles de amigo</value>
+    <value>Menyimpan butir-butir rakan</value>
   </data>
   <data name="SendAutoEmailLabel" xml:space="preserve">
-    <value>Enviar correo electrónico automático</value>
+    <value>Menghantar e-mel Auto</value>
   </data>
   <data name="SettingsLabel" xml:space="preserve">
-    <value>Configuración</value>
+    <value>Seting</value>
   </data>
   <data name="WarnDtlsReq" xml:space="preserve">
-    <value>Detalles requeridos</value>
+    <value>Butir-butir yang dikehendaki</value>
   </data>
   <data name="WarnNameBdayCompulsory" xml:space="preserve">
-    <value>Nombre y cumpleaños son obligatorios</value>
+    <value>Nama dan tarikh lahir adalah wajib</value>
   </data>
   <data name="AboutTitle" xml:space="preserve">
-    <value>acerca de</value>
+    <value>kira-kira</value>
   </data>
   <data name="BdayMsgLabel" xml:space="preserve">
-    <value>Mensaje de cumpleaños</value>
+    <value>Mesej hari lahir</value>
   </data>
   <data name="BdayReminderSettingsTitle" xml:space="preserve">
-    <value>CONFIGURACIÓN DE RECORDATORIO DE CUMPLEAÑOS</value>
+    <value>SETING PERINGATAN HARI LAHIR</value>
   </data>
   <data name="BdaySetupMessage" xml:space="preserve">
-    <value>No tienes ningún contacto guardado actualmente. ¿Te gustaría descargar tus contactos de facebook?</value>
+    <value>Anda tidak mempunyai mana-mana kenalan yang disimpan pada masa ini. Adakah anda ingin memuat turun kenalan facebook anda?</value>
   </data>
   <data name="BdaySetupTitle" xml:space="preserve">
-    <value>Configuración de cumpleaños</value>
+    <value>Persediaan hari lahir</value>
   </data>
   <data name="BirthdayWishTitle" xml:space="preserve">
-    <value>deseos</value>
+    <value>Hajat</value>
   </data>
   <data name="ContactNotUpdatedMessage" xml:space="preserve">
-    <value>Tus contactos no han sido sincronizados en un tiempo. ¿Quieres actualizarlos ahora?</value>
+    <value>Kenalan anda telah tidak diselaras dalam seketika. Adakah anda mahu mengemas kini sekarang?</value>
   </data>
   <data name="ContactsTitle" xml:space="preserve">
-    <value>contactos</value>
+    <value>orang hubungan</value>
   </data>
   <data name="ContactSyncRedirectMsg" xml:space="preserve">
-    <value>Ahora sería sincronizar sus contactos y se le redireccionará a la pantalla de sincronización de contacto. ¿Desea sincronizar tus contactos ahora?</value>
+    <value>Kenalan anda sekarang akan diselaras dan anda akan diarahkan ke skrin penyegerakan kenalan. Adakah anda mahu segerakkan orang hubungan anda sekarang?</value>
   </data>
   <data name="ErrAppBarDisplay" xml:space="preserve">
-    <value>Error Mostrar barra de aplicación</value>
+    <value>Ralat memaparkan Bar aplikasi</value>
   </data>
   <data name="ErrAppBarLoad" xml:space="preserve">
-    <value>Error de carga de la aplicación Bar</value>
+    <value>Ralat memuatkan aplikasi Bar</value>
   </data>
   <data name="ErrAppInitialise" xml:space="preserve">
-    <value>Error durante la comprobación de la puesta en marcha. Algunas de las funcionalidades pueden no funcionar.</value>
+    <value>Ralat semasa permulaan Daftar. Di antara fungsi tersebut mungkin tidak berfungsi.</value>
   </data>
   <data name="ErrFbLogin" xml:space="preserve">
-    <value>Error iniciar sesión en Facebook</value>
+    <value>Kesalahan login ke Facebook</value>
   </data>
   <data name="ErrFbLogout" xml:space="preserve">
-    <value>Error de registro fuera de Facebook</value>
+    <value>Ralat log keluar dari Facebook</value>
   </data>
   <data name="ErrInitialiseTitle" xml:space="preserve">
-    <value>Error durante el inicio</value>
+    <value>Ralat semasa permulaan</value>
   </data>
   <data name="ErrLoadSyncScreen" xml:space="preserve">
-    <value>Pantalla de error carga Sync</value>
+    <value>Ralat memuatkan segerak skrin</value>
   </data>
   <data name="ErrNavigatingSettings" xml:space="preserve">
-    <value>Error mientras navega a Settings</value>
+    <value>Ralat semasa menavigasi ke seting</value>
   </data>
   <data name="ErrOpeningApp" xml:space="preserve">
-    <value>Solicitud de apertura de error</value>
+    <value>Ralat membuka permohonan</value>
   </data>
   <data name="ErrSaveSettings" xml:space="preserve">
-    <value>Error al guardar la configuración</value>
+    <value>Ralat menyimpan seting</value>
   </data>
   <data name="ErrSendingEmail" xml:space="preserve">
-    <value>Error enviando correo electrónico</value>
+    <value>Ralat menghantar e-mel</value>
   </data>
   <data name="HappyBdayMessage" xml:space="preserve">
-    <value>Feliz cumpleaños</value>
+    <value>selamat hari jadi</value>
   </data>
   <data name="LastSyncedLabel" xml:space="preserve">
-    <value>Última sincronizado</value>
+    <value>Buat disegerakkan</value>
   </data>
   <data name="LaterLabel" xml:space="preserve">
-    <value>Más tarde</value>
+    <value>Kemudian</value>
   </data>
   <data name="LoadingSettingsLabel" xml:space="preserve">
-    <value>Carga la configuración</value>
+    <value>Memuatkan seting anda</value>
   </data>
   <data name="LoginFbBtnnLabel" xml:space="preserve">
-    <value>Iniciar sesión en Facebook</value>
+    <value>Log masuk ke Facebook</value>
   </data>
   <data name="LogoutFbBtnLabel" xml:space="preserve">
-    <value>Cerrar sesión en Facebook</value>
+    <value>Log keluar dari Facebook</value>
   </data>
   <data name="MsgPostedFb" xml:space="preserve">
-    <value>Su mensaje ha sido contabilizado</value>
+    <value>Mesej anda telah dihantar</value>
   </data>
   <data name="PictureLabel" xml:space="preserve">
-    <value>Foto</value>
+    <value>Gambar</value>
   </data>
   <data name="ProfileTitle" xml:space="preserve">
-    <value>Perfil</value>
+    <value>Profil</value>
   </data>
   <data name="RateAppBtnLabel" xml:space="preserve">
-    <value>Esta aplicación la tarifa</value>
+    <value>Kadar aplikasi ini</value>
   </data>
   <data name="RateAppText" xml:space="preserve">
-    <value>Si te gusta nuestra aplicación e hizo la vida más fácil, por favor tarifa/comprarlo!</value>
+    <value>Jika anda suka aplikasi kami dan ia menjadikan hidup anda lebih mudah, sila kadar/beli ia!</value>
   </data>
   <data name="RemindByEmailLabel" xml:space="preserve">
-    <value>Recordar por correo electrónico</value>
+    <value>Mengingatkan melalui e-mel</value>
   </data>
   <data name="ReminderTitle" xml:space="preserve">
-    <value>recordatorio</value>
+    <value>Peringatan</value>
   </data>
   <data name="ReminderUpdatedTitle" xml:space="preserve">
-    <value>Recordatorios actualizados</value>
+    <value>Peringatan yang dikemaskini</value>
   </data>
   <data name="ReminderUpdateSuccess" xml:space="preserve">
-    <value>Actualizados correctamente recordatorios de cumpleaños</value>
+    <value>Berjaya dikemaskini peringatan untuk hari lahir</value>
   </data>
   <data name="SendEmailText" xml:space="preserve">
-    <value>Si usted está experimentando problemas o tienes cualquier sugerencia o solicitudes, por favor no dude en contactar con nosotros!</value>
+    <value>Jika anda mengalami sebarang isu atau anda mempunyai sebarang cadangan/permintaan, sila hubungi kami!</value>
   </data>
   <data name="SendPicLabel" xml:space="preserve">
-    <value>Enviar fotos</value>
+    <value>Hantar gambar</value>
   </data>
   <data name="SendUsEmailBtnLabel" xml:space="preserve">
-    <value>Envíenos un correo electrónico</value>
+    <value>Hantarkan e-mel</value>
   </data>
   <data name="SettingsSavedLabel" xml:space="preserve">
-    <value>Ajustes guardados</value>
+    <value>Seting yang disimpan</value>
   </data>
   <data name="SettingsUpdateSuccessMsg" xml:space="preserve">
-    <value>Ajustes han sido actualizados exitosamente</value>
+    <value>Tetapan telah dikemaskini berjaya</value>
   </data>
   <data name="ShowNotifLabel" xml:space="preserve">
-    <value>Mostrar notificaciones</value>
+    <value>Tayang pemberitahuan</value>
   </data>
   <data name="SupportEmailLabel" xml:space="preserve">
-    <value>Soporte por correo electrónico</value>
+    <value>E-mel sokongan</value>
   </data>
   <data name="SyncContactsLabel" xml:space="preserve">
-    <value>Sincronización de los contactos</value>
+    <value>Penyegerakan kenalan</value>
   </data>
   <data name="SyncFbContactLabel" xml:space="preserve">
-    <value>Sincronización de contactos Facebook</value>
+    <value>Penyegerakan kenalan Facebook</value>
   </data>
   <data name="SyncIntervalLabel" xml:space="preserve">
-    <value>Sincronización interna</value>
+    <value>Segerak dalaman</value>
   </data>
   <data name="SyncIntrvlOptionAfter" xml:space="preserve">
-    <value>Después de</value>
+    <value>Selepas</value>
   </data>
   <data name="SyncIntrvlOptionBefore" xml:space="preserve">
-    <value>Antes de</value>
+    <value>Sebelum</value>
   </data>
   <data name="SyncIntrvlOptionDaily" xml:space="preserve">
-    <value>Diario</value>
+    <value>Harian</value>
   </data>
   <data name="SyncIntrvlOptionHour" xml:space="preserve">
-    <value>Horas</value>
+    <value>Jam</value>
   </data>
   <data name="SyncIntrvlOptionManual" xml:space="preserve">
     <value>Manual</value>
   </data>
   <data name="SyncIntrvlOptionMin" xml:space="preserve">
-    <value>Minutos</value>
+    <value>Minit</value>
   </data>
   <data name="SyncIntrvlOptionMonthly" xml:space="preserve">
-    <value>Mensual</value>
+    <value>Bulanan</value>
   </data>
   <data name="SyncIntrvlOptionOnTime" xml:space="preserve">
-    <value>El tiempo</value>
+    <value>Pada masa yang ditetapkan</value>
   </data>
   <data name="SyncIntrvlOptionSec" xml:space="preserve">
-    <value>Segundos</value>
+    <value>Saat</value>
   </data>
   <data name="SyncIntrvlOptionWeekly" xml:space="preserve">
-    <value>Semanal</value>
+    <value>Mingguan</value>
   </data>
   <data name="SyncLocalContactLabel" xml:space="preserve">
-    <value>Sincronización de los contactos locales</value>
+    <value>Penyegerakan kenalan tempatan</value>
   </data>
   <data name="SyncNowBtnLabel" xml:space="preserve">
-    <value>Sincronizar ahora</value>
+    <value>Segerak sekarang</value>
   </data>
   <data name="WarnInternetMsg" xml:space="preserve">
-    <value>No se puede conectar a Internet. Por favor, pruebe con una conexión a Internet activa.</value>
+    <value>Tidak dapat menyambung ke Internet. Sila cuba sekali lagi dengan sambungan Internet yang berfungsi.</value>
   </data>
   <data name="WarnNwTitle" xml:space="preserve">
-    <value>Error de red</value>
+    <value>Ralat rangkaian</value>
   </data>
   <data name="WarnValidHourValue" xml:space="preserve">
-    <value>Por favor, introduzca un valor de hora válida entre 0 y 23</value>
+    <value>Sila masukkan nilai sah jam antara 0 dan 23</value>
   </data>
   <data name="WarnValidMinValue" xml:space="preserve">
-    <value>Introduzca un valor válido de minutos entre 0 y 59</value>
+    <value>Sila masukkan nilai minit yang sah antara 0 dan 59</value>
   </data>
   <data name="WarnValidSecvalue" xml:space="preserve">
-    <value>Por favor, introduzca un valor válido segundos entre 0 y 59</value>
+    <value>Sila masukkan nilai saat sah antara 0 dan 59</value>
   </data>
   <data name="WhenToRemindLabel" xml:space="preserve">
-    <value>Cuando recordamos</value>
+    <value>Apabila mengingatkan</value>
   </data>
   <data name="WishByEmailLabel" xml:space="preserve">
-    <value>Deseo por correo electrónico</value>
+    <value>Ingin melalui e-mel</value>
   </data>
   <data name="YesLabel" xml:space="preserve">
-    <value>Sí</value>
+    <value>Ya</value>
   </data>
   <data name="YourContactNoLabel" xml:space="preserve">
-    <value>Su número de contacto</value>
+    <value>Nombor telefon anda</value>
   </data>
   <data name="YourEmailLabel" xml:space="preserve">
-    <value>Su correo electrónico</value>
+    <value>E-mel anda</value>
   </data>
   <data name="YourNameLabel" xml:space="preserve">
-    <value>Te llamas</value>
+    <value>nama awak</value>
   </data>
   <data name="DeleteLabel" xml:space="preserve">
-    <value>Borrar</value>
+    <value>Menghapuskan</value>
   </data>
   <data name="BirthdayReminderMessage" xml:space="preserve">
-    <value>de cumpleaños hoy. Grifo para enviarle un mensaje</value>
+    <value>di hari jadi semalam. Ketuk untuk menghantar dia mesej</value>
   </data>
   <data name="ErrBindingData" xml:space="preserve">
-    <value>Error al obtener datos</value>
+    <value>Ralat mendapatkan data untuk dipaparkan</value>
   </data>
   <data name="ErrRenewBgndTask" xml:space="preserve">
-    <value>Error al renovar agente de fondo</value>
+    <value>Ralat semasa memperbaharui latar belakang agen</value>
   </data>
   <data name="WarnReEnableBgTask" xml:space="preserve">
-    <value>Agente de fondo se ha deshabilitado para esta aplicación. Por favor, vuelva a activar alertas y notificaciones. Ir a ajustes - aplicaciones - fondo tareas. Seleccione la casilla de verificación Habilitar las tareas secundarias.</value>
+    <value>Latar belakang agen telah dinyahdaya bagi aplikasi ini. Sila mendayakan semula untuk mendapatkan makluman dan pemberitahuan. Pergi ke seting - permohonan - latar belakang tugas. Pilih kotak semak untuk membolehkan tugas-tugas latar belakang.</value>
   </data>
   <data name="UpdateBdayRemindr" xml:space="preserve">
-    <value>Actualización de recordatorios de cumpleaños</value>
+    <value>Kemaskini tarikh lahir peringatan</value>
   </data>
   <data name="LaterThisWkLabel" xml:space="preserve">
-    <value>Más tarde esta semana</value>
+    <value>Kemudian minggu ini</value>
   </data>
   <data name="TodayLabel" xml:space="preserve">
-    <value>Hoy</value>
+    <value>Hari ini</value>
   </data>
   <data name="TomorrowLabel" xml:space="preserve">
-    <value>Mañana</value>
+    <value>Esok</value>
   </data>
   <data name="ErrDeleting" xml:space="preserve">
-    <value>Error durante el borrado</value>
+    <value>Ralat semasa pemotongan</value>
   </data>
   <data name="ErrSelecting" xml:space="preserve">
-    <value>Error durante la selección</value>
+    <value>Ralat semasa pemilihan</value>
   </data>
   <data name="WarnSelectItem" xml:space="preserve">
-    <value>Por favor, seleccione un elemento y vuelva a intentarlo</value>
+    <value>Sila pilih item dan cuba lagi</value>
   </data>
   <data name="WarnTryAgain" xml:space="preserve">
-    <value>Por favor intentelo nuevamente</value>
+    <value>Sila cuba lagi</value>
   </data>
   <data name="BdayCardsPgTitle" xml:space="preserve">
-    <value>tarjetas</value>
+    <value>Kad-kad</value>
   </data>
   <data name="DeleteConfirmMessage" xml:space="preserve">
-    <value>¿Está seguro que desea eliminar los elementos seleccionados?</value>
+    <value>Adakah anda pasti anda mahu mengalih keluar item terpilih?</value>
   </data>
   <data name="ErrAddCard" xml:space="preserve">
-    <value>Error agregar tarjeta</value>
+    <value>Ralat menambah kad</value>
   </data>
   <data name="ErrAddFriend" xml:space="preserve">
-    <value>Error Agregar amigo</value>
+    <value>Ralat menambah rakan</value>
   </data>
   <data name="LoadingFbPageMsg" xml:space="preserve">
-    <value>Página de Facebook está consiguiendo cargada</value>
+    <value>Laman Facebook untuk dimuatkan</value>
   </data>
   <data name="DownloadImagesTitle" xml:space="preserve">
-    <value>Descargar imágenes de perfil</value>
+    <value>Muat turun imej profil</value>
   </data>
   <data name="DownloadnProfileImgMsg" xml:space="preserve">
-    <value>¿Quieres descargar imágenes de perfil de tus amigos? Después de descargar imágenes, usted será capaz de ver su phtotos en la ficha Inicio. Pero por favor sea paciente mientras este proceso puede tardar unos minutos dependiendo de tu velocidad de conexión a internet. ¿Desea descargar las imágenes ahora?</value>
+    <value>Adakah anda mahu memuat turun imej profil rakan-rakan anda? Selepas memuat turun imej, anda akan dapat melihat phtotos mereka dalam jubin bermula. Tetapi harap bersabar kerana proses ini mungkin mengambil beberapa minit bergantung kepada kelajuan sambungan internet anda. Adakah anda mahu memuat turun imej sekarang?</value>
   </data>
   <data name="SetAsDefaultLabel" xml:space="preserve">
-    <value>Establecer como predeterminado</value>
+    <value>Set sebagai lalai</value>
   </data>
   <data name="ChooseCardLabel" xml:space="preserve">
-    <value>Elija la tarjeta</value>
+    <value>Pilih Kad</value>
   </data>
   <data name="CardLimitExceedCaption" xml:space="preserve">
-    <value>Ha excedido el límite</value>
+    <value>Had telah melebihi</value>
   </data>
   <data name="CardLimitMsg" xml:space="preserve">
-    <value>No pueden agregarse más de 10 tarjetas. Por favor eliminar algunas tarjetas antiguas si desea agregar nuevas tarjetas.</value>
+    <value>Lebih daripada 10 Kad tidak boleh ditambah. Sila Hapus sesetengah kad lama jika anda ingin menambah kad baru.</value>
   </data>
   <data name="ConnOpenWarnCaption" xml:space="preserve">
-    <value>Conexión está ocupada</value>
+    <value>Sambungan sedang sibuk</value>
   </data>
   <data name="ImageUploadDownloadBusyMsg" xml:space="preserve">
-    <value>Imagen está guardado o borrado. Por favor, espere unos segundos y vuelva a intentarlo.</value>
+    <value>Imej semakin disimpan atau dihapuskan. Sila tunggu beberapa minit dan cuba lagi.</value>
   </data>
   <data name="AddEditFriendNotAllowed" xml:space="preserve">
-    <value>No se permite agregar a un nuevo amigo o editar los detalles amigo existentes en la versión de prueba de la aplicación. Por favor compre la versión completa para utilizar esta función y desbloquear muchas otras características.</value>
+    <value>Menambah rakan baru atau mengedit maklumat rakan yang sedia ada tidak dibenarkan dalam versi percubaan permohonan. Sila beli versi penuh untuk menggunakan ciri ini dan membuka banyak ciri-ciri lain.</value>
   </data>
   <data name="BuyAppForCard" xml:space="preserve">
-    <value>La versión de prueba de la aplicación sólo permite hasta 5 tarjetas. Por favor compre la versión completa para ahorrar más tarjetas y desbloquear un montón de otras características.</value>
+    <value>Versi percubaan permohonan hanya membenarkan Kad sehingga 5. Sila beli versi penuh untuk menyelamatkan lebih banyak Kad dan untuk membuka banyak ciri-ciri lain.</value>
   </data>
   <data name="BuyFullVersion" xml:space="preserve">
-    <value>Comprar la versión completa</value>
+    <value>Membeli versi penuh</value>
   </data>
   <data name="BuyLabel" xml:space="preserve">
-    <value>Comprar</value>
+    <value>Membeli</value>
   </data>
   <data name="DeletingCardsNotAllowed" xml:space="preserve">
-    <value>No está permitido eliminar las tarjetas en la versión de prueba de la aplicación. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>Menghapuskan Kad tidak dibenarkan dalam versi percubaan permohonan. Sila beli versi penuh untuk menggunakan ciri ini dan untuk membuka banyak ciri-ciri lain.</value>
   </data>
   <data name="NotAllowedLabel" xml:space="preserve">
-    <value>No está permitido</value>
+    <value>Tidak dibenarkan</value>
   </data>
   <data name="Only100CardsMessage" xml:space="preserve">
-    <value>La aplicación permite para ahorrar ahora sólo 100 tarjetas. Por favor eliminar algunas tarjetas antiguas para salvar a otros nuevos.</value>
+    <value>Aplikasi yang membolehkan untuk menyelamatkan Kad hanya 100 sekarang. Sila Hapus sesetengah kad lama untuk menyelamatkan orang-orang yang baru.</value>
   </data>
   <data name="SyncFeatureNotAllowed" xml:space="preserve">
-    <value>Esta característica no está permitida en la versión de prueba de la aplicación. Por favor compre la versión completa de la aplicación para utilizar esta función y desbloquear muchas otras características.</value>
+    <value>Ciri-ciri ini tidak dibenarkan dalam versi percubaan permohonan. Sila beli versi penuh permohonan untuk menggunakan ciri ini dan untuk membuka banyak ciri-ciri lain.</value>
   </data>
   <data name="BuyAppForAddFriend" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite agregar o editar información de amigo. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>Versi percubaan permohonan tidak membenarkan menambah atau menyunting maklumat rakan. Sila beli versi penuh untuk menggunakan ciri ini dan untuk membuka banyak ciri-ciri lain.</value>
   </data>
   <data name="BuyAppForDelete" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite el borrado de artículos. Por favor compre la versión completa para eliminar elementos y desbloquear un montón de otras características.</value>
+    <value>Versi percubaan permohonan tidak membenarkan penghapusan item. Sila beli versi penuh untuk menghapuskan item dan untuk membuka banyak ciri-ciri lain.</value>
   </data>
   <data name="BuyAppGenericMessage" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite esta función. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>Versi percubaan permohonan tidak membenarkan ciri ini. Sila beli versi penuh untuk menggunakan ciri ini dan untuk membuka banyak ciri-ciri lain.</value>
   </data>
   <data name="BuyAppSaveSettings" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite el cambio de configuración. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>Versi percubaan permohonan tidak membenarkan mengubah seting. Sila beli versi penuh untuk menggunakan ciri ini dan untuk membuka banyak ciri-ciri lain.</value>
   </data>
   <data name="BuyAppForAllFriends" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite más de 100 amigos para salvarse. Se han salvado sólo 100 amigos en facebook. Por favor compre la versión completa para salvar a todos los amigos de facebook y desbloquear un montón de otras características. Después de que usted compra la versión completa, por favor, sincronizar la lista de amigos por ir a la configuración con el fin de descargar a todos amigos.</value>
+    <value>Versi percubaan permohonan tidak membenarkan rakan-rakan lebih 100 untuk disimpan. Hanya 100 rakan facebook telah diselamatkan. Sila beli versi penuh untuk menyelamatkan rakan-rakan facebook semua dan untuk membuka banyak ciri-ciri lain. Selepas anda membeli versi penuh, sila Segerakkan senarai dengan pergi ke seting untuk memuat turun semua kawan-kawan.</value>
   </data>
   <data name="DaysLabel" xml:space="preserve">
-    <value>Días</value>
+    <value>Hari</value>
   </data>
 </root>

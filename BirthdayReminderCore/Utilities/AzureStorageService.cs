@@ -13,25 +13,29 @@ namespace BirthdayReminderCore.Utilities
 {
     public class AzureStorageService
     {
-        private readonly CloudBlobContainer Container;       
+        private readonly CloudBlobContainer _container;       
 
         public AzureStorageService(string connectionString, string userId)
         {
-            Container = GetContainerReference(connectionString, userId);
+            _container = GetContainerReference(connectionString, userId);
         }
 
         public async Task<ResponseStatus> SaveFileToBlob(string fileName, FileStream imageStream)
         {
             try
             {
+                if (_container==null)
+                {
+                    return new ResponseStatus{IsSuccess = false,ErrorMessage = "Access denied"};
+                } 
                 //Create the container if it does not exist
-                await Container.CreateIfNotExistsAsync();
+                await _container.CreateIfNotExistsAsync();
 
                 //Make the container public
-                await Container.SetPermissionsAsync(new BlobContainerPermissions { PublicAccess = BlobContainerPublicAccessType.Blob });
+                await _container.SetPermissionsAsync(new BlobContainerPermissions { PublicAccess = BlobContainerPublicAccessType.Blob });
 
                 //Create a reference to the bob file to upload
-                var blobReference = Container.GetBlockBlobReference(fileName);
+                var blobReference = _container.GetBlockBlobReference(fileName);
 
                 var fileExists = await blobReference.ExistsAsync();
                 //if file already exists, return error
@@ -69,12 +73,18 @@ namespace BirthdayReminderCore.Utilities
 
         private async Task<List<CloudBlockBlob>> GetListOfExistingFiles()
         {
+
+            if (_container == null)
+            {
+                return new List<CloudBlockBlob>();
+            } 
+
             //return blob list object and not birthday card objetc to generalize method
             var blobList = new List<CloudBlockBlob>();
 
-            if (!await Container.ExistsAsync()) return blobList;
+            if (!await _container.ExistsAsync()) return blobList;
 
-            var blobResult = await Container.ListBlobsSegmentedAsync(new BlobContinuationToken());
+            var blobResult = await _container.ListBlobsSegmentedAsync(new BlobContinuationToken());
 
             //iterate over list of returned blobs
             blobList.AddRange(blobResult.Results.OfType<CloudBlockBlob>());
@@ -86,7 +96,12 @@ namespace BirthdayReminderCore.Utilities
         {
             try
             {
-                var blob = Container.GetBlockBlobReference(fileName);
+                if (_container == null)
+                {
+                    return new ResponseStatus { IsSuccess = false, ErrorMessage = "Access denied" };
+                } 
+
+                var blob = _container.GetBlockBlobReference(fileName);
 
                 if (await blob.ExistsAsync())
                 {
@@ -105,17 +120,24 @@ namespace BirthdayReminderCore.Utilities
             }
         }
 
-        private CloudBlobContainer GetContainerReference(string connectionString, string userId)
+        private static CloudBlobContainer GetContainerReference(string connectionString, string userId)
         {
-            //Retrieve connection parameters
-            var account = CloudStorageAccount.Parse(connectionString);
+            try
+            {
+                //Retrieve connection parameters
+                var account = CloudStorageAccount.Parse(connectionString);
 
-            //Create a reference to the client
-            var client = account.CreateCloudBlobClient();
+                //Create a reference to the client
+                var client = account.CreateCloudBlobClient();
 
-            var container = client.GetContainerReference(userId.ToLower());
+                var container = client.GetContainerReference(userId.ToLower());
 
-            return container;
+                return container;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }        
     }
 }

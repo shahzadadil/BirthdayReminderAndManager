@@ -11,8 +11,18 @@ namespace BirthdayReminderCore.Utilities
                 return null;
             }
 
-            var localEventTime = new DateTime(DateTime.Now.Year, eventDateTime.Value.Month, eventDateTime.Value.Day);
-            return localEventTime.DayOfYear - DateTime.Now.DayOfYear;
+            var dayOfYearBirthday = eventDateTime.Value.DayOfYear;
+            var currentDayOfYear = DateTime.Today.DayOfYear;
+
+            var nextBirthday = new DateTime(DateTime.Today.Year, eventDateTime.Value.Month, eventDateTime.Value.Day);
+
+            if (dayOfYearBirthday < currentDayOfYear)
+            {
+                nextBirthday = nextBirthday.AddYears(1);
+                return nextBirthday.Subtract(DateTime.Today).Days;
+            }
+
+            return nextBirthday.DayOfYear - currentDayOfYear;
         }
     }
 }

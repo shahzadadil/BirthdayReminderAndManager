@@ -18,9 +18,9 @@ namespace BirthdayReminder
 {
     public partial class Settings : PhoneApplicationPage
     {
-        readonly Dictionary<SyncIntervalEnum, String> SyncInterval = new Dictionary<SyncIntervalEnum, String>();
-        readonly Dictionary<StartTimeEnum, String> ReminderStart = new Dictionary<StartTimeEnum, String>();
-        readonly Dictionary<TimeUnitEnum, String> TimeUnit = new Dictionary<TimeUnitEnum, String>();
+        readonly Dictionary<SyncIntervalEnum, String> _syncInterval = new Dictionary<SyncIntervalEnum, String>();
+        readonly Dictionary<StartTimeEnum, String> _reminderStart = new Dictionary<StartTimeEnum, String>();
+        readonly Dictionary<TimeUnitEnum, String> _timeUnit = new Dictionary<TimeUnitEnum, String>();
 
         public Settings()
         {
@@ -59,7 +59,11 @@ namespace BirthdayReminder
             try
             {
                 LoadSettingsData();
-                LoadAds();
+
+                if (App.IsTrial)
+                {
+                    LoadAds();
+                }
 
                 //display FB log in or log out button
                 if (App.FacebookSessionClient == null || App.IsAuthenticated == false)
@@ -148,12 +152,12 @@ namespace BirthdayReminder
             StartTimeUnit.Items.Add(AppResources.SyncIntrvlOptionMin);
             StartTimeUnit.Items.Add(AppResources.SyncIntrvlOptionSec);
 
-            TimeUnit.Clear();
-            TimeUnit.Add(TimeUnitEnum.Hours, AppResources.SyncIntrvlOptionHour);
-            TimeUnit.Add(TimeUnitEnum.Minutes, AppResources.SyncIntrvlOptionMin);
-            TimeUnit.Add(TimeUnitEnum.Seconds, AppResources.SyncIntrvlOptionSec);
+            _timeUnit.Clear();
+            _timeUnit.Add(TimeUnitEnum.Hours, AppResources.SyncIntrvlOptionHour);
+            _timeUnit.Add(TimeUnitEnum.Minutes, AppResources.SyncIntrvlOptionMin);
+            _timeUnit.Add(TimeUnitEnum.Seconds, AppResources.SyncIntrvlOptionSec);
 
-            StartTimeUnit.SelectedItem = TimeUnit[App.UserPreferences.ReminderNotification.TimeUnit];
+            StartTimeUnit.SelectedItem = _timeUnit[App.UserPreferences.ReminderNotification.TimeUnit];
         }
 
         /// <summary>
@@ -166,12 +170,12 @@ namespace BirthdayReminder
             ReminderStartTime.Items.Add(AppResources.SyncIntrvlOptionOnTime);
             ReminderStartTime.Items.Add(AppResources.SyncIntrvlOptionAfter);
 
-            ReminderStart.Clear();
-            ReminderStart.Add(StartTimeEnum.Before, AppResources.SyncIntrvlOptionBefore);
-            ReminderStart.Add(StartTimeEnum.OnTime, AppResources.SyncIntrvlOptionOnTime);
-            ReminderStart.Add(StartTimeEnum.After, AppResources.SyncIntrvlOptionAfter);
+            _reminderStart.Clear();
+            _reminderStart.Add(StartTimeEnum.Before, AppResources.SyncIntrvlOptionBefore);
+            _reminderStart.Add(StartTimeEnum.OnTime, AppResources.SyncIntrvlOptionOnTime);
+            _reminderStart.Add(StartTimeEnum.After, AppResources.SyncIntrvlOptionAfter);
 
-            ReminderStartTime.SelectedItem = ReminderStart[App.UserPreferences.ReminderNotification.StartTime];
+            ReminderStartTime.SelectedItem = _reminderStart[App.UserPreferences.ReminderNotification.StartTime];
         }
 
         /// <summary>
@@ -187,13 +191,13 @@ namespace BirthdayReminder
             SyncIntervalList.Items.Add(AppResources.SyncIntrvlOptionManual);
 
             //add options to dictionary
-            SyncInterval.Clear();
-            SyncInterval.Add(SyncIntervalEnum.Daily, AppResources.SyncIntrvlOptionDaily);
-            SyncInterval.Add(SyncIntervalEnum.Weekly, AppResources.SyncIntrvlOptionWeekly);
-            SyncInterval.Add(SyncIntervalEnum.Monthly, AppResources.SyncIntrvlOptionMonthly);
-            SyncInterval.Add(SyncIntervalEnum.Manual, AppResources.SyncIntrvlOptionManual);
+            _syncInterval.Clear();
+            _syncInterval.Add(SyncIntervalEnum.Daily, AppResources.SyncIntrvlOptionDaily);
+            _syncInterval.Add(SyncIntervalEnum.Weekly, AppResources.SyncIntrvlOptionWeekly);
+            _syncInterval.Add(SyncIntervalEnum.Monthly, AppResources.SyncIntrvlOptionMonthly);
+            _syncInterval.Add(SyncIntervalEnum.Manual, AppResources.SyncIntrvlOptionManual);
 
-            SyncIntervalList.SelectedItem = SyncInterval[App.UserPreferences.ContactSync.SyncInterval];
+            SyncIntervalList.SelectedItem = _syncInterval[App.UserPreferences.ContactSync.SyncInterval];
         }        
 
         #region Toggle Buttons
@@ -411,15 +415,15 @@ namespace BirthdayReminder
                 PerformValiations();
 
                 //Contact
-                App.UserPreferences.ContactSync.SyncInterval = SyncInterval.FirstOrDefault(x => x.Value == SyncIntervalList.SelectedItem.ToString()).Key;
+                App.UserPreferences.ContactSync.SyncInterval = _syncInterval.FirstOrDefault(x => x.Value == SyncIntervalList.SelectedItem.ToString()).Key;
                 App.UserPreferences.ContactSync.FacebookSyncEnabled = FacebookSyncToggle.IsChecked.HasValue && FacebookSyncToggle.IsChecked.Value;
                 App.UserPreferences.ContactSync.LocalSyncEnabled = LocalSyncToggle.IsChecked.HasValue && LocalSyncToggle.IsChecked.Value;
 
                 //Reminder
                 App.UserPreferences.ReminderNotification.LocalNotifications = LocalToastToggle.IsChecked.HasValue && LocalToastToggle.IsChecked.Value;
                 App.UserPreferences.ReminderNotification.SendEmailReminders = EmailReminderToggle.IsChecked.HasValue && EmailReminderToggle.IsChecked.Value;
-                App.UserPreferences.ReminderNotification.StartTime = ReminderStart.FirstOrDefault(x => x.Value == ReminderStartTime.SelectedItem.ToString()).Key;
-                App.UserPreferences.ReminderNotification.TimeUnit = TimeUnit.FirstOrDefault(x => x.Value == StartTimeUnit.SelectedItem.ToString()).Key;
+                App.UserPreferences.ReminderNotification.StartTime = _reminderStart.FirstOrDefault(x => x.Value == ReminderStartTime.SelectedItem.ToString()).Key;
+                App.UserPreferences.ReminderNotification.TimeUnit = _timeUnit.FirstOrDefault(x => x.Value == StartTimeUnit.SelectedItem.ToString()).Key;
                 App.UserPreferences.ReminderNotification.TimeDuration = (!string.IsNullOrEmpty(TimeDurationText.Text)) ? Convert.ToInt32(TimeDurationText.Text) : 0;
 
                 //Birthday wish
@@ -432,7 +436,7 @@ namespace BirthdayReminder
                 App.UserPreferences.UserDetails.Email = EmailText.Text;
                 App.UserPreferences.UserDetails.ContactNumber = ContactText.Text;
 
-                SettingsUtility.updateUserSettings(App.UserPreferences);
+                SettingsUtility.UpdateUserSettings(App.UserPreferences);
 
                 MessageBox.Show(AppResources.SettingsUpdateSuccessMsg, AppResources.SettingsSavedLabel, MessageBoxButton.OK);
 

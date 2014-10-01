@@ -17,457 +17,457 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>es</value>
+    <value>fi-FI</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>Recordatorio de cumpleaños</value>
+    <value>Syntymäpäivämuistutus</value>
   </data>
   <data name="DownloadingFbContact" xml:space="preserve">
-    <value>Contactos de Facebook están consiguiendo descargar</value>
+    <value>Saada ladataan Facebook yhteystiedot</value>
   </data>
   <data name="CreateBdayReminder" xml:space="preserve">
-    <value>Se elaboran recordatorios de cumpleaños</value>
+    <value>Syntymäpäivistä saada luodaan</value>
   </data>
   <data name="ErrBuildBdayList" xml:space="preserve">
-    <value>Lista de cumpleaños error Building</value>
+    <value>Virhe rakennuksen listan</value>
   </data>
   <data name="ErrSaveBday" xml:space="preserve">
-    <value>Error al guardar los cumpleaños</value>
+    <value>Virhe tallennettaessa syntymäpäivät</value>
   </data>
   <data name="ErrSaveBdayNContact" xml:space="preserve">
-    <value>Error al guardar los cumpleaños y contactos</value>
+    <value>Virhe tallennettaessa syntymäpäivät ja yhteystiedot</value>
   </data>
   <data name="FbLoginFailedText" xml:space="preserve">
-    <value>Iniciar sesión en facebook fallado</value>
+    <value>Kirjaudu facebook epäonnistui</value>
   </data>
   <data name="FbLoginFailedTitle" xml:space="preserve">
-    <value>Login Failed</value>
+    <value>Kirjautuminen epäonnistui</value>
   </data>
   <data name="FrndDtlsTitle" xml:space="preserve">
-    <value>Detalles de amigo</value>
+    <value>Ystäväsi tiedot</value>
   </data>
   <data name="RetrieveLocalContact" xml:space="preserve">
-    <value>Recuperar los datos de contacto locales</value>
+    <value>Haetaan yhteystiedot</value>
   </data>
   <data name="RetrievingFbFriend" xml:space="preserve">
-    <value>Recuperar datos de Facebook amigo</value>
+    <value>Haetaan Facebook ystävä tiedot</value>
   </data>
   <data name="SaveBdays" xml:space="preserve">
-    <value>Cumpleaños de ahorro</value>
+    <value>Säästää syntymäpäivät</value>
   </data>
   <data name="AddLabel" xml:space="preserve">
-    <value>Añadir</value>
+    <value>Lisää</value>
   </data>
   <data name="BirthdayLabel" xml:space="preserve">
-    <value>Cumpleaños</value>
+    <value>Syntymäpäivä</value>
   </data>
   <data name="BirthdayMessage" xml:space="preserve">
-    <value>Muchas felicidades del día:). ¡¡Feliz cumpleaños!!</value>
+    <value>Monet usea iloinen tulokset-lta aika:). Hyvää syntymäpäivää!!</value>
   </data>
   <data name="BirthdayOnLabel" xml:space="preserve">
-    <value>Cumpleaños en</value>
+    <value>Syntymäpäivä</value>
   </data>
   <data name="CallLabel" xml:space="preserve">
-    <value>Llamada</value>
+    <value>Soita</value>
   </data>
   <data name="ContactNoLabel" xml:space="preserve">
-    <value>Número de contacto</value>
+    <value>Yhteyshenkilön numero</value>
   </data>
   <data name="EmailLabel" xml:space="preserve">
-    <value>Correo electrónico</value>
+    <value>Sähköposti</value>
   </data>
   <data name="ErrDisplaSaveBtn" xml:space="preserve">
-    <value>Error Mostrar botón guardar</value>
+    <value>Virhe näytettäessä Tallenna-painike</value>
   </data>
   <data name="ErrOnNavigation" xml:space="preserve">
-    <value>Error en la navegación</value>
+    <value>Virhe navigointi</value>
   </data>
   <data name="ErrPostingToWall" xml:space="preserve">
-    <value>Error publicar en el muro de Facebook</value>
+    <value>Virhe lähettämistä Facebook Wall</value>
   </data>
   <data name="ErrSavingFrndDtls" xml:space="preserve">
-    <value>Error al guardar los datos amigo</value>
+    <value>Virhe tallennettaessa ystävä tiedot</value>
   </data>
   <data name="ErrSendingMessage" xml:space="preserve">
-    <value>Enviar mensaje</value>
+    <value>Lähettää virhesanoman</value>
   </data>
   <data name="FrndDtlsPgTitlle" xml:space="preserve">
-    <value>Detalles de amigo</value>
+    <value>Ystäväsi tiedot</value>
   </data>
   <data name="FrndDtlsUpdated" xml:space="preserve">
-    <value>Se ha actualizado la información del amigo existente</value>
+    <value>Nykyisten ystävä tiedot on päivitetty</value>
   </data>
   <data name="FrndDtlsUpdatedTitle" xml:space="preserve">
-    <value>Amigo actualizó</value>
+    <value>Ystävä tiedot päivitetty</value>
   </data>
   <data name="MainPageAllTitle" xml:space="preserve">
-    <value>todos</value>
+    <value>Kaikki</value>
   </data>
   <data name="MainPageMostRcntTitle" xml:space="preserve">
-    <value>recientes</value>
+    <value>hotelliin</value>
   </data>
   <data name="MainPageTtitle" xml:space="preserve">
-    <value>Cumpleaños</value>
+    <value>Syntymäpäivät</value>
   </data>
   <data name="MessageLabel" xml:space="preserve">
-    <value>Mensaje</value>
+    <value>Viesti</value>
   </data>
   <data name="NameLabel" xml:space="preserve">
-    <value>Nombre</value>
+    <value>Nimi</value>
   </data>
   <data name="NewFrndAddedTitle" xml:space="preserve">
-    <value>Se ha añadido nuevo amigo</value>
+    <value>Uusi ystävä on lisätty</value>
   </data>
   <data name="NewFrndCreatedMsg" xml:space="preserve">
-    <value>Se ha añadido correctamente un nuevo amigo con los detalles</value>
+    <value>Uusi ystävä tiedot on lisätty</value>
   </data>
   <data name="NotKnownLabel" xml:space="preserve">
-    <value>No se conoce</value>
+    <value>Ei tiedetä</value>
   </data>
   <data name="PostToWall" xml:space="preserve">
-    <value>Poste a la pared</value>
+    <value>Viesti on seinä</value>
   </data>
   <data name="SaveLabel" xml:space="preserve">
-    <value>Salvar</value>
+    <value>Tallenna</value>
   </data>
   <data name="SavingFrndDtls" xml:space="preserve">
-    <value>Ahorro detalles de amigo</value>
+    <value>Tallentaminen tiedot Friend</value>
   </data>
   <data name="SendAutoEmailLabel" xml:space="preserve">
-    <value>Enviar correo electrónico automático</value>
+    <value>Lähettää automaattisesti sähköpostia</value>
   </data>
   <data name="SettingsLabel" xml:space="preserve">
-    <value>Configuración</value>
+    <value>Asetukset</value>
   </data>
   <data name="WarnDtlsReq" xml:space="preserve">
-    <value>Detalles requeridos</value>
+    <value>Tarvittavat tiedot</value>
   </data>
   <data name="WarnNameBdayCompulsory" xml:space="preserve">
-    <value>Nombre y cumpleaños son obligatorios</value>
+    <value>Nimi ja syntymäpäivä on pakollinen</value>
   </data>
   <data name="AboutTitle" xml:space="preserve">
-    <value>acerca de</value>
+    <value>tietoja</value>
   </data>
   <data name="BdayMsgLabel" xml:space="preserve">
-    <value>Mensaje de cumpleaños</value>
+    <value>Syntymäpäivä viesti</value>
   </data>
   <data name="BdayReminderSettingsTitle" xml:space="preserve">
-    <value>CONFIGURACIÓN DE RECORDATORIO DE CUMPLEAÑOS</value>
+    <value>SYNTYMÄPÄIVÄ ASETUKSIA</value>
   </data>
   <data name="BdaySetupMessage" xml:space="preserve">
-    <value>No tienes ningún contacto guardado actualmente. ¿Te gustaría descargar tus contactos de facebook?</value>
+    <value>Sinulla ei ole tällä hetkellä tallennetut yhteystiedot. Haluatko ladata facebook yhteyksiä?</value>
   </data>
   <data name="BdaySetupTitle" xml:space="preserve">
-    <value>Configuración de cumpleaños</value>
+    <value>Setup syntymäpäivät</value>
   </data>
   <data name="BirthdayWishTitle" xml:space="preserve">
-    <value>deseos</value>
+    <value>haluaa</value>
   </data>
   <data name="ContactNotUpdatedMessage" xml:space="preserve">
-    <value>Tus contactos no han sido sincronizados en un tiempo. ¿Quieres actualizarlos ahora?</value>
+    <value>Yhteystiedot ovat ole tahdistunut vähään. Haluatko päivittää ne nyt?</value>
   </data>
   <data name="ContactsTitle" xml:space="preserve">
-    <value>contactos</value>
+    <value>Yhteystiedot</value>
   </data>
   <data name="ContactSyncRedirectMsg" xml:space="preserve">
-    <value>Ahora sería sincronizar sus contactos y se le redireccionará a la pantalla de sincronización de contacto. ¿Desea sincronizar tus contactos ahora?</value>
+    <value>Yhteystiedot nyt synkronoitava ja sinut ohjataan yhteystiedot Sync näyttö. Haluatko synkronoida yhteystiedot nyt?</value>
   </data>
   <data name="ErrAppBarDisplay" xml:space="preserve">
-    <value>Error Mostrar barra de aplicación</value>
+    <value>Virhe näytettäessä App Baari</value>
   </data>
   <data name="ErrAppBarLoad" xml:space="preserve">
-    <value>Error de carga de la aplicación Bar</value>
+    <value>Virhe lastaus App Bar</value>
   </data>
   <data name="ErrAppInitialise" xml:space="preserve">
-    <value>Error durante la comprobación de la puesta en marcha. Algunas de las funcionalidades pueden no funcionar.</value>
+    <value>Virhe käynnistystiedostojen tarkistus. Jotkin toiminnot eivät ehkä toimi.</value>
   </data>
   <data name="ErrFbLogin" xml:space="preserve">
-    <value>Error iniciar sesión en Facebook</value>
+    <value>Virhe kirjauduttaessa Facebook</value>
   </data>
   <data name="ErrFbLogout" xml:space="preserve">
-    <value>Error de registro fuera de Facebook</value>
+    <value>Virhe kirjauduttaessa sisään Facebook</value>
   </data>
   <data name="ErrInitialiseTitle" xml:space="preserve">
-    <value>Error durante el inicio</value>
+    <value>Virhe käynnistettäessä</value>
   </data>
   <data name="ErrLoadSyncScreen" xml:space="preserve">
-    <value>Pantalla de error carga Sync</value>
+    <value>Virhe lastaus Sync näyttö</value>
   </data>
   <data name="ErrNavigatingSettings" xml:space="preserve">
-    <value>Error mientras navega a Settings</value>
+    <value>Virhe siirryttäessä asetukset</value>
   </data>
   <data name="ErrOpeningApp" xml:space="preserve">
-    <value>Solicitud de apertura de error</value>
+    <value>Virhe avaamisen sovelluksen</value>
   </data>
   <data name="ErrSaveSettings" xml:space="preserve">
-    <value>Error al guardar la configuración</value>
+    <value>Virhe tallennettaessa asetukset</value>
   </data>
   <data name="ErrSendingEmail" xml:space="preserve">
-    <value>Error enviando correo electrónico</value>
+    <value>Virhe lähettämällä sähköpostia</value>
   </data>
   <data name="HappyBdayMessage" xml:space="preserve">
-    <value>Feliz cumpleaños</value>
+    <value>Hyvää syntymäpäivää</value>
   </data>
   <data name="LastSyncedLabel" xml:space="preserve">
-    <value>Última sincronizado</value>
+    <value>Viimeksi synkronoitu</value>
   </data>
   <data name="LaterLabel" xml:space="preserve">
-    <value>Más tarde</value>
+    <value>Myöhemmin</value>
   </data>
   <data name="LoadingSettingsLabel" xml:space="preserve">
-    <value>Carga la configuración</value>
+    <value>Ladataan asetuksia</value>
   </data>
   <data name="LoginFbBtnnLabel" xml:space="preserve">
-    <value>Iniciar sesión en Facebook</value>
+    <value>Halko kotona jotta Facebook</value>
   </data>
   <data name="LogoutFbBtnLabel" xml:space="preserve">
-    <value>Cerrar sesión en Facebook</value>
+    <value>Kirjauduttava ulos Facebookista</value>
   </data>
   <data name="MsgPostedFb" xml:space="preserve">
-    <value>Su mensaje ha sido contabilizado</value>
+    <value>Viestisi on lähetetty</value>
   </data>
   <data name="PictureLabel" xml:space="preserve">
-    <value>Foto</value>
+    <value>Kuva</value>
   </data>
   <data name="ProfileTitle" xml:space="preserve">
-    <value>Perfil</value>
+    <value>profiili</value>
   </data>
   <data name="RateAppBtnLabel" xml:space="preserve">
-    <value>Esta aplicación la tarifa</value>
+    <value>Luokitus tämä App</value>
   </data>
   <data name="RateAppText" xml:space="preserve">
-    <value>Si te gusta nuestra aplicación e hizo la vida más fácil, por favor tarifa/comprarlo!</value>
+    <value>Jos pidät meidän app ja se on tehnyt elämästäsi helpompaa, ota määrä/Osta se!</value>
   </data>
   <data name="RemindByEmailLabel" xml:space="preserve">
-    <value>Recordar por correo electrónico</value>
+    <value>Muistuttaa sähköpostitse</value>
   </data>
   <data name="ReminderTitle" xml:space="preserve">
-    <value>recordatorio</value>
+    <value>muistutus</value>
   </data>
   <data name="ReminderUpdatedTitle" xml:space="preserve">
-    <value>Recordatorios actualizados</value>
+    <value>Muistutukset päivitetty</value>
   </data>
   <data name="ReminderUpdateSuccess" xml:space="preserve">
-    <value>Actualizados correctamente recordatorios de cumpleaños</value>
+    <value>Onnistuneesti päivitetty muistutuksia syntymäpäivät</value>
   </data>
   <data name="SendEmailText" xml:space="preserve">
-    <value>Si usted está experimentando problemas o tienes cualquier sugerencia o solicitudes, por favor no dude en contactar con nosotros!</value>
+    <value>Jos kohtaat ongelmia tai sinulla on ehdotuksia/pyyntöjä, ota rohkeasti yhteyttä!</value>
   </data>
   <data name="SendPicLabel" xml:space="preserve">
-    <value>Enviar fotos</value>
+    <value>Lähetä kuvat</value>
   </data>
   <data name="SendUsEmailBtnLabel" xml:space="preserve">
-    <value>Envíenos un correo electrónico</value>
+    <value>Lähetä meille sähköpostia</value>
   </data>
   <data name="SettingsSavedLabel" xml:space="preserve">
-    <value>Ajustes guardados</value>
+    <value>Tallennetut asetukset</value>
   </data>
   <data name="SettingsUpdateSuccessMsg" xml:space="preserve">
-    <value>Ajustes han sido actualizados exitosamente</value>
+    <value>Asetukset päivitettiin onnistuneesti</value>
   </data>
   <data name="ShowNotifLabel" xml:space="preserve">
-    <value>Mostrar notificaciones</value>
+    <value>Näytä ilmoitukset</value>
   </data>
   <data name="SupportEmailLabel" xml:space="preserve">
-    <value>Soporte por correo electrónico</value>
+    <value>Tuki sähköpostitse</value>
   </data>
   <data name="SyncContactsLabel" xml:space="preserve">
-    <value>Sincronización de los contactos</value>
+    <value>Synkronoi yhteystiedot</value>
   </data>
   <data name="SyncFbContactLabel" xml:space="preserve">
-    <value>Sincronización de contactos Facebook</value>
+    <value>Sync Facebook yhteystiedot</value>
   </data>
   <data name="SyncIntervalLabel" xml:space="preserve">
-    <value>Sincronización interna</value>
+    <value>Sync sisäinen</value>
   </data>
   <data name="SyncIntrvlOptionAfter" xml:space="preserve">
-    <value>Después de</value>
+    <value>Jälkeen</value>
   </data>
   <data name="SyncIntrvlOptionBefore" xml:space="preserve">
-    <value>Antes de</value>
+    <value>Ennen</value>
   </data>
   <data name="SyncIntrvlOptionDaily" xml:space="preserve">
-    <value>Diario</value>
+    <value>Päivittäin</value>
   </data>
   <data name="SyncIntrvlOptionHour" xml:space="preserve">
-    <value>Horas</value>
+    <value>Tuntia</value>
   </data>
   <data name="SyncIntrvlOptionManual" xml:space="preserve">
-    <value>Manual</value>
+    <value>Käsikirja</value>
   </data>
   <data name="SyncIntrvlOptionMin" xml:space="preserve">
-    <value>Minutos</value>
+    <value>Minuuttia</value>
   </data>
   <data name="SyncIntrvlOptionMonthly" xml:space="preserve">
-    <value>Mensual</value>
+    <value>Kuukausittain</value>
   </data>
   <data name="SyncIntrvlOptionOnTime" xml:space="preserve">
-    <value>El tiempo</value>
+    <value>Ajoissa</value>
   </data>
   <data name="SyncIntrvlOptionSec" xml:space="preserve">
-    <value>Segundos</value>
+    <value>Sekuntia</value>
   </data>
   <data name="SyncIntrvlOptionWeekly" xml:space="preserve">
-    <value>Semanal</value>
+    <value>Viikoittain</value>
   </data>
   <data name="SyncLocalContactLabel" xml:space="preserve">
-    <value>Sincronización de los contactos locales</value>
+    <value>Synkronoida Paikalliset yhteystiedot</value>
   </data>
   <data name="SyncNowBtnLabel" xml:space="preserve">
-    <value>Sincronizar ahora</value>
+    <value>Synkronoi nyt</value>
   </data>
   <data name="WarnInternetMsg" xml:space="preserve">
-    <value>No se puede conectar a Internet. Por favor, pruebe con una conexión a Internet activa.</value>
+    <value>Ei voi muodostaa Internet. Yritä uudelleen toimiva Internet-yhteys.</value>
   </data>
   <data name="WarnNwTitle" xml:space="preserve">
-    <value>Error de red</value>
+    <value>Verkkovirhe</value>
   </data>
   <data name="WarnValidHourValue" xml:space="preserve">
-    <value>Por favor, introduzca un valor de hora válida entre 0 y 23</value>
+    <value>Kirjoita kelvollinen tunti arvo välillä 0-23</value>
   </data>
   <data name="WarnValidMinValue" xml:space="preserve">
-    <value>Introduzca un valor válido de minutos entre 0 y 59</value>
+    <value>Kirjoita kelvollinen minuutin arvo välillä 0-59</value>
   </data>
   <data name="WarnValidSecvalue" xml:space="preserve">
-    <value>Por favor, introduzca un valor válido segundos entre 0 y 59</value>
+    <value>Määritä kelvollinen sekuntia 0-59 ja</value>
   </data>
   <data name="WhenToRemindLabel" xml:space="preserve">
-    <value>Cuando recordamos</value>
+    <value>Kun muistuttaa</value>
   </data>
   <data name="WishByEmailLabel" xml:space="preserve">
-    <value>Deseo por correo electrónico</value>
+    <value>Toivotan sähköpostitse</value>
   </data>
   <data name="YesLabel" xml:space="preserve">
-    <value>Sí</value>
+    <value>Kyllä</value>
   </data>
   <data name="YourContactNoLabel" xml:space="preserve">
-    <value>Su número de contacto</value>
+    <value>Kontaktin numero</value>
   </data>
   <data name="YourEmailLabel" xml:space="preserve">
-    <value>Su correo electrónico</value>
+    <value>Sähköposti</value>
   </data>
   <data name="YourNameLabel" xml:space="preserve">
-    <value>Te llamas</value>
+    <value>Nimesi</value>
   </data>
   <data name="DeleteLabel" xml:space="preserve">
-    <value>Borrar</value>
+    <value>Poista</value>
   </data>
   <data name="BirthdayReminderMessage" xml:space="preserve">
-    <value>de cumpleaños hoy. Grifo para enviarle un mensaje</value>
+    <value>on syntymäpäivä tänään. Voit lähettää hänelle viestin napauttamalla</value>
   </data>
   <data name="ErrBindingData" xml:space="preserve">
-    <value>Error al obtener datos</value>
+    <value>Virhe haettaessa näytettävät tiedot</value>
   </data>
   <data name="ErrRenewBgndTask" xml:space="preserve">
-    <value>Error al renovar agente de fondo</value>
+    <value>Virhe uusimisesta tausta-agentti</value>
   </data>
   <data name="WarnReEnableBgTask" xml:space="preserve">
-    <value>Agente de fondo se ha deshabilitado para esta aplicación. Por favor, vuelva a activar alertas y notificaciones. Ir a ajustes - aplicaciones - fondo tareas. Seleccione la casilla de verificación Habilitar las tareas secundarias.</value>
+    <value>Tausta-agentti on poistettu käytöstä tässä sovelluksessa. Haluta koskien-mahdollistaa saada hälytykset ja ilmoitukset. Siirry asetukset - sovellukset - taustaprosessit. Valitsemalla valintaruudun voit ottaa taustan tehtäviin.</value>
   </data>
   <data name="UpdateBdayRemindr" xml:space="preserve">
-    <value>Actualización de recordatorios de cumpleaños</value>
+    <value>Päivitä syntymäpäivistä</value>
   </data>
   <data name="LaterThisWkLabel" xml:space="preserve">
-    <value>Más tarde esta semana</value>
+    <value>Myöhemmin tällä viikolla</value>
   </data>
   <data name="TodayLabel" xml:space="preserve">
-    <value>Hoy</value>
+    <value>Tänään</value>
   </data>
   <data name="TomorrowLabel" xml:space="preserve">
-    <value>Mañana</value>
+    <value>Huomenna</value>
   </data>
   <data name="ErrDeleting" xml:space="preserve">
-    <value>Error durante el borrado</value>
+    <value>Virhe poistamisen aikana</value>
   </data>
   <data name="ErrSelecting" xml:space="preserve">
-    <value>Error durante la selección</value>
+    <value>Virhe valinta</value>
   </data>
   <data name="WarnSelectItem" xml:space="preserve">
-    <value>Por favor, seleccione un elemento y vuelva a intentarlo</value>
+    <value>Valitse kohde ja yritä uudelleen</value>
   </data>
   <data name="WarnTryAgain" xml:space="preserve">
-    <value>Por favor intentelo nuevamente</value>
+    <value>Yritä uudelleen</value>
   </data>
   <data name="BdayCardsPgTitle" xml:space="preserve">
-    <value>tarjetas</value>
+    <value>kortit</value>
   </data>
   <data name="DeleteConfirmMessage" xml:space="preserve">
-    <value>¿Está seguro que desea eliminar los elementos seleccionados?</value>
+    <value>Haluatko varmasti poistaa valitut kohteet?</value>
   </data>
   <data name="ErrAddCard" xml:space="preserve">
-    <value>Error agregar tarjeta</value>
+    <value>Lisääminen kortti</value>
   </data>
   <data name="ErrAddFriend" xml:space="preserve">
-    <value>Error Agregar amigo</value>
+    <value>Lisää ystävä</value>
   </data>
   <data name="LoadingFbPageMsg" xml:space="preserve">
-    <value>Página de Facebook está consiguiendo cargada</value>
+    <value>Facebook-sivu ladataan</value>
   </data>
   <data name="DownloadImagesTitle" xml:space="preserve">
-    <value>Descargar imágenes de perfil</value>
+    <value>Ladata kuvia, jäsenprofiileja</value>
   </data>
   <data name="DownloadnProfileImgMsg" xml:space="preserve">
-    <value>¿Quieres descargar imágenes de perfil de tus amigos? Después de descargar imágenes, usted será capaz de ver su phtotos en la ficha Inicio. Pero por favor sea paciente mientras este proceso puede tardar unos minutos dependiendo de tu velocidad de conexión a internet. ¿Desea descargar las imágenes ahora?</value>
+    <value>Haluatko ladata profiili kuvia ystävistäsi? Kun olet ladannut kuvia, voit voi nähdä phtotos Käynnistä laatta. Mutta ole kärsivällinen, koska tämä voi kestää muutamia minuutteja riippuen internet-yhteyden nopeus. Haluatko ladata kuvia nyt?</value>
   </data>
   <data name="SetAsDefaultLabel" xml:space="preserve">
-    <value>Establecer como predeterminado</value>
+    <value>Aseta oletukseksi</value>
   </data>
   <data name="ChooseCardLabel" xml:space="preserve">
-    <value>Elija la tarjeta</value>
+    <value>Valitse kortti</value>
   </data>
   <data name="CardLimitExceedCaption" xml:space="preserve">
-    <value>Ha excedido el límite</value>
+    <value>Raja on ylitetty</value>
   </data>
   <data name="CardLimitMsg" xml:space="preserve">
-    <value>No pueden agregarse más de 10 tarjetas. Por favor eliminar algunas tarjetas antiguas si desea agregar nuevas tarjetas.</value>
+    <value>10 korttia ei voi lisätä. Poista vanhat kortit, jos haluat lisätä uusia kortteja.</value>
   </data>
   <data name="ConnOpenWarnCaption" xml:space="preserve">
-    <value>Conexión está ocupada</value>
+    <value>Yhteyden huseeraa</value>
   </data>
   <data name="ImageUploadDownloadBusyMsg" xml:space="preserve">
-    <value>Imagen está guardado o borrado. Por favor, espere unos segundos y vuelva a intentarlo.</value>
+    <value>Kuva on saada tallennettu tai poistettu. Odota muutaman sekunnin ajan ja yritä uudelleen.</value>
   </data>
   <data name="AddEditFriendNotAllowed" xml:space="preserve">
-    <value>No se permite agregar a un nuevo amigo o editar los detalles amigo existentes en la versión de prueba de la aplicación. Por favor compre la versión completa para utilizar esta función y desbloquear muchas otras características.</value>
+    <value>Lisäämällä uuden ystävän tai muokkaamalla olemassa olevia ystävä tiedot sallitaan sovelluksen kokeiluversio. Haluta hankkia ml; mellinen käännös tätä toimintoa ja avata paljon muita ominaisuuksia.</value>
   </data>
   <data name="BuyAppForCard" xml:space="preserve">
-    <value>La versión de prueba de la aplicación sólo permite hasta 5 tarjetas. Por favor compre la versión completa para ahorrar más tarjetas y desbloquear un montón de otras características.</value>
+    <value>Sovelluksen kokeiluversio sallii vain enintään 5 korttia. Ostakaa täysversio tallentaa lisää kortteja ja avata paljon muita ominaisuuksia.</value>
   </data>
   <data name="BuyFullVersion" xml:space="preserve">
-    <value>Comprar la versión completa</value>
+    <value>Osta täysversio</value>
   </data>
   <data name="BuyLabel" xml:space="preserve">
-    <value>Comprar</value>
+    <value>Ostaa</value>
   </data>
   <data name="DeletingCardsNotAllowed" xml:space="preserve">
-    <value>No está permitido eliminar las tarjetas en la versión de prueba de la aplicación. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>Poistaminen kortit ei sallita sovelluksen kokeiluversio. Haluta hankkia ml; mellinen käännös tätä toimintoa ja avata paljon muita ominaisuuksia.</value>
   </data>
   <data name="NotAllowedLabel" xml:space="preserve">
-    <value>No está permitido</value>
+    <value>Ei sallita</value>
   </data>
   <data name="Only100CardsMessage" xml:space="preserve">
-    <value>La aplicación permite para ahorrar ahora sólo 100 tarjetas. Por favor eliminar algunas tarjetas antiguas para salvar a otros nuevos.</value>
+    <value>Sovellus tallentaa vain 100 kortit juuri nyt. Poista vanhat kortit tallentamaan uusia.</value>
   </data>
   <data name="SyncFeatureNotAllowed" xml:space="preserve">
-    <value>Esta característica no está permitida en la versión de prueba de la aplicación. Por favor compre la versión completa de la aplicación para utilizar esta función y desbloquear muchas otras características.</value>
+    <value>Tätä toimintoa ei sallita sovelluksen kokeiluversio. Ostakaa täysversio tätä toimintoa ja avata paljon muita ominaisuuksia.</value>
   </data>
   <data name="BuyAppForAddFriend" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite agregar o editar información de amigo. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>Sovelluksen kokeiluversio ei salli lisäämällä tai muokkaamalla ystävä tiedot. Haluta hankkia ml; mellinen käännös tätä toimintoa ja avata paljon muita ominaisuuksia.</value>
   </data>
   <data name="BuyAppForDelete" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite el borrado de artículos. Por favor compre la versión completa para eliminar elementos y desbloquear un montón de otras características.</value>
+    <value>Sovelluksen kokeiluversio ei salli kohtiin. Ostakaa täysversio poistaa kohteita ja avata paljon muita ominaisuuksia.</value>
   </data>
   <data name="BuyAppGenericMessage" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite esta función. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>Sovelluksen kokeiluversio ei salli tätä toimintoa. Haluta hankkia ml; mellinen käännös tätä toimintoa ja avata paljon muita ominaisuuksia.</value>
   </data>
   <data name="BuyAppSaveSettings" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite el cambio de configuración. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>Sovelluksen kokeiluversio salli asetusten muuttamista. Haluta hankkia ml; mellinen käännös tätä toimintoa ja avata paljon muita ominaisuuksia.</value>
   </data>
   <data name="BuyAppForAllFriends" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite más de 100 amigos para salvarse. Se han salvado sólo 100 amigos en facebook. Por favor compre la versión completa para salvar a todos los amigos de facebook y desbloquear un montón de otras características. Después de que usted compra la versión completa, por favor, sincronizar la lista de amigos por ir a la configuración con el fin de descargar a todos amigos.</value>
+    <value>Sovelluksen kokeiluversio ei salli yli 100 kaverit tallennetaan. Vain 100 facebook ystäviä on tallennettu. Ostakaa täysversio säästää kaikki facebook ystäviä ja avata paljon muita ominaisuuksia. Kun ostat täyden version, synkronoi kaveri haluttaa menemällä asetukset Lataa kaikki ystäviä.</value>
   </data>
   <data name="DaysLabel" xml:space="preserve">
-    <value>Días</value>
+    <value>Päivää</value>
   </data>
 </root>

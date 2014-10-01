@@ -9,17 +9,17 @@ namespace BirthdayReminderCore.Utilities
 {
     public static class SettingsUtility
     {
-        public static UserSettings getUserPreferences()
+        public static UserSettings GetUserPreferences()
         {
             IsolatedStorageFileStream fileStream = null;
             try
             {
-                IsolatedStorageFile fileLocation = IsolatedStorageFile.GetUserStoreForApplication();
+                var fileLocation = IsolatedStorageFile.GetUserStoreForApplication();
                 if (fileLocation.FileExists(FileSystem.SettingsFile))
                 {
                     fileStream = new IsolatedStorageFileStream(FileSystem.SettingsFile, FileMode.Open, fileLocation);
-                    XmlSerializer serializer = new XmlSerializer(typeof(UserSettings));
-                    UserSettings userSettings = (UserSettings)serializer.Deserialize(fileStream);
+                    var serializer = new XmlSerializer(typeof(UserSettings));
+                    var userSettings = (UserSettings)serializer.Deserialize(fileStream);
                     if (userSettings != null)
                     {
                         return userSettings;
@@ -31,14 +31,10 @@ namespace BirthdayReminderCore.Utilities
                 }
                 else
                 {                    
-                    UserSettings settings = new UserSettings();
-                    updateUserSettings(settings);
+                    var settings = new UserSettings();
+                    UpdateUserSettings(settings);
                     return settings;
                 }
-            }
-            catch (Exception)
-            {
-                throw;
             }
             finally
             {
@@ -53,18 +49,14 @@ namespace BirthdayReminderCore.Utilities
         /// Updates or creates a new settings file
         /// </summary>
         /// <param name="settings">The user settings object</param>
-        public static void updateUserSettings(UserSettings settings)
+        public static void UpdateUserSettings(UserSettings settings)
         {
             IsolatedStorageFileStream fileStream=null;
             try
             {
                 fileStream = new IsolatedStorageFileStream(FileSystem.SettingsFile, FileMode.Create, IsolatedStorageFile.GetUserStoreForApplication());
-                XmlSerializer serializer = new XmlSerializer(typeof(UserSettings));
+                var serializer = new XmlSerializer(typeof(UserSettings));
                 serializer.Serialize(fileStream, settings);
-            }
-            catch (Exception)
-            {
-                throw;
             }
             finally
             {

@@ -1,0 +1,473 @@
+<?xml version="1.0"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>cs-CZ</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Narozeniny připomenutí</value>
+  </data>
+  <data name="DownloadingFbContact" xml:space="preserve">
+    <value>Facebook kontakty se stahuje</value>
+  </data>
+  <data name="CreateBdayReminder" xml:space="preserve">
+    <value>Jak vznikají narozeniny připomenutí</value>
+  </data>
+  <data name="ErrBuildBdayList" xml:space="preserve">
+    <value>Chyba při vytváření seznamu narozenin</value>
+  </data>
+  <data name="ErrSaveBday" xml:space="preserve">
+    <value>Chyba při ukládání narozeniny</value>
+  </data>
+  <data name="ErrSaveBdayNContact" xml:space="preserve">
+    <value>Chyba při ukládání narozeniny a kontakty</value>
+  </data>
+  <data name="FbLoginFailedText" xml:space="preserve">
+    <value>Přihlášení na facebook se nezdařilo.</value>
+  </data>
+  <data name="FbLoginFailedTitle" xml:space="preserve">
+    <value>Přihlášení se nezdařilo</value>
+  </data>
+  <data name="FrndDtlsTitle" xml:space="preserve">
+    <value>Přítel podrobnosti</value>
+  </data>
+  <data name="RetrieveLocalContact" xml:space="preserve">
+    <value>Načtení místní kontaktní údaje</value>
+  </data>
+  <data name="RetrievingFbFriend" xml:space="preserve">
+    <value>Načítání podrobností Facebook přítel</value>
+  </data>
+  <data name="SaveBdays" xml:space="preserve">
+    <value>Uložení narozeniny</value>
+  </data>
+  <data name="AddLabel" xml:space="preserve">
+    <value>Přidat</value>
+  </data>
+  <data name="BirthdayLabel" xml:space="preserve">
+    <value>Narozeniny</value>
+  </data>
+  <data name="BirthdayMessage" xml:space="preserve">
+    <value>Hodně štěstí a zdraví k narozeninám den:). Hodně štěstí a zdraví!!</value>
+  </data>
+  <data name="BirthdayOnLabel" xml:space="preserve">
+    <value>Narozeniny na</value>
+  </data>
+  <data name="CallLabel" xml:space="preserve">
+    <value>Volání</value>
+  </data>
+  <data name="ContactNoLabel" xml:space="preserve">
+    <value>Kontaktní číslo</value>
+  </data>
+  <data name="EmailLabel" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ErrDisplaSaveBtn" xml:space="preserve">
+    <value>Chyba při zobrazování tlačítko Uložit</value>
+  </data>
+  <data name="ErrOnNavigation" xml:space="preserve">
+    <value>Chyba při navigaci</value>
+  </data>
+  <data name="ErrPostingToWall" xml:space="preserve">
+    <value>Při účtování na Facebook zeď</value>
+  </data>
+  <data name="ErrSavingFrndDtls" xml:space="preserve">
+    <value>Chyba při ukládání přítel podrobnosti</value>
+  </data>
+  <data name="ErrSendingMessage" xml:space="preserve">
+    <value>Chyba při odesílání zprávy</value>
+  </data>
+  <data name="FrndDtlsPgTitlle" xml:space="preserve">
+    <value>Přítel podrobnosti</value>
+  </data>
+  <data name="FrndDtlsUpdated" xml:space="preserve">
+    <value>Podrobné údaje o stávajícím přítelem byl aktualizován</value>
+  </data>
+  <data name="FrndDtlsUpdatedTitle" xml:space="preserve">
+    <value>Přítel informace aktualizovány</value>
+  </data>
+  <data name="MainPageAllTitle" xml:space="preserve">
+    <value>všechny</value>
+  </data>
+  <data name="MainPageMostRcntTitle" xml:space="preserve">
+    <value>Nedávné</value>
+  </data>
+  <data name="MainPageTtitle" xml:space="preserve">
+    <value>Narozeniny</value>
+  </data>
+  <data name="MessageLabel" xml:space="preserve">
+    <value>Zpráva</value>
+  </data>
+  <data name="NameLabel" xml:space="preserve">
+    <value>Jméno</value>
+  </data>
+  <data name="NewFrndAddedTitle" xml:space="preserve">
+    <value>Byl přidán nový přítel</value>
+  </data>
+  <data name="NewFrndCreatedMsg" xml:space="preserve">
+    <value>Nový přítel s podrobnostmi byl úspěšně přidán</value>
+  </data>
+  <data name="NotKnownLabel" xml:space="preserve">
+    <value>Není známo</value>
+  </data>
+  <data name="PostToWall" xml:space="preserve">
+    <value>Příspěvek na zdi</value>
+  </data>
+  <data name="SaveLabel" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="SavingFrndDtls" xml:space="preserve">
+    <value>Ukládání přítel podrobnosti</value>
+  </data>
+  <data name="SendAutoEmailLabel" xml:space="preserve">
+    <value>Poslat Auto Email</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>Nastavení</value>
+  </data>
+  <data name="WarnDtlsReq" xml:space="preserve">
+    <value>Podrobnosti požadované</value>
+  </data>
+  <data name="WarnNameBdayCompulsory" xml:space="preserve">
+    <value>Jméno a datum narození jsou povinné</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="BdayMsgLabel" xml:space="preserve">
+    <value>Narozeniny zpráva</value>
+  </data>
+  <data name="BdayReminderSettingsTitle" xml:space="preserve">
+    <value>NASTAVENÍ PŘIPOMENUTÍ NAROZENIN</value>
+  </data>
+  <data name="BdaySetupMessage" xml:space="preserve">
+    <value>Nemáte žádné kontakty uložené v současnosti. Chcete stáhnout vaše kontakty facebook?</value>
+  </data>
+  <data name="BdaySetupTitle" xml:space="preserve">
+    <value>Instalace narozeniny</value>
+  </data>
+  <data name="BirthdayWishTitle" xml:space="preserve">
+    <value>přání</value>
+  </data>
+  <data name="ContactNotUpdatedMessage" xml:space="preserve">
+    <value>Kontakty ještě nebyly synchronizovány ve chvíli. Chcete je nyní aktualizovat?</value>
+  </data>
+  <data name="ContactsTitle" xml:space="preserve">
+    <value>kontakty</value>
+  </data>
+  <data name="ContactSyncRedirectMsg" xml:space="preserve">
+    <value>Kontakty by nyní měla být synchronizována a budete přesměrováni na obrazovku synchronizace kontaktu. Chcete synchronizovat vaše kontakty?</value>
+  </data>
+  <data name="ErrAppBarDisplay" xml:space="preserve">
+    <value>Chyba při zobrazování App Bar</value>
+  </data>
+  <data name="ErrAppBarLoad" xml:space="preserve">
+    <value>Chyba při načítání aplikace Bar</value>
+  </data>
+  <data name="ErrAppInitialise" xml:space="preserve">
+    <value>Chyba při spuštění. Některé funkce nebudou fungovat.</value>
+  </data>
+  <data name="ErrFbLogin" xml:space="preserve">
+    <value>Chyba při přihlašování na Facebooku</value>
+  </data>
+  <data name="ErrFbLogout" xml:space="preserve">
+    <value>Chyba protokolování Out z Facebooku</value>
+  </data>
+  <data name="ErrInitialiseTitle" xml:space="preserve">
+    <value>Chyba při spuštění</value>
+  </data>
+  <data name="ErrLoadSyncScreen" xml:space="preserve">
+    <value>Chyba při načítání synchronizace obrazovky</value>
+  </data>
+  <data name="ErrNavigatingSettings" xml:space="preserve">
+    <value>Chyba při navigaci k nastavení</value>
+  </data>
+  <data name="ErrOpeningApp" xml:space="preserve">
+    <value>Při otevírání aplikace</value>
+  </data>
+  <data name="ErrSaveSettings" xml:space="preserve">
+    <value>Chyba při ukládání nastavení</value>
+  </data>
+  <data name="ErrSendingEmail" xml:space="preserve">
+    <value>Chyba při odesílání emailu</value>
+  </data>
+  <data name="HappyBdayMessage" xml:space="preserve">
+    <value>Hodně štěstí a zdraví</value>
+  </data>
+  <data name="LastSyncedLabel" xml:space="preserve">
+    <value>Naposledy synchronizována</value>
+  </data>
+  <data name="LaterLabel" xml:space="preserve">
+    <value>Později</value>
+  </data>
+  <data name="LoadingSettingsLabel" xml:space="preserve">
+    <value>Načítání nastavení</value>
+  </data>
+  <data name="LoginFbBtnnLabel" xml:space="preserve">
+    <value>Přihlaste se do Facebooku</value>
+  </data>
+  <data name="LogoutFbBtnLabel" xml:space="preserve">
+    <value>Odhlášení z Facebooku</value>
+  </data>
+  <data name="MsgPostedFb" xml:space="preserve">
+    <value>Vaše zpráva byla zaúčtována</value>
+  </data>
+  <data name="PictureLabel" xml:space="preserve">
+    <value>Obrázek</value>
+  </data>
+  <data name="ProfileTitle" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="RateAppBtnLabel" xml:space="preserve">
+    <value>Ohodnoťte tuto aplikaci</value>
+  </data>
+  <data name="RateAppText" xml:space="preserve">
+    <value>Pokud se vám líbí naše aplikace a to dělalo váš život snazší, prosím sazba/koupit to!</value>
+  </data>
+  <data name="RemindByEmailLabel" xml:space="preserve">
+    <value>Připomenout emailem</value>
+  </data>
+  <data name="ReminderTitle" xml:space="preserve">
+    <value>připomenutí</value>
+  </data>
+  <data name="ReminderUpdatedTitle" xml:space="preserve">
+    <value>Upomínek aktualizován</value>
+  </data>
+  <data name="ReminderUpdateSuccess" xml:space="preserve">
+    <value>Úspěšně aktualizovaná Připomenutí narozenin</value>
+  </data>
+  <data name="SendEmailText" xml:space="preserve">
+    <value>Pokud se setkáváte s problémy, nebo máte nějaké návrhy/požadavky, neváhejte a kontaktujte nás!</value>
+  </data>
+  <data name="SendPicLabel" xml:space="preserve">
+    <value>Odeslat obrázky</value>
+  </data>
+  <data name="SendUsEmailBtnLabel" xml:space="preserve">
+    <value>Pošlete nám e-mail</value>
+  </data>
+  <data name="SettingsSavedLabel" xml:space="preserve">
+    <value>Nastavení uloženo</value>
+  </data>
+  <data name="SettingsUpdateSuccessMsg" xml:space="preserve">
+    <value>Nastavení bylo úspěšně aktualizováno.</value>
+  </data>
+  <data name="ShowNotifLabel" xml:space="preserve">
+    <value>Zobrazovat upozornění</value>
+  </data>
+  <data name="SupportEmailLabel" xml:space="preserve">
+    <value>Podpora e-mailu</value>
+  </data>
+  <data name="SyncContactsLabel" xml:space="preserve">
+    <value>Synchronizovat kontakty</value>
+  </data>
+  <data name="SyncFbContactLabel" xml:space="preserve">
+    <value>Synchronizovat Facebook kontakty</value>
+  </data>
+  <data name="SyncIntervalLabel" xml:space="preserve">
+    <value>Synchronizace vnitřního</value>
+  </data>
+  <data name="SyncIntrvlOptionAfter" xml:space="preserve">
+    <value>Po</value>
+  </data>
+  <data name="SyncIntrvlOptionBefore" xml:space="preserve">
+    <value>Před</value>
+  </data>
+  <data name="SyncIntrvlOptionDaily" xml:space="preserve">
+    <value>Denně</value>
+  </data>
+  <data name="SyncIntrvlOptionHour" xml:space="preserve">
+    <value>Hodiny</value>
+  </data>
+  <data name="SyncIntrvlOptionManual" xml:space="preserve">
+    <value>Manuál</value>
+  </data>
+  <data name="SyncIntrvlOptionMin" xml:space="preserve">
+    <value>Minuty</value>
+  </data>
+  <data name="SyncIntrvlOptionMonthly" xml:space="preserve">
+    <value>Měsíční</value>
+  </data>
+  <data name="SyncIntrvlOptionOnTime" xml:space="preserve">
+    <value>Na čas</value>
+  </data>
+  <data name="SyncIntrvlOptionSec" xml:space="preserve">
+    <value>Sekundy</value>
+  </data>
+  <data name="SyncIntrvlOptionWeekly" xml:space="preserve">
+    <value>Týdně</value>
+  </data>
+  <data name="SyncLocalContactLabel" xml:space="preserve">
+    <value>Synchronizovat místní kontakty</value>
+  </data>
+  <data name="SyncNowBtnLabel" xml:space="preserve">
+    <value>Zahájit synchronizaci</value>
+  </data>
+  <data name="WarnInternetMsg" xml:space="preserve">
+    <value>Nelze se připojit k Internetu. Zopakujte akci s funkční připojení k Internetu.</value>
+  </data>
+  <data name="WarnNwTitle" xml:space="preserve">
+    <value>Chyba sítě</value>
+  </data>
+  <data name="WarnValidHourValue" xml:space="preserve">
+    <value>Zadejte prosím platný hodinu hodnotu od 0 do 23</value>
+  </data>
+  <data name="WarnValidMinValue" xml:space="preserve">
+    <value>Zadejte prosím platnou minuta hodnotu mezi 0 a 59</value>
+  </data>
+  <data name="WarnValidSecvalue" xml:space="preserve">
+    <value>Zadejte prosím platný sekund hodnotu od 0 do 59</value>
+  </data>
+  <data name="WhenToRemindLabel" xml:space="preserve">
+    <value>Kdy je vhodné připomenout</value>
+  </data>
+  <data name="WishByEmailLabel" xml:space="preserve">
+    <value>Přání emailem</value>
+  </data>
+  <data name="YesLabel" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="YourContactNoLabel" xml:space="preserve">
+    <value>Vaše kontaktní číslo</value>
+  </data>
+  <data name="YourEmailLabel" xml:space="preserve">
+    <value>Váš email</value>
+  </data>
+  <data name="YourNameLabel" xml:space="preserve">
+    <value>Tvoje jméno</value>
+  </data>
+  <data name="DeleteLabel" xml:space="preserve">
+    <value>Odstranit</value>
+  </data>
+  <data name="BirthdayReminderMessage" xml:space="preserve">
+    <value>je dnes narozeniny. Klepnutím sem mu poslat vzkaz</value>
+  </data>
+  <data name="ErrBindingData" xml:space="preserve">
+    <value>Chyba při získávání dat pro zobrazení</value>
+  </data>
+  <data name="ErrRenewBgndTask" xml:space="preserve">
+    <value>Chyba při obnovování pozadí agenta</value>
+  </data>
+  <data name="WarnReEnableBgTask" xml:space="preserve">
+    <value>Agent zálohování bylo zakázáno pro tuto aplikaci. Prosím znovu povolte výstrahy a oznámení. Jdi na nastavení - aplikace - úlohy na pozadí. Zaškrtněte políčko Povolit úlohy na pozadí.</value>
+  </data>
+  <data name="UpdateBdayRemindr" xml:space="preserve">
+    <value>Aktualizovat narozeniny připomenutí</value>
+  </data>
+  <data name="LaterThisWkLabel" xml:space="preserve">
+    <value>Tento týden</value>
+  </data>
+  <data name="TodayLabel" xml:space="preserve">
+    <value>Dnes</value>
+  </data>
+  <data name="TomorrowLabel" xml:space="preserve">
+    <value>Zítra</value>
+  </data>
+  <data name="ErrDeleting" xml:space="preserve">
+    <value>Chyba při odstraňování</value>
+  </data>
+  <data name="ErrSelecting" xml:space="preserve">
+    <value>Chyba při výběru</value>
+  </data>
+  <data name="WarnSelectItem" xml:space="preserve">
+    <value>Vyberte položku a pak zopakujte</value>
+  </data>
+  <data name="WarnTryAgain" xml:space="preserve">
+    <value>Zkuste to prosím znovu</value>
+  </data>
+  <data name="BdayCardsPgTitle" xml:space="preserve">
+    <value>karty</value>
+  </data>
+  <data name="DeleteConfirmMessage" xml:space="preserve">
+    <value>Jste si jisti, že chcete odstranit vybrané položky?</value>
+  </data>
+  <data name="ErrAddCard" xml:space="preserve">
+    <value>Chyba při přidávání karta</value>
+  </data>
+  <data name="ErrAddFriend" xml:space="preserve">
+    <value>Chyba při přidávání přítel</value>
+  </data>
+  <data name="LoadingFbPageMsg" xml:space="preserve">
+    <value>Stránky Facebook je stále načten</value>
+  </data>
+  <data name="DownloadImagesTitle" xml:space="preserve">
+    <value>Stáhnout obrázky na profil</value>
+  </data>
+  <data name="DownloadnProfileImgMsg" xml:space="preserve">
+    <value>Přejete si stáhnout profil obrázky vašich přátel? Po stažení obrázků, budete schopni vidět jejich phtotos v počáteční dlaždice. Ale prosím, buďte trpěliví, protože tento proces může trvat několik minut v závislosti na rychlosti připojení k Internetu. Chcete nyní stáhnout obrázky?</value>
+  </data>
+  <data name="SetAsDefaultLabel" xml:space="preserve">
+    <value>Nastavit jako výchozí</value>
+  </data>
+  <data name="ChooseCardLabel" xml:space="preserve">
+    <value>Zvolte kartu</value>
+  </data>
+  <data name="CardLimitExceedCaption" xml:space="preserve">
+    <value>Limit překročen</value>
+  </data>
+  <data name="CardLimitMsg" xml:space="preserve">
+    <value>Nelze přidat více než 10 karet. Odstraňte některé staré karty, pokud chcete přidat nové karty.</value>
+  </data>
+  <data name="ConnOpenWarnCaption" xml:space="preserve">
+    <value>Připojení je zaneprázdněno</value>
+  </data>
+  <data name="ImageUploadDownloadBusyMsg" xml:space="preserve">
+    <value>Obraz je stále uloženy nebo odstraněny. Prosím počkejte několik sekund a opakujte akci.</value>
+  </data>
+  <data name="AddEditFriendNotAllowed" xml:space="preserve">
+    <value>Přidání nového přítele nebo upravujete existující údaje přítel není povolen v zkušební verzi aplikace. Zakupte plnou verzi používat tuto funkci a odemknout mnoho dalších funkcí.</value>
+  </data>
+  <data name="BuyAppForCard" xml:space="preserve">
+    <value>Zkušební verze aplikace umožňuje pouze až 5 karet. Zakupte plnou verzi uložit více karet a odemknout mnoho dalších funkcí.</value>
+  </data>
+  <data name="BuyFullVersion" xml:space="preserve">
+    <value>Koupit plnou verzi</value>
+  </data>
+  <data name="BuyLabel" xml:space="preserve">
+    <value>Koupím</value>
+  </data>
+  <data name="DeletingCardsNotAllowed" xml:space="preserve">
+    <value>Odstranění karty není povolen v zkušební verzi aplikace. Zakupte plnou verzi pro použití této funkce a odemknout mnoho dalších funkcí.</value>
+  </data>
+  <data name="NotAllowedLabel" xml:space="preserve">
+    <value>Není povoleno</value>
+  </data>
+  <data name="Only100CardsMessage" xml:space="preserve">
+    <value>Aplikace umožňuje uložit pouze 100 karet právě teď. Odstraňte některé staré karty nahrávat nové.</value>
+  </data>
+  <data name="SyncFeatureNotAllowed" xml:space="preserve">
+    <value>Tato funkce není povolena v zkušební verzi aplikace. Zakupte plnou verzi aplikace k použití této funkce a odemknout mnoho dalších funkcí.</value>
+  </data>
+  <data name="BuyAppForAddFriend" xml:space="preserve">
+    <value>Zkušební verze aplikace neumožňuje přidání nebo úprava přítel detaily. Zakupte plnou verzi pro použití této funkce a odemknout mnoho dalších funkcí.</value>
+  </data>
+  <data name="BuyAppForDelete" xml:space="preserve">
+    <value>Zkušební verze aplikace neumožňuje odstranění položek. Zakupte plnou verzi odstranit položky a odemknout mnoho dalších funkcí.</value>
+  </data>
+  <data name="BuyAppGenericMessage" xml:space="preserve">
+    <value>Zkušební verze aplikace tuto funkci neumožňuje. Zakupte plnou verzi pro použití této funkce a odemknout mnoho dalších funkcí.</value>
+  </data>
+  <data name="BuyAppSaveSettings" xml:space="preserve">
+    <value>Zkušební verze aplikace neumožňuje změnu nastavení. Zakupte plnou verzi pro použití této funkce a odemknout mnoho dalších funkcí.</value>
+  </data>
+  <data name="BuyAppForAllFriends" xml:space="preserve">
+    <value>Zkušební verze aplikace není povoleno více než 100 přátelé uložit. Pouze 100 facebook přátelé byly uloženy. Zakupte plnou verzi pro ukládání všech facebook přátelé a odemknout mnoho dalších funkcí. Poté, co si koupíte plnou verzi, je třeba synchronizujte seznam přítel tím, že půjdete do nastavení chcete-li stáhnout všechny přátele.</value>
+  </data>
+  <data name="DaysLabel" xml:space="preserve">
+    <value>Dny</value>
+  </data>
+</root>

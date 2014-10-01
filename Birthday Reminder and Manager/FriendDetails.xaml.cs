@@ -24,7 +24,11 @@ namespace BirthdayReminder
         {
             InitializeComponent();
 
-            LoadAds();
+            if (App.IsTrial)
+            {
+                LoadAds();
+            }
+            
         }
 
         private void LoadAds()

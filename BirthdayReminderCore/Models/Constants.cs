@@ -37,8 +37,10 @@ namespace BirthdayReminderCore.Models
 
     public static class Services
     {
-        public static readonly String AzureConnectionString = "DefaultEndpointsProtocol=https;AccountName=birthdayreminder;"
-                                            + "AccountKey=31dv/7bhy2XLvmEHqUa9qMNG9L9tG1ti7dBuDpvjdp01FiE4bcHCP9himGbswzFL7IiqAq7vuvVY2RGFSE+mEg==";
+        public static readonly String AzureConnectionString = "DefaultEndpointsProtocol=https;AccountName=birthdayremindercards;"
+                                            + "AccountKey=u1wQasN9FtcoHDJn747G/oUtWccJfUdWVkgmsMlpVMhRPyLdFNKyyqz4+GP/4g/S+SzvobpDhhr8tCyWhNo0oQ==";
+
+        public static readonly String CardBaseUrl = "http://birthdayremindercards.blob.core.windows.net/";
     }
 
     public static class BirthdayAppInfo
@@ -72,5 +74,6 @@ namespace BirthdayReminderCore.Models
         public static readonly String TodayLabel = "Today";
         public static readonly String TomorrowLabel = "Tomorrow";
         public static readonly String LaterThisWkLabel = "Later this week";
+        public static readonly String DaysLabel = "Days";
     }
 }

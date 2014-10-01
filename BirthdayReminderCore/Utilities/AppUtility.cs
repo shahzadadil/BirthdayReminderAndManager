@@ -6,14 +6,22 @@ namespace BirthdayReminderCore.Utilities
 {
     public static class AppUtility
     {
-        public static void UpdateSchema()
+        /// <summary>
+        /// Creates db for storage if it does not exist
+        /// </summary>
+        /// <returns>Boolean value indicating if the db has already been upgraded</returns>
+        public static bool UpdateSchema()
         {
             using (var context = new BirthdayDataContext(Database.DbConnectionString))
             {
-                if (!context.DatabaseExists())
+                if (context.DatabaseExists())
                 {
-                    context.CreateDatabase();
+                    return true;
                 }
+                
+                context.CreateDatabase();
+
+                return false;
             }
         }
 
@@ -30,7 +38,10 @@ namespace BirthdayReminderCore.Utilities
                         var dbFriend = new FriendEntity
                         {
                             BigProfilePictureUrl = friend.BigProfilePictureUrl,
-                            Birthday = string.IsNullOrEmpty(friend.Birthday) ? new DateTime?() : Convert.ToDateTime(friend.Birthday),
+                            Birthday =
+                                string.IsNullOrEmpty(friend.Birthday)
+                                    ? new DateTime?()
+                                    : Convert.ToDateTime(friend.Birthday),
                             Email = friend.Email,
                             FacebookId = friend.Email,
                             IsReminderCreated = false,

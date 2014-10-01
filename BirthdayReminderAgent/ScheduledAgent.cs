@@ -80,7 +80,7 @@ namespace BirthdayReminderAgent
                 var recentBirthdays = new List<FriendEntity>();
                 var todayBirthday = new List<FriendEntity>();
                 var weekBirthday = new List<FriendEntity>();
-                Settings = SettingsUtility.getUserPreferences();
+                Settings = SettingsUtility.GetUserPreferences();
                 LoadLocalizedRes();
                 var notificationCount = 0;
                 var isReminderExpired = false;

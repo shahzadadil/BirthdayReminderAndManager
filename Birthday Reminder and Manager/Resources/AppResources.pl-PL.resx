@@ -1,0 +1,473 @@
+<?xml version="1.0"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>pl-PL</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Urodziny przypomnienie</value>
+  </data>
+  <data name="DownloadingFbContact" xml:space="preserve">
+    <value>Pobierane są coraz Facebook kontaktów</value>
+  </data>
+  <data name="CreateBdayReminder" xml:space="preserve">
+    <value>Powstają pierwsze urodziny przypomnienia</value>
+  </data>
+  <data name="ErrBuildBdayList" xml:space="preserve">
+    <value>Błąd budynku listę urodziny</value>
+  </data>
+  <data name="ErrSaveBday" xml:space="preserve">
+    <value>Wystąpił błąd podczas zapisywania urodziny</value>
+  </data>
+  <data name="ErrSaveBdayNContact" xml:space="preserve">
+    <value>Wystąpił błąd podczas zapisywania urodziny i kontakty</value>
+  </data>
+  <data name="FbLoginFailedText" xml:space="preserve">
+    <value>Zaloguj się na facebook, nie powiodło się</value>
+  </data>
+  <data name="FbLoginFailedTitle" xml:space="preserve">
+    <value>Logowanie nie powiodło się</value>
+  </data>
+  <data name="FrndDtlsTitle" xml:space="preserve">
+    <value>Przyjaciel szczegóły</value>
+  </data>
+  <data name="RetrieveLocalContact" xml:space="preserve">
+    <value>Pobieranie lokalne dane kontaktowe</value>
+  </data>
+  <data name="RetrievingFbFriend" xml:space="preserve">
+    <value>Pobieranie Facebook przyjaciel szczegóły</value>
+  </data>
+  <data name="SaveBdays" xml:space="preserve">
+    <value>Zapisywanie urodziny</value>
+  </data>
+  <data name="AddLabel" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="BirthdayLabel" xml:space="preserve">
+    <value>Urodziny</value>
+  </data>
+  <data name="BirthdayMessage" xml:space="preserve">
+    <value>Wielu wielu szczęśliwych zwraca dnia:). Wszystkiego najlepszego z okazji urodzin!!</value>
+  </data>
+  <data name="BirthdayOnLabel" xml:space="preserve">
+    <value>Urodziny na</value>
+  </data>
+  <data name="CallLabel" xml:space="preserve">
+    <value>Zadzwoń</value>
+  </data>
+  <data name="ContactNoLabel" xml:space="preserve">
+    <value>Numer kontaktowy</value>
+  </data>
+  <data name="EmailLabel" xml:space="preserve">
+    <value>Adres e-mail</value>
+  </data>
+  <data name="ErrDisplaSaveBtn" xml:space="preserve">
+    <value>Błąd wyświetlania przycisk Zapisz</value>
+  </data>
+  <data name="ErrOnNavigation" xml:space="preserve">
+    <value>Błąd w nawigacji</value>
+  </data>
+  <data name="ErrPostingToWall" xml:space="preserve">
+    <value>Błąd księgowania na ściany Facebook</value>
+  </data>
+  <data name="ErrSavingFrndDtls" xml:space="preserve">
+    <value>Wystąpił błąd podczas zapisywania przyjaciel szczegóły</value>
+  </data>
+  <data name="ErrSendingMessage" xml:space="preserve">
+    <value>Błąd wysyłania wiadomości</value>
+  </data>
+  <data name="FrndDtlsPgTitlle" xml:space="preserve">
+    <value>Przyjaciel szczegóły</value>
+  </data>
+  <data name="FrndDtlsUpdated" xml:space="preserve">
+    <value>Szczegóły istniejącej przyjaciel został zaktualizowany</value>
+  </data>
+  <data name="FrndDtlsUpdatedTitle" xml:space="preserve">
+    <value>Przyjaciel dane aktualizowane</value>
+  </data>
+  <data name="MainPageAllTitle" xml:space="preserve">
+    <value>wszystkie</value>
+  </data>
+  <data name="MainPageMostRcntTitle" xml:space="preserve">
+    <value>ostatnie</value>
+  </data>
+  <data name="MainPageTtitle" xml:space="preserve">
+    <value>Urodziny</value>
+  </data>
+  <data name="MessageLabel" xml:space="preserve">
+    <value>Komunikat</value>
+  </data>
+  <data name="NameLabel" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="NewFrndAddedTitle" xml:space="preserve">
+    <value>Dodano nową przyjaźń</value>
+  </data>
+  <data name="NewFrndCreatedMsg" xml:space="preserve">
+    <value>Pomyślnie dodano nowy przyjaciel ze szczegółami</value>
+  </data>
+  <data name="NotKnownLabel" xml:space="preserve">
+    <value>Nie wiadomo</value>
+  </data>
+  <data name="PostToWall" xml:space="preserve">
+    <value>Postu do ściany</value>
+  </data>
+  <data name="SaveLabel" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="SavingFrndDtls" xml:space="preserve">
+    <value>Oszczędności przyjaciel szczegóły</value>
+  </data>
+  <data name="SendAutoEmailLabel" xml:space="preserve">
+    <value>Wyślij E-mail Auto</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="WarnDtlsReq" xml:space="preserve">
+    <value>Szczegóły wymagane</value>
+  </data>
+  <data name="WarnNameBdayCompulsory" xml:space="preserve">
+    <value>Nazwa i urodziny są obowiązkowe</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="BdayMsgLabel" xml:space="preserve">
+    <value>Wiadomość urodziny</value>
+  </data>
+  <data name="BdayReminderSettingsTitle" xml:space="preserve">
+    <value>URODZINY PRZYPOMNIENIE USTAWIENIA</value>
+  </data>
+  <data name="BdaySetupMessage" xml:space="preserve">
+    <value>Nie masz żadnych kontaktów zapisanych aktualnie. Czy chcesz pobrać kontakty facebook?</value>
+  </data>
+  <data name="BdaySetupTitle" xml:space="preserve">
+    <value>Ustawienie urodziny</value>
+  </data>
+  <data name="BirthdayWishTitle" xml:space="preserve">
+    <value>życzenia</value>
+  </data>
+  <data name="ContactNotUpdatedMessage" xml:space="preserve">
+    <value>Kontakty mają nie zostały zsynchronizowane w czasie. Czy chcesz teraz zaktualizować?</value>
+  </data>
+  <data name="ContactsTitle" xml:space="preserve">
+    <value>kontakty</value>
+  </data>
+  <data name="ContactSyncRedirectMsg" xml:space="preserve">
+    <value>Kontakty teraz chcieliby być zsynchronizowane i zostaniesz przekierowany na kontakt Sync ekran. Czy chcesz teraz Synchronizacja kontaktów?</value>
+  </data>
+  <data name="ErrAppBarDisplay" xml:space="preserve">
+    <value>Błąd wyświetlania aplikacji Bar</value>
+  </data>
+  <data name="ErrAppBarLoad" xml:space="preserve">
+    <value>Błąd ładowania aplikacji Bar</value>
+  </data>
+  <data name="ErrAppInitialise" xml:space="preserve">
+    <value>Błąd podczas uruchamiania kontroli. Niektóre funkcje mogą nie działać.</value>
+  </data>
+  <data name="ErrFbLogin" xml:space="preserve">
+    <value>Błąd logowania na Facebook</value>
+  </data>
+  <data name="ErrFbLogout" xml:space="preserve">
+    <value>Błąd rejestrowania się z Facebook</value>
+  </data>
+  <data name="ErrInitialiseTitle" xml:space="preserve">
+    <value>Błąd podczas uruchamiania</value>
+  </data>
+  <data name="ErrLoadSyncScreen" xml:space="preserve">
+    <value>Błąd ładowania Sync ekran</value>
+  </data>
+  <data name="ErrNavigatingSettings" xml:space="preserve">
+    <value>Błąd podczas nawigowania do ustawienia</value>
+  </data>
+  <data name="ErrOpeningApp" xml:space="preserve">
+    <value>Błąd otwarcia aplikacji</value>
+  </data>
+  <data name="ErrSaveSettings" xml:space="preserve">
+    <value>Wystąpił błąd podczas zapisywania ustawień</value>
+  </data>
+  <data name="ErrSendingEmail" xml:space="preserve">
+    <value>Błąd wysyłania wiadomości E-mail</value>
+  </data>
+  <data name="HappyBdayMessage" xml:space="preserve">
+    <value>Wszystkiego najlepszego z okazji urodzin</value>
+  </data>
+  <data name="LastSyncedLabel" xml:space="preserve">
+    <value>Ostatnio synchronizowane</value>
+  </data>
+  <data name="LaterLabel" xml:space="preserve">
+    <value>Później</value>
+  </data>
+  <data name="LoadingSettingsLabel" xml:space="preserve">
+    <value>Wczytywanie ustawień</value>
+  </data>
+  <data name="LoginFbBtnnLabel" xml:space="preserve">
+    <value>Zaloguj się na Facebook</value>
+  </data>
+  <data name="LogoutFbBtnLabel" xml:space="preserve">
+    <value>Zaloguj się z Facebook</value>
+  </data>
+  <data name="MsgPostedFb" xml:space="preserve">
+    <value>Twoja wiadomość została zaksięgowana</value>
+  </data>
+  <data name="PictureLabel" xml:space="preserve">
+    <value>Obraz</value>
+  </data>
+  <data name="ProfileTitle" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="RateAppBtnLabel" xml:space="preserve">
+    <value>Oceń ten aplikacja</value>
+  </data>
+  <data name="RateAppText" xml:space="preserve">
+    <value>Jeśli lubisz naszej aplikacji i złożyło swoje życie łatwiejszy, proszę kursu/Kup!</value>
+  </data>
+  <data name="RemindByEmailLabel" xml:space="preserve">
+    <value>Przypomnieć przez E-mail</value>
+  </data>
+  <data name="ReminderTitle" xml:space="preserve">
+    <value>przypomnienie</value>
+  </data>
+  <data name="ReminderUpdatedTitle" xml:space="preserve">
+    <value>Przypomnienia aktualizowane</value>
+  </data>
+  <data name="ReminderUpdateSuccess" xml:space="preserve">
+    <value>Pomyślnie zaktualizowane przypomnienia o urodzinach</value>
+  </data>
+  <data name="SendEmailText" xml:space="preserve">
+    <value>Jeśli napotkasz jakiekolwiek problemy lub masz jakieś sugestie/życzenia, prosimy o kontakt z nami!</value>
+  </data>
+  <data name="SendPicLabel" xml:space="preserve">
+    <value>Wyślij zdjęcia</value>
+  </data>
+  <data name="SendUsEmailBtnLabel" xml:space="preserve">
+    <value>Wyślij do nas maila</value>
+  </data>
+  <data name="SettingsSavedLabel" xml:space="preserve">
+    <value>Ustawienia zapisane</value>
+  </data>
+  <data name="SettingsUpdateSuccessMsg" xml:space="preserve">
+    <value>Ustawienia zostały pomyślnie zaktualizowane</value>
+  </data>
+  <data name="ShowNotifLabel" xml:space="preserve">
+    <value>Pokaż powiadomienia</value>
+  </data>
+  <data name="SupportEmailLabel" xml:space="preserve">
+    <value>Wsparcie E-mail</value>
+  </data>
+  <data name="SyncContactsLabel" xml:space="preserve">
+    <value>Synchronizacja kontaktów</value>
+  </data>
+  <data name="SyncFbContactLabel" xml:space="preserve">
+    <value>Synchronizuj kontakty Facebook</value>
+  </data>
+  <data name="SyncIntervalLabel" xml:space="preserve">
+    <value>Synchronizacji wewnętrznego</value>
+  </data>
+  <data name="SyncIntrvlOptionAfter" xml:space="preserve">
+    <value>Po</value>
+  </data>
+  <data name="SyncIntrvlOptionBefore" xml:space="preserve">
+    <value>Przed</value>
+  </data>
+  <data name="SyncIntrvlOptionDaily" xml:space="preserve">
+    <value>Codziennie</value>
+  </data>
+  <data name="SyncIntrvlOptionHour" xml:space="preserve">
+    <value>Godziny</value>
+  </data>
+  <data name="SyncIntrvlOptionManual" xml:space="preserve">
+    <value>Ręcznie</value>
+  </data>
+  <data name="SyncIntrvlOptionMin" xml:space="preserve">
+    <value>Minut</value>
+  </data>
+  <data name="SyncIntrvlOptionMonthly" xml:space="preserve">
+    <value>Miesięczne</value>
+  </data>
+  <data name="SyncIntrvlOptionOnTime" xml:space="preserve">
+    <value>Na czas</value>
+  </data>
+  <data name="SyncIntrvlOptionSec" xml:space="preserve">
+    <value>Sekund</value>
+  </data>
+  <data name="SyncIntrvlOptionWeekly" xml:space="preserve">
+    <value>Tygodniowy</value>
+  </data>
+  <data name="SyncLocalContactLabel" xml:space="preserve">
+    <value>Synchronizuj kontakty lokalne</value>
+  </data>
+  <data name="SyncNowBtnLabel" xml:space="preserve">
+    <value>Synchronizuj teraz</value>
+  </data>
+  <data name="WarnInternetMsg" xml:space="preserve">
+    <value>Nie można podłączyć do Internetu. Proszę spróbować ponownie z działającego połączenia z Internetem.</value>
+  </data>
+  <data name="WarnNwTitle" xml:space="preserve">
+    <value>Błąd sieciowy</value>
+  </data>
+  <data name="WarnValidHourValue" xml:space="preserve">
+    <value>Podaj prawidłową godzinę wartość od 0 do 23</value>
+  </data>
+  <data name="WarnValidMinValue" xml:space="preserve">
+    <value>Podaj prawidłową wartość minut od 0 do 59</value>
+  </data>
+  <data name="WarnValidSecvalue" xml:space="preserve">
+    <value>Podaj wartość prawidłowa sekund od 0 do 59</value>
+  </data>
+  <data name="WhenToRemindLabel" xml:space="preserve">
+    <value>Kiedy należy przypomnieć</value>
+  </data>
+  <data name="WishByEmailLabel" xml:space="preserve">
+    <value>Chcesz przez E-mail</value>
+  </data>
+  <data name="YesLabel" xml:space="preserve">
+    <value>Tak</value>
+  </data>
+  <data name="YourContactNoLabel" xml:space="preserve">
+    <value>Numer kontaktowy</value>
+  </data>
+  <data name="YourEmailLabel" xml:space="preserve">
+    <value>Twój e-mail</value>
+  </data>
+  <data name="YourNameLabel" xml:space="preserve">
+    <value>Imię i nazwisko</value>
+  </data>
+  <data name="DeleteLabel" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="BirthdayReminderMessage" xml:space="preserve">
+    <value>na dziś urodziny. Stuknij, aby wysłać mu wiadomość</value>
+  </data>
+  <data name="ErrBindingData" xml:space="preserve">
+    <value>Wystąpił błąd podczas uzyskiwania danych, które mają być wyświetlane</value>
+  </data>
+  <data name="ErrRenewBgndTask" xml:space="preserve">
+    <value>Wystąpił błąd podczas odnawiania tło agenta</value>
+  </data>
+  <data name="WarnReEnableBgTask" xml:space="preserve">
+    <value>Tło agenta została wyłączona dla tej aplikacji. Proszę ponownie włączyć alerty i powiadomienia. Przejdź do ustawienia - aplikacje - zadania w tle. Zaznacz pole wyboru, aby włączyć zadania w tle.</value>
+  </data>
+  <data name="UpdateBdayRemindr" xml:space="preserve">
+    <value>Aktualizacja urodziny przypomnienia</value>
+  </data>
+  <data name="LaterThisWkLabel" xml:space="preserve">
+    <value>Później w tym tygodniu</value>
+  </data>
+  <data name="TodayLabel" xml:space="preserve">
+    <value>Dzisiaj</value>
+  </data>
+  <data name="TomorrowLabel" xml:space="preserve">
+    <value>Jutro</value>
+  </data>
+  <data name="ErrDeleting" xml:space="preserve">
+    <value>Błąd podczas usuwania</value>
+  </data>
+  <data name="ErrSelecting" xml:space="preserve">
+    <value>Błąd podczas wyboru</value>
+  </data>
+  <data name="WarnSelectItem" xml:space="preserve">
+    <value>Wybierz element, a następnie spróbuj ponownie</value>
+  </data>
+  <data name="WarnTryAgain" xml:space="preserve">
+    <value>Spróbuj ponownie</value>
+  </data>
+  <data name="BdayCardsPgTitle" xml:space="preserve">
+    <value>karty</value>
+  </data>
+  <data name="DeleteConfirmMessage" xml:space="preserve">
+    <value>Czy na pewno chcesz usunąć wybrane elementy?</value>
+  </data>
+  <data name="ErrAddCard" xml:space="preserve">
+    <value>Błąd dodawania karty</value>
+  </data>
+  <data name="ErrAddFriend" xml:space="preserve">
+    <value>Błąd dodawania przyjaciela</value>
+  </data>
+  <data name="LoadingFbPageMsg" xml:space="preserve">
+    <value>Na Facebooku jest coraz załadowany</value>
+  </data>
+  <data name="DownloadImagesTitle" xml:space="preserve">
+    <value>Pobierz za darmo zdjęcia profilu</value>
+  </data>
+  <data name="DownloadnProfileImgMsg" xml:space="preserve">
+    <value>Czy chcesz pobrać obrazy profilu znajomych? Po pobraniu obrazów, będzie można zobaczyć ich phtotos w początku dachówka. Ale proszę o cierpliwość, gdyż proces ten może potrwać kilka minut w zależności od szybkości twojego połączenia internetowego. Czy chcesz pobrać obrazy teraz?</value>
+  </data>
+  <data name="SetAsDefaultLabel" xml:space="preserve">
+    <value>Ustaw jako domyślne</value>
+  </data>
+  <data name="ChooseCardLabel" xml:space="preserve">
+    <value>Wybierz kartę</value>
+  </data>
+  <data name="CardLimitExceedCaption" xml:space="preserve">
+    <value>Ma przekroczony limit</value>
+  </data>
+  <data name="CardLimitMsg" xml:space="preserve">
+    <value>Nie można dodać więcej niż 10 kart. Proszę usunąć niektóre stare karty, jeśli chcesz dodać nowe karty.</value>
+  </data>
+  <data name="ConnOpenWarnCaption" xml:space="preserve">
+    <value>Połączenie jest zajęte</value>
+  </data>
+  <data name="ImageUploadDownloadBusyMsg" xml:space="preserve">
+    <value>Obraz jest coraz zapisane lub usunięte. Proszę odczekać kilka sekund i spróbuj ponownie.</value>
+  </data>
+  <data name="AddEditFriendNotAllowed" xml:space="preserve">
+    <value>Dodawanie nowego przyjaciela lub edycji istniejącego szczegóły przyjaciel nie jest dozwolone w wersji testowej aplikacji. Proszę kupić pełnej wersji, aby korzystać z tej funkcji i odblokować wiele innych funkcji.</value>
+  </data>
+  <data name="BuyAppForCard" xml:space="preserve">
+    <value>Wersję próbną aplikacji umożliwia tylko do 5 kart. Proszę kupić pełnej wersji, aby zapisać więcej kart i odblokować wiele innych funkcji.</value>
+  </data>
+  <data name="BuyFullVersion" xml:space="preserve">
+    <value>Kup pełną wersję</value>
+  </data>
+  <data name="BuyLabel" xml:space="preserve">
+    <value>Kupię</value>
+  </data>
+  <data name="DeletingCardsNotAllowed" xml:space="preserve">
+    <value>Usuwanie karty nie jest dozwolone w wersji próbnej aplikacji. Proszę kupić pełnej wersji, aby użyć tej funkcji i odblokować wiele innych funkcji.</value>
+  </data>
+  <data name="NotAllowedLabel" xml:space="preserve">
+    <value>Nie wolno</value>
+  </data>
+  <data name="Only100CardsMessage" xml:space="preserve">
+    <value>Aplikacja umożliwia teraz zapisać tylko 100 kart. Podobać się delegować niektóre stare karty, aby zapisać nowe.</value>
+  </data>
+  <data name="SyncFeatureNotAllowed" xml:space="preserve">
+    <value>Ta funkcja nie jest dozwolone w wersji próbnej aplikacji. Należy kupić pełną wersję aplikacji, aby używać tej funkcji i odblokować wiele innych funkcji.</value>
+  </data>
+  <data name="BuyAppForAddFriend" xml:space="preserve">
+    <value>Wersję próbną aplikacji nie zezwala na dodawanie lub edytowanie szczegółów przyjaciela. Proszę kupić pełnej wersji, aby użyć tej funkcji i odblokować wiele innych funkcji.</value>
+  </data>
+  <data name="BuyAppForDelete" xml:space="preserve">
+    <value>Wersję próbną aplikacji nie Zezwalaj na usuwanie elementów. Proszę kupić pełnej wersji, aby usunąć elementy i odblokować wiele innych funkcji.</value>
+  </data>
+  <data name="BuyAppGenericMessage" xml:space="preserve">
+    <value>Wersję próbną aplikacji nie pozwalają tej funkcji. Proszę kupić pełnej wersji, aby użyć tej funkcji i odblokować wiele innych funkcji.</value>
+  </data>
+  <data name="BuyAppSaveSettings" xml:space="preserve">
+    <value>Wersję próbną aplikacji nie zezwala na zmianę ustawień. Proszę kupić pełnej wersji, aby użyć tej funkcji i odblokować wiele innych funkcji.</value>
+  </data>
+  <data name="BuyAppForAllFriends" xml:space="preserve">
+    <value>Wersję próbną aplikacji nie zezwala na więcej niż 100 znajomych być zbawionym. Zostały zapisane tylko 100 znajomych na Facebooku. Należy kupić pełną wersję do zapisywania wszystkich znajomych z Facebooka i odblokować wiele innych funkcji. Po zakupie pełnej wersji, należy zsynchronizować listy znajomych przechodząc do ustawień w celu pobrania wszystkich znajomych.</value>
+  </data>
+  <data name="DaysLabel" xml:space="preserve">
+    <value>Dni</value>
+  </data>
+</root>

@@ -42,6 +42,10 @@ namespace BirthdayReminderCore.Utilities
             }
         }
 
+        /// <summary>
+        /// Get the list of all friends from database
+        /// </summary>
+        /// <returns>List of friends</returns>
         public static List<FriendEntity> GetFriendList()
         {
             using (var context = new BirthdayDataContext(Database.DbConnectionString))
@@ -64,17 +68,18 @@ namespace BirthdayReminderCore.Utilities
                 var context = new BirthdayDataContext(Database.DbConnectionString);
 
                 var birthdays = (from friend in context.Friends
-                    select new FriendBirthday
-                    {
-                        Birthday = friend.Birthday.HasValue ? friend.Birthday.Value : new DateTime?(),
-                        Id = friend.UniqueId,
-                        Name = friend.Name,
-                        FacebookId = friend.FacebookId,
-                        ProfilePicUrl = friend.ProfilePictureUrl,
-                        DaysAhead = DateTimeUtility.GetTimeToEvent(friend.Birthday),
-                        TimeToEventText = GetRecentBirthdayText(friend.Birthday)
-                    })
-                    .ToList();
+                                 where friend.IsHidden.HasValue == false || friend.IsHidden.Value == false
+                                select new FriendBirthday
+                                {
+                                    Birthday = friend.Birthday.HasValue ? friend.Birthday.Value : new DateTime?(),
+                                    Id = friend.UniqueId,
+                                    Name = friend.Name,
+                                    FacebookId = friend.FacebookId,
+                                    ProfilePicUrl = friend.ProfilePictureUrl,
+                                    DaysAhead = DateTimeUtility.GetTimeToEvent(friend.Birthday),
+                                    TimeToEventText = GetRecentBirthdayText(friend.Birthday)
+                                })
+                                .ToList();
 
                 if (!birthdays.Any())
                 {
@@ -96,6 +101,7 @@ namespace BirthdayReminderCore.Utilities
                     AllBirthdays = birthdays.OrderBy(p => p.Name).ToList(),
                     RecentBirthdays = birthdays.FindAll(b => !string.IsNullOrEmpty(b.TimeToEventText))
                         .OrderBy(p => p.DaysAhead)
+                        .Take(7)
                         .ToList()
                 };
             }
@@ -128,9 +134,17 @@ namespace BirthdayReminderCore.Utilities
                 case 1:
                     birthdayText = Labels.TomorrowLabel;
                     break;
-                case 1-7:
+                case 2:
+                case 3:
+                case 4:
+                case 5:
+                case 6:
+                case 7:
                     if (birthday != null)
                         birthdayText = Labels.LaterThisWkLabel + " : " + birthday.Value.ToString("dd MMM");
+                    break;
+                default:
+                    birthdayText = daysAhead + " " + Labels.DaysLabel;
                     break;
             }
 
@@ -172,6 +186,11 @@ namespace BirthdayReminderCore.Utilities
             }
         }
 
+        /// <summary>
+        /// Update the properties if the freind details
+        /// </summary>
+        /// <param name="existingFriend">Existing friend details</param>
+        /// <param name="updatedFriend">Friend details with updated properties</param>
         private static void CopyProperties(FriendEntity existingFriend, FriendEntity updatedFriend)
         {
             existingFriend.BigProfilePictureUrl = updatedFriend.BigProfilePictureUrl;
@@ -224,6 +243,8 @@ namespace BirthdayReminderCore.Utilities
                     select friend).Single();
 
                 friendToDelete.IsHidden = true;
+
+                context.SubmitChanges();
             }
         }
 
@@ -314,15 +335,12 @@ namespace BirthdayReminderCore.Utilities
             return (new DateTime(1900, month, day));
         }
 
-        public static int AddBirthdayCard()
+        public static void AddBirthdayCard(CardEntity newCard)
         {
             using (var context = new BirthdayDataContext(Database.DbConnectionString))
             {
-                var newCard = new CardEntity();
                 context.Cards.InsertOnSubmit(newCard);
                 context.SubmitChanges();
-
-                return newCard.Id;
             }
         }
 
@@ -392,7 +410,7 @@ namespace BirthdayReminderCore.Utilities
             {
                 var cardsToDelete = (from card in context.Cards
                     where cardIds.Contains(card.Id)
-                    select card);
+                    select card).AsEnumerable();
 
                 context.Cards.DeleteAllOnSubmit(cardsToDelete);
 

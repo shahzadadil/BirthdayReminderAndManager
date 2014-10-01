@@ -17,457 +17,457 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>es</value>
+    <value>sv</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>Recordatorio de cumpleaños</value>
+    <value>Födelsedagspåminnelse</value>
   </data>
   <data name="DownloadingFbContact" xml:space="preserve">
-    <value>Contactos de Facebook están consiguiendo descargar</value>
+    <value>Facebook-kontakter få hämtas</value>
   </data>
   <data name="CreateBdayReminder" xml:space="preserve">
-    <value>Se elaboran recordatorios de cumpleaños</value>
+    <value>Födelsedag påminnelser att få skapas</value>
   </data>
   <data name="ErrBuildBdayList" xml:space="preserve">
-    <value>Lista de cumpleaños error Building</value>
+    <value>Fel byggnad födelsedag lista</value>
   </data>
   <data name="ErrSaveBday" xml:space="preserve">
-    <value>Error al guardar los cumpleaños</value>
+    <value>Fel vid sparande av födelsedagar</value>
   </data>
   <data name="ErrSaveBdayNContact" xml:space="preserve">
-    <value>Error al guardar los cumpleaños y contactos</value>
+    <value>Fel vid sparande av födelsedagar och kontakter</value>
   </data>
   <data name="FbLoginFailedText" xml:space="preserve">
-    <value>Iniciar sesión en facebook fallado</value>
+    <value>Logga in på facebook misslyckades</value>
   </data>
   <data name="FbLoginFailedTitle" xml:space="preserve">
-    <value>Login Failed</value>
+    <value>Inloggningen misslyckades</value>
   </data>
   <data name="FrndDtlsTitle" xml:space="preserve">
-    <value>Detalles de amigo</value>
+    <value>Vän Detaljer</value>
   </data>
   <data name="RetrieveLocalContact" xml:space="preserve">
-    <value>Recuperar los datos de contacto locales</value>
+    <value>Hämta lokala kontaktuppgifter</value>
   </data>
   <data name="RetrievingFbFriend" xml:space="preserve">
-    <value>Recuperar datos de Facebook amigo</value>
+    <value>Hämta Facebook vän Detaljer</value>
   </data>
   <data name="SaveBdays" xml:space="preserve">
-    <value>Cumpleaños de ahorro</value>
+    <value>Spara födelsedagar</value>
   </data>
   <data name="AddLabel" xml:space="preserve">
-    <value>Añadir</value>
+    <value>Lägg till</value>
   </data>
   <data name="BirthdayLabel" xml:space="preserve">
-    <value>Cumpleaños</value>
+    <value>Födelsedag</value>
   </data>
   <data name="BirthdayMessage" xml:space="preserve">
-    <value>Muchas felicidades del día:). ¡¡Feliz cumpleaños!!</value>
+    <value>Många många glada returnerar dagen:). Grattis på födelsedagen!!</value>
   </data>
   <data name="BirthdayOnLabel" xml:space="preserve">
-    <value>Cumpleaños en</value>
+    <value>Födelsedag på</value>
   </data>
   <data name="CallLabel" xml:space="preserve">
-    <value>Llamada</value>
+    <value>Ring</value>
   </data>
   <data name="ContactNoLabel" xml:space="preserve">
-    <value>Número de contacto</value>
+    <value>Kontaktnummer</value>
   </data>
   <data name="EmailLabel" xml:space="preserve">
-    <value>Correo electrónico</value>
+    <value>E-post</value>
   </data>
   <data name="ErrDisplaSaveBtn" xml:space="preserve">
-    <value>Error Mostrar botón guardar</value>
+    <value>Fel visar knappen Spara</value>
   </data>
   <data name="ErrOnNavigation" xml:space="preserve">
-    <value>Error en la navegación</value>
+    <value>Fel på navigering</value>
   </data>
   <data name="ErrPostingToWall" xml:space="preserve">
-    <value>Error publicar en el muro de Facebook</value>
+    <value>Fel på Facebook Wall</value>
   </data>
   <data name="ErrSavingFrndDtls" xml:space="preserve">
-    <value>Error al guardar los datos amigo</value>
+    <value>Fel vid sparande av vän Detaljer</value>
   </data>
   <data name="ErrSendingMessage" xml:space="preserve">
-    <value>Enviar mensaje</value>
+    <value>Skicka felmeddelande</value>
   </data>
   <data name="FrndDtlsPgTitlle" xml:space="preserve">
-    <value>Detalles de amigo</value>
+    <value>Vän Detaljer</value>
   </data>
   <data name="FrndDtlsUpdated" xml:space="preserve">
-    <value>Se ha actualizado la información del amigo existente</value>
+    <value>Detaljer om den befintliga vän har uppdaterats</value>
   </data>
   <data name="FrndDtlsUpdatedTitle" xml:space="preserve">
-    <value>Amigo actualizó</value>
+    <value>Vän information uppdaterad</value>
   </data>
   <data name="MainPageAllTitle" xml:space="preserve">
-    <value>todos</value>
+    <value>alla</value>
   </data>
   <data name="MainPageMostRcntTitle" xml:space="preserve">
-    <value>recientes</value>
+    <value>de senaste</value>
   </data>
   <data name="MainPageTtitle" xml:space="preserve">
-    <value>Cumpleaños</value>
+    <value>Födelsedagar</value>
   </data>
   <data name="MessageLabel" xml:space="preserve">
-    <value>Mensaje</value>
+    <value>Meddelande</value>
   </data>
   <data name="NameLabel" xml:space="preserve">
-    <value>Nombre</value>
+    <value>Namn</value>
   </data>
   <data name="NewFrndAddedTitle" xml:space="preserve">
-    <value>Se ha añadido nuevo amigo</value>
+    <value>Nya vän har lagts</value>
   </data>
   <data name="NewFrndCreatedMsg" xml:space="preserve">
-    <value>Se ha añadido correctamente un nuevo amigo con los detalles</value>
+    <value>En ny vän med detaljer har lagts</value>
   </data>
   <data name="NotKnownLabel" xml:space="preserve">
-    <value>No se conoce</value>
+    <value>Inte känt</value>
   </data>
   <data name="PostToWall" xml:space="preserve">
-    <value>Poste a la pared</value>
+    <value>Inlägget till vägg</value>
   </data>
   <data name="SaveLabel" xml:space="preserve">
-    <value>Salvar</value>
+    <value>Spara</value>
   </data>
   <data name="SavingFrndDtls" xml:space="preserve">
-    <value>Ahorro detalles de amigo</value>
+    <value>Spara vän Detaljer</value>
   </data>
   <data name="SendAutoEmailLabel" xml:space="preserve">
-    <value>Enviar correo electrónico automático</value>
+    <value>Skicka automatisk e-post</value>
   </data>
   <data name="SettingsLabel" xml:space="preserve">
-    <value>Configuración</value>
+    <value>Inställningar</value>
   </data>
   <data name="WarnDtlsReq" xml:space="preserve">
-    <value>Detalles requeridos</value>
+    <value>Detaljer som krävs</value>
   </data>
   <data name="WarnNameBdayCompulsory" xml:space="preserve">
-    <value>Nombre y cumpleaños son obligatorios</value>
+    <value>Namn och födelsedag är obligatoriska</value>
   </data>
   <data name="AboutTitle" xml:space="preserve">
-    <value>acerca de</value>
+    <value>om</value>
   </data>
   <data name="BdayMsgLabel" xml:space="preserve">
-    <value>Mensaje de cumpleaños</value>
+    <value>Födelsedag meddelande</value>
   </data>
   <data name="BdayReminderSettingsTitle" xml:space="preserve">
-    <value>CONFIGURACIÓN DE RECORDATORIO DE CUMPLEAÑOS</value>
+    <value>FÖDELSEDAG PÅMINNELSE INSTÄLLNINGARNA</value>
   </data>
   <data name="BdaySetupMessage" xml:space="preserve">
-    <value>No tienes ningún contacto guardado actualmente. ¿Te gustaría descargar tus contactos de facebook?</value>
+    <value>Du har inte några kontakter sparas för närvarande. Vill du hämta dina facebook-kontakter?</value>
   </data>
   <data name="BdaySetupTitle" xml:space="preserve">
-    <value>Configuración de cumpleaños</value>
+    <value>Setup födelsedagar</value>
   </data>
   <data name="BirthdayWishTitle" xml:space="preserve">
-    <value>deseos</value>
+    <value>önskemål</value>
   </data>
   <data name="ContactNotUpdatedMessage" xml:space="preserve">
-    <value>Tus contactos no han sido sincronizados en un tiempo. ¿Quieres actualizarlos ahora?</value>
+    <value>Har inte varit synkroniseras dina kontakter på ett tag. Vill du uppdatera dem nu?</value>
   </data>
   <data name="ContactsTitle" xml:space="preserve">
-    <value>contactos</value>
+    <value>kontakter</value>
   </data>
   <data name="ContactSyncRedirectMsg" xml:space="preserve">
-    <value>Ahora sería sincronizar sus contactos y se le redireccionará a la pantalla de sincronización de contacto. ¿Desea sincronizar tus contactos ahora?</value>
+    <value>Skulle nu synkroniseras dina kontakter och du kommer att omdirigeras till kontakt Sync skärmen. Vill du synkronisera dina kontakter nu?</value>
   </data>
   <data name="ErrAppBarDisplay" xml:space="preserve">
-    <value>Error Mostrar barra de aplicación</value>
+    <value>Fel visar App Bar</value>
   </data>
   <data name="ErrAppBarLoad" xml:space="preserve">
-    <value>Error de carga de la aplicación Bar</value>
+    <value>Felstapel lastning App</value>
   </data>
   <data name="ErrAppInitialise" xml:space="preserve">
-    <value>Error durante la comprobación de la puesta en marcha. Algunas de las funcionalidades pueden no funcionar.</value>
+    <value>Fel vid startas. Vissa funktioner kanske inte fungerar.</value>
   </data>
   <data name="ErrFbLogin" xml:space="preserve">
-    <value>Error iniciar sesión en Facebook</value>
+    <value>Felloggning i till Facebook</value>
   </data>
   <data name="ErrFbLogout" xml:space="preserve">
-    <value>Error de registro fuera de Facebook</value>
+    <value>Fel logga ut från Facebook</value>
   </data>
   <data name="ErrInitialiseTitle" xml:space="preserve">
-    <value>Error durante el inicio</value>
+    <value>Fel vid start</value>
   </data>
   <data name="ErrLoadSyncScreen" xml:space="preserve">
-    <value>Pantalla de error carga Sync</value>
+    <value>Fel lastning Sync skärmen</value>
   </data>
   <data name="ErrNavigatingSettings" xml:space="preserve">
-    <value>Error mientras navega a Settings</value>
+    <value>Ett fel uppstod när navigera till inställningar</value>
   </data>
   <data name="ErrOpeningApp" xml:space="preserve">
-    <value>Solicitud de apertura de error</value>
+    <value>Fel vid öppnandet program</value>
   </data>
   <data name="ErrSaveSettings" xml:space="preserve">
-    <value>Error al guardar la configuración</value>
+    <value>Fel vid sparande av inställningar</value>
   </data>
   <data name="ErrSendingEmail" xml:space="preserve">
-    <value>Error enviando correo electrónico</value>
+    <value>Fel skicka e-post</value>
   </data>
   <data name="HappyBdayMessage" xml:space="preserve">
-    <value>Feliz cumpleaños</value>
+    <value>Grattis på födelsedagen</value>
   </data>
   <data name="LastSyncedLabel" xml:space="preserve">
-    <value>Última sincronizado</value>
+    <value>Senast synkroniserad</value>
   </data>
   <data name="LaterLabel" xml:space="preserve">
-    <value>Más tarde</value>
+    <value>Senare</value>
   </data>
   <data name="LoadingSettingsLabel" xml:space="preserve">
-    <value>Carga la configuración</value>
+    <value>Ladda dina inställningar</value>
   </data>
   <data name="LoginFbBtnnLabel" xml:space="preserve">
-    <value>Iniciar sesión en Facebook</value>
+    <value>Logga In på Facebook</value>
   </data>
   <data name="LogoutFbBtnLabel" xml:space="preserve">
-    <value>Cerrar sesión en Facebook</value>
+    <value>Logga ut från Facebook</value>
   </data>
   <data name="MsgPostedFb" xml:space="preserve">
-    <value>Su mensaje ha sido contabilizado</value>
+    <value>Ditt meddelande har bokförts</value>
   </data>
   <data name="PictureLabel" xml:space="preserve">
-    <value>Foto</value>
+    <value>Bild</value>
   </data>
   <data name="ProfileTitle" xml:space="preserve">
-    <value>Perfil</value>
+    <value>profil</value>
   </data>
   <data name="RateAppBtnLabel" xml:space="preserve">
-    <value>Esta aplicación la tarifa</value>
+    <value>Betygsätt denna App</value>
   </data>
   <data name="RateAppText" xml:space="preserve">
-    <value>Si te gusta nuestra aplicación e hizo la vida más fácil, por favor tarifa/comprarlo!</value>
+    <value>Om du gillar vår app och det har gjort ditt liv lättare, vänligen pris/köpa det!</value>
   </data>
   <data name="RemindByEmailLabel" xml:space="preserve">
-    <value>Recordar por correo electrónico</value>
+    <value>Påminna via e-post</value>
   </data>
   <data name="ReminderTitle" xml:space="preserve">
-    <value>recordatorio</value>
+    <value>påminnelse</value>
   </data>
   <data name="ReminderUpdatedTitle" xml:space="preserve">
-    <value>Recordatorios actualizados</value>
+    <value>Påminnelser uppdaterad</value>
   </data>
   <data name="ReminderUpdateSuccess" xml:space="preserve">
-    <value>Actualizados correctamente recordatorios de cumpleaños</value>
+    <value>Framgångsrikt uppdaterade påminnelser om födelsedagar</value>
   </data>
   <data name="SendEmailText" xml:space="preserve">
-    <value>Si usted está experimentando problemas o tienes cualquier sugerencia o solicitudes, por favor no dude en contactar con nosotros!</value>
+    <value>Om du upplever några problem eller om du har några förslag/önskemål, tveka inte att kontakta oss!</value>
   </data>
   <data name="SendPicLabel" xml:space="preserve">
-    <value>Enviar fotos</value>
+    <value>Skicka bilder</value>
   </data>
   <data name="SendUsEmailBtnLabel" xml:space="preserve">
-    <value>Envíenos un correo electrónico</value>
+    <value>Skicka oss ett mail</value>
   </data>
   <data name="SettingsSavedLabel" xml:space="preserve">
-    <value>Ajustes guardados</value>
+    <value>Inställningarna sparas</value>
   </data>
   <data name="SettingsUpdateSuccessMsg" xml:space="preserve">
-    <value>Ajustes han sido actualizados exitosamente</value>
+    <value>Inställningar har uppdaterats</value>
   </data>
   <data name="ShowNotifLabel" xml:space="preserve">
-    <value>Mostrar notificaciones</value>
+    <value>Visa meddelanden</value>
   </data>
   <data name="SupportEmailLabel" xml:space="preserve">
-    <value>Soporte por correo electrónico</value>
+    <value>Stöd Email</value>
   </data>
   <data name="SyncContactsLabel" xml:space="preserve">
-    <value>Sincronización de los contactos</value>
+    <value>Synkronisera kontakter</value>
   </data>
   <data name="SyncFbContactLabel" xml:space="preserve">
-    <value>Sincronización de contactos Facebook</value>
+    <value>Synka Facebook-kontakter</value>
   </data>
   <data name="SyncIntervalLabel" xml:space="preserve">
-    <value>Sincronización interna</value>
+    <value>Sync inre</value>
   </data>
   <data name="SyncIntrvlOptionAfter" xml:space="preserve">
-    <value>Después de</value>
+    <value>Efter</value>
   </data>
   <data name="SyncIntrvlOptionBefore" xml:space="preserve">
-    <value>Antes de</value>
+    <value>Innan</value>
   </data>
   <data name="SyncIntrvlOptionDaily" xml:space="preserve">
-    <value>Diario</value>
+    <value>Dagliga</value>
   </data>
   <data name="SyncIntrvlOptionHour" xml:space="preserve">
-    <value>Horas</value>
+    <value>Timmar</value>
   </data>
   <data name="SyncIntrvlOptionManual" xml:space="preserve">
-    <value>Manual</value>
+    <value>Manuell</value>
   </data>
   <data name="SyncIntrvlOptionMin" xml:space="preserve">
-    <value>Minutos</value>
+    <value>Minuter</value>
   </data>
   <data name="SyncIntrvlOptionMonthly" xml:space="preserve">
-    <value>Mensual</value>
+    <value>Månatliga</value>
   </data>
   <data name="SyncIntrvlOptionOnTime" xml:space="preserve">
-    <value>El tiempo</value>
+    <value>På tid</value>
   </data>
   <data name="SyncIntrvlOptionSec" xml:space="preserve">
-    <value>Segundos</value>
+    <value>Sekunder</value>
   </data>
   <data name="SyncIntrvlOptionWeekly" xml:space="preserve">
-    <value>Semanal</value>
+    <value>Varje vecka</value>
   </data>
   <data name="SyncLocalContactLabel" xml:space="preserve">
-    <value>Sincronización de los contactos locales</value>
+    <value>Synkronisera lokala kontakter</value>
   </data>
   <data name="SyncNowBtnLabel" xml:space="preserve">
-    <value>Sincronizar ahora</value>
+    <value>Synkronisera nu</value>
   </data>
   <data name="WarnInternetMsg" xml:space="preserve">
-    <value>No se puede conectar a Internet. Por favor, pruebe con una conexión a Internet activa.</value>
+    <value>Kan inte ansluta till Internet. Försök igen med en fungerande Internetanslutning.</value>
   </data>
   <data name="WarnNwTitle" xml:space="preserve">
-    <value>Error de red</value>
+    <value>Nätverksfel</value>
   </data>
   <data name="WarnValidHourValue" xml:space="preserve">
-    <value>Por favor, introduzca un valor de hora válida entre 0 y 23</value>
+    <value>Ange en giltig timme värde mellan 0 och 23</value>
   </data>
   <data name="WarnValidMinValue" xml:space="preserve">
-    <value>Introduzca un valor válido de minutos entre 0 y 59</value>
+    <value>Ange ett giltigt minut värde mellan 0 och 59</value>
   </data>
   <data name="WarnValidSecvalue" xml:space="preserve">
-    <value>Por favor, introduzca un valor válido segundos entre 0 y 59</value>
+    <value>Ange en giltig sekunder värde mellan 0 och 59</value>
   </data>
   <data name="WhenToRemindLabel" xml:space="preserve">
-    <value>Cuando recordamos</value>
+    <value>När ska påminna</value>
   </data>
   <data name="WishByEmailLabel" xml:space="preserve">
-    <value>Deseo por correo electrónico</value>
+    <value>Önskar via e-post</value>
   </data>
   <data name="YesLabel" xml:space="preserve">
-    <value>Sí</value>
+    <value>Ja</value>
   </data>
   <data name="YourContactNoLabel" xml:space="preserve">
-    <value>Su número de contacto</value>
+    <value>Ditt kontaktnummer</value>
   </data>
   <data name="YourEmailLabel" xml:space="preserve">
-    <value>Su correo electrónico</value>
+    <value>Din e-post</value>
   </data>
   <data name="YourNameLabel" xml:space="preserve">
-    <value>Te llamas</value>
+    <value>Ditt namn</value>
   </data>
   <data name="DeleteLabel" xml:space="preserve">
-    <value>Borrar</value>
+    <value>Ta bort</value>
   </data>
   <data name="BirthdayReminderMessage" xml:space="preserve">
-    <value>de cumpleaños hoy. Grifo para enviarle un mensaje</value>
+    <value>'s födelsedag idag. Tryck för att skicka honom ett meddelande</value>
   </data>
   <data name="ErrBindingData" xml:space="preserve">
-    <value>Error al obtener datos</value>
+    <value>Fel uppstod när data som ska visas</value>
   </data>
   <data name="ErrRenewBgndTask" xml:space="preserve">
-    <value>Error al renovar agente de fondo</value>
+    <value>Ett fel uppstod när förnya bakgrund agent</value>
   </data>
   <data name="WarnReEnableBgTask" xml:space="preserve">
-    <value>Agente de fondo se ha deshabilitado para esta aplicación. Por favor, vuelva a activar alertas y notificaciones. Ir a ajustes - aplicaciones - fondo tareas. Seleccione la casilla de verificación Habilitar las tareas secundarias.</value>
+    <value>Bakgrunden agent har inaktiverats för denna app. Vänligen aktivera för att få varningar och meddelanden. Gå till inställningar - program - bakgrunden uppgiften. Markera kryssrutan Aktivera bakgrunden uppgiften.</value>
   </data>
   <data name="UpdateBdayRemindr" xml:space="preserve">
-    <value>Actualización de recordatorios de cumpleaños</value>
+    <value>Uppdatera födelsedag påminnelser</value>
   </data>
   <data name="LaterThisWkLabel" xml:space="preserve">
-    <value>Más tarde esta semana</value>
+    <value>Senare i veckan</value>
   </data>
   <data name="TodayLabel" xml:space="preserve">
-    <value>Hoy</value>
+    <value>Idag</value>
   </data>
   <data name="TomorrowLabel" xml:space="preserve">
-    <value>Mañana</value>
+    <value>I morgon</value>
   </data>
   <data name="ErrDeleting" xml:space="preserve">
-    <value>Error durante el borrado</value>
+    <value>Fel vid borttagning</value>
   </data>
   <data name="ErrSelecting" xml:space="preserve">
-    <value>Error durante la selección</value>
+    <value>Fel vid val av</value>
   </data>
   <data name="WarnSelectItem" xml:space="preserve">
-    <value>Por favor, seleccione un elemento y vuelva a intentarlo</value>
+    <value>Vänligen välj ett objekt och försök igen</value>
   </data>
   <data name="WarnTryAgain" xml:space="preserve">
-    <value>Por favor intentelo nuevamente</value>
+    <value>Behaga försök igen</value>
   </data>
   <data name="BdayCardsPgTitle" xml:space="preserve">
-    <value>tarjetas</value>
+    <value>kort</value>
   </data>
   <data name="DeleteConfirmMessage" xml:space="preserve">
-    <value>¿Está seguro que desea eliminar los elementos seleccionados?</value>
+    <value>Är du säker du vill ta bort de markerade objekten?</value>
   </data>
   <data name="ErrAddCard" xml:space="preserve">
-    <value>Error agregar tarjeta</value>
+    <value>Fel att lägga kortet</value>
   </data>
   <data name="ErrAddFriend" xml:space="preserve">
-    <value>Error Agregar amigo</value>
+    <value>Fel att lägga till vän</value>
   </data>
   <data name="LoadingFbPageMsg" xml:space="preserve">
-    <value>Página de Facebook está consiguiendo cargada</value>
+    <value>Facebook-sida att få laddas</value>
   </data>
   <data name="DownloadImagesTitle" xml:space="preserve">
-    <value>Descargar imágenes de perfil</value>
+    <value>Hämta profil bilder</value>
   </data>
   <data name="DownloadnProfileImgMsg" xml:space="preserve">
-    <value>¿Quieres descargar imágenes de perfil de tus amigos? Después de descargar imágenes, usted será capaz de ver su phtotos en la ficha Inicio. Pero por favor sea paciente mientras este proceso puede tardar unos minutos dependiendo de tu velocidad de conexión a internet. ¿Desea descargar las imágenes ahora?</value>
+    <value>Vill du hämta profil bilder av dina vänner? Efter nedladdning bilder, kommer du att kunna se sina phtotos i början kakel. Men ha tålamod som denna process kan ta några minuter beroende på Internetanslutningens hastighet. Vill du ladda ner bilderna nu?</value>
   </data>
   <data name="SetAsDefaultLabel" xml:space="preserve">
-    <value>Establecer como predeterminado</value>
+    <value>Ange som standard</value>
   </data>
   <data name="ChooseCardLabel" xml:space="preserve">
-    <value>Elija la tarjeta</value>
+    <value>Välj kort</value>
   </data>
   <data name="CardLimitExceedCaption" xml:space="preserve">
-    <value>Ha excedido el límite</value>
+    <value>Gränsen har överskridits</value>
   </data>
   <data name="CardLimitMsg" xml:space="preserve">
-    <value>No pueden agregarse más de 10 tarjetas. Por favor eliminar algunas tarjetas antiguas si desea agregar nuevas tarjetas.</value>
+    <value>Mer än 10 kort kan inte läggas till. Ta bort några gamla kort om du vill lägga till nya kort.</value>
   </data>
   <data name="ConnOpenWarnCaption" xml:space="preserve">
-    <value>Conexión está ocupada</value>
+    <value>Anslutning är upptagen</value>
   </data>
   <data name="ImageUploadDownloadBusyMsg" xml:space="preserve">
-    <value>Imagen está guardado o borrado. Por favor, espere unos segundos y vuelva a intentarlo.</value>
+    <value>Bilden blir sparas eller tas bort. Vänligen vänta några sekunder och försök igen.</value>
   </data>
   <data name="AddEditFriendNotAllowed" xml:space="preserve">
-    <value>No se permite agregar a un nuevo amigo o editar los detalles amigo existentes en la versión de prueba de la aplicación. Por favor compre la versión completa para utilizar esta función y desbloquear muchas otras características.</value>
+    <value>Lägga till en ny vän eller redigera befintliga vän detaljer är inte tillåtna i proven version av programmet. Vänligen köpa den fullständiga versionen för att använda den här funktionen och låsa upp massor av andra funktioner.</value>
   </data>
   <data name="BuyAppForCard" xml:space="preserve">
-    <value>La versión de prueba de la aplicación sólo permite hasta 5 tarjetas. Por favor compre la versión completa para ahorrar más tarjetas y desbloquear un montón de otras características.</value>
+    <value>Proven version av programmet kan bara upp till 5 kort. Vänligen köpa den full versionen att spara fler kort och frigöra en hel del andra funktioner.</value>
   </data>
   <data name="BuyFullVersion" xml:space="preserve">
-    <value>Comprar la versión completa</value>
+    <value>Köp fullversion</value>
   </data>
   <data name="BuyLabel" xml:space="preserve">
-    <value>Comprar</value>
+    <value>Köpa</value>
   </data>
   <data name="DeletingCardsNotAllowed" xml:space="preserve">
-    <value>No está permitido eliminar las tarjetas en la versión de prueba de la aplicación. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>Ta bort kort är inte tillåtna i proven version av programmet. Vänligen köpa den fullständiga versionen att använda den här funktionen och frigöra en hel del andra funktioner.</value>
   </data>
   <data name="NotAllowedLabel" xml:space="preserve">
-    <value>No está permitido</value>
+    <value>Inte tillåtet</value>
   </data>
   <data name="Only100CardsMessage" xml:space="preserve">
-    <value>La aplicación permite para ahorrar ahora sólo 100 tarjetas. Por favor eliminar algunas tarjetas antiguas para salvar a otros nuevos.</value>
+    <value>Ansökan gör för att spara bara 100 kort just nu. Ta bort några gamla kort om du vill spara nya.</value>
   </data>
   <data name="SyncFeatureNotAllowed" xml:space="preserve">
-    <value>Esta característica no está permitida en la versión de prueba de la aplicación. Por favor compre la versión completa de la aplicación para utilizar esta función y desbloquear muchas otras características.</value>
+    <value>Denna funktion är inte tillåtna i proven version av programmet. Vänligen köpa den fullständiga versionen av programmet att använda den här funktionen och frigöra massor av andra funktioner.</value>
   </data>
   <data name="BuyAppForAddFriend" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite agregar o editar información de amigo. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>Proven version av programmet kan inte lägga till eller redigera vän detaljer. Vänligen köpa den fullständiga versionen att använda den här funktionen och frigöra en hel del andra funktioner.</value>
   </data>
   <data name="BuyAppForDelete" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite el borrado de artículos. Por favor compre la versión completa para eliminar elementos y desbloquear un montón de otras características.</value>
+    <value>Proven version av ansökan tillåter inte borttagning av poster. Vänligen köpa den full versionen att ta bort objekt och frigöra en hel del andra funktioner.</value>
   </data>
   <data name="BuyAppGenericMessage" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite esta función. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>Proven version av ansökan tillåter inte denna funktion. Vänligen köpa den fullständiga versionen att använda den här funktionen och frigöra en hel del andra funktioner.</value>
   </data>
   <data name="BuyAppSaveSettings" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite el cambio de configuración. Por favor compre la versión completa para utilizar esta función y desbloquear un montón de otras características.</value>
+    <value>Proven version av ansökan tillåter inte att ändra inställningar. Vänligen köpa den fullständiga versionen att använda den här funktionen och frigöra en hel del andra funktioner.</value>
   </data>
   <data name="BuyAppForAllFriends" xml:space="preserve">
-    <value>La versión de prueba de la aplicación no permite más de 100 amigos para salvarse. Se han salvado sólo 100 amigos en facebook. Por favor compre la versión completa para salvar a todos los amigos de facebook y desbloquear un montón de otras características. Después de que usted compra la versión completa, por favor, sincronizar la lista de amigos por ir a la configuración con el fin de descargar a todos amigos.</value>
+    <value>Proven version av ansökan tillåter inte mer än 100 vänner ska sparas. Bara 100 facebook-vänner har sparats. Vänligen köpa den fullständiga versionen för att spara alla facebook-vänner och att låsa upp en hel del andra funktioner. När du köper den fullständiga versionen, synkronisera listan vän genom att gå till inställningarna för att hämta alla vänner.</value>
   </data>
   <data name="DaysLabel" xml:space="preserve">
-    <value>Días</value>
+    <value>Dagar</value>
   </data>
 </root>

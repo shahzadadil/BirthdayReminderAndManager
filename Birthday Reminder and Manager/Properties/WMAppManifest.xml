@@ -15,6 +15,23 @@
     <Language code="en" />
     <Language code="en-IN" />
     <Language code="en-GB" />
+    <Language code="ar-EG" />
+    <Language code="cs" />
+    <Language code="cs-CZ" />
+    <Language code="fi" />
+    <Language code="fi-FI" />
+    <Language code="el" />
+    <Language code="el-GR" />
+    <Language code="hu" />
+    <Language code="hu-HU" />
+    <Language code="ja" />
+    <Language code="ja-JP" />
+    <Language code="ms" />
+    <Language code="ms-MY" />
+    <Language code="pl" />
+    <Language code="pl-PL" />
+    <Language code="pt" />
+    <Language code="sv" />
   </Languages>
   <App xmlns="" ProductID="{71ae7a43-2956-4996-928b-1162437c542a}" Title="@AppResLib.dll,-100" RuntimeType="Silverlight" Version="2.5.1.0" Genre="apps.normal" Author="Md Shahzad Adil" Description="Store the birthdays of all your contacts and facebook friends and get reminded of the birthdays on time" Publisher="Md Shahzad Adil" PublisherID="{88920181-7b3f-4e53-afcf-1086102587f9}">
     <IconPath IsRelative="true" IsResource="false">Assets\birthday_reminder_app_Icon.png</IconPath>
@@ -41,26 +58,17 @@
           <SmallImageURI IsRelative="true" IsResource="false">Assets\birthday_reminder_app_Icon.png</SmallImageURI>
           <Title>@AppResLib.dll,-200</Title>
           <Photo01ImageURI IsRelative="true" IsResource="false">Assets\birthday_reminder_app_Icon.png</Photo01ImageURI>
-          <Photo02ImageURI IsRelative="true" IsResource="false">
-          </Photo02ImageURI>
-          <Photo03ImageURI IsRelative="true" IsResource="false">
-          </Photo03ImageURI>
-          <Photo04ImageURI IsRelative="true" IsResource="false">
-          </Photo04ImageURI>
-          <Photo05ImageURI IsRelative="true" IsResource="false">
-          </Photo05ImageURI>
-          <Photo06ImageURI IsRelative="true" IsResource="false">
-          </Photo06ImageURI>
-          <Photo07ImageURI IsRelative="true" IsResource="false">
-          </Photo07ImageURI>
-          <Photo08ImageURI IsRelative="true" IsResource="false">
-          </Photo08ImageURI>
-          <Photo09ImageURI IsRelative="true" IsResource="false">
-          </Photo09ImageURI>
+          <Photo02ImageURI IsRelative="true" IsResource="false"></Photo02ImageURI>
+          <Photo03ImageURI IsRelative="true" IsResource="false"></Photo03ImageURI>
+          <Photo04ImageURI IsRelative="true" IsResource="false"></Photo04ImageURI>
+          <Photo05ImageURI IsRelative="true" IsResource="false"></Photo05ImageURI>
+          <Photo06ImageURI IsRelative="true" IsResource="false"></Photo06ImageURI>
+          <Photo07ImageURI IsRelative="true" IsResource="false"></Photo07ImageURI>
+          <Photo08ImageURI IsRelative="true" IsResource="false"></Photo08ImageURI>
+          <Photo09ImageURI IsRelative="true" IsResource="false"></Photo09ImageURI>
           <Count>0</Count>
           <HasLarge>True</HasLarge>
-          <DeviceLockImageURI IsRelative="true" IsResource="false">
-          </DeviceLockImageURI>
+          <DeviceLockImageURI IsRelative="true" IsResource="false"></DeviceLockImageURI>
         </TemplateCycle>
       </PrimaryToken>
     </Tokens>

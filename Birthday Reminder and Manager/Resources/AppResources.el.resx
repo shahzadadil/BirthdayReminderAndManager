@@ -1,0 +1,473 @@
+<?xml version="1.0"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>el</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Υπενθύμιση γενεθλίων</value>
+  </data>
+  <data name="DownloadingFbContact" xml:space="preserve">
+    <value>Επαφές Facebook είναι να πάρει κατεβάσει</value>
+  </data>
+  <data name="CreateBdayReminder" xml:space="preserve">
+    <value>Να πάρει δημιουργούνται γενέθλια υπενθυμίσεις</value>
+  </data>
+  <data name="ErrBuildBdayList" xml:space="preserve">
+    <value>Σφάλμα κτίριο κατάλογο γενεθλίων</value>
+  </data>
+  <data name="ErrSaveBday" xml:space="preserve">
+    <value>Σφάλμα κατά την αποθήκευση γενέθλια</value>
+  </data>
+  <data name="ErrSaveBdayNContact" xml:space="preserve">
+    <value>Σφάλμα κατά την αποθήκευση γενέθλια και επαφές</value>
+  </data>
+  <data name="FbLoginFailedText" xml:space="preserve">
+    <value>Σύνδεση στο facebook απέτυχε</value>
+  </data>
+  <data name="FbLoginFailedTitle" xml:space="preserve">
+    <value>Σύνδεση απέτυχε</value>
+  </data>
+  <data name="FrndDtlsTitle" xml:space="preserve">
+    <value>Φίλος λεπτομέρειες</value>
+  </data>
+  <data name="RetrieveLocalContact" xml:space="preserve">
+    <value>Ανάκτηση τοπικά στοιχεία επικοινωνίας</value>
+  </data>
+  <data name="RetrievingFbFriend" xml:space="preserve">
+    <value>Ανάκτηση τις λεπτομέρειες του φίλου Facebook</value>
+  </data>
+  <data name="SaveBdays" xml:space="preserve">
+    <value>Εξοικονόμηση γενέθλια</value>
+  </data>
+  <data name="AddLabel" xml:space="preserve">
+    <value>Προσθέστε</value>
+  </data>
+  <data name="BirthdayLabel" xml:space="preserve">
+    <value>Γενέθλια</value>
+  </data>
+  <data name="BirthdayMessage" xml:space="preserve">
+    <value>Πολλοί εορτάζει την ημέρα:). Χαρούμενα Γενέθλια!!</value>
+  </data>
+  <data name="BirthdayOnLabel" xml:space="preserve">
+    <value>Γενέθλια την</value>
+  </data>
+  <data name="CallLabel" xml:space="preserve">
+    <value>Κλήση</value>
+  </data>
+  <data name="ContactNoLabel" xml:space="preserve">
+    <value>Τηλέφωνο επικοινωνίας</value>
+  </data>
+  <data name="EmailLabel" xml:space="preserve">
+    <value>Ηλεκτρονικό ταχυδρομείο</value>
+  </data>
+  <data name="ErrDisplaSaveBtn" xml:space="preserve">
+    <value>Σφάλμα εμφάνιση κουμπί Αποθήκευση</value>
+  </data>
+  <data name="ErrOnNavigation" xml:space="preserve">
+    <value>Λάθος στην πλοήγηση</value>
+  </data>
+  <data name="ErrPostingToWall" xml:space="preserve">
+    <value>Σφάλμα απόσπαση στον τοίχο του Facebook</value>
+  </data>
+  <data name="ErrSavingFrndDtls" xml:space="preserve">
+    <value>Σφάλμα κατά την αποθήκευση φίλος λεπτομέρειες</value>
+  </data>
+  <data name="ErrSendingMessage" xml:space="preserve">
+    <value>Στέλνει μήνυμα λάθους</value>
+  </data>
+  <data name="FrndDtlsPgTitlle" xml:space="preserve">
+    <value>Φίλος λεπτομέρειες</value>
+  </data>
+  <data name="FrndDtlsUpdated" xml:space="preserve">
+    <value>Έχει ενημερωθεί για τις λεπτομέρειες του υπάρχοντα φίλο</value>
+  </data>
+  <data name="FrndDtlsUpdatedTitle" xml:space="preserve">
+    <value>Φίλος λεπτομέρειες ενημέρωση</value>
+  </data>
+  <data name="MainPageAllTitle" xml:space="preserve">
+    <value>όλα</value>
+  </data>
+  <data name="MainPageMostRcntTitle" xml:space="preserve">
+    <value>πρόσφατες</value>
+  </data>
+  <data name="MainPageTtitle" xml:space="preserve">
+    <value>Γενέθλια</value>
+  </data>
+  <data name="MessageLabel" xml:space="preserve">
+    <value>Μήνυμα</value>
+  </data>
+  <data name="NameLabel" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="NewFrndAddedTitle" xml:space="preserve">
+    <value>Έχει προστεθεί νέο φίλο</value>
+  </data>
+  <data name="NewFrndCreatedMsg" xml:space="preserve">
+    <value>Έχει προστεθεί με επιτυχία ένα νέο φίλο με τα στοιχεία</value>
+  </data>
+  <data name="NotKnownLabel" xml:space="preserve">
+    <value>Δεν είναι γνωστές</value>
+  </data>
+  <data name="PostToWall" xml:space="preserve">
+    <value>Θέση στο τοίχο</value>
+  </data>
+  <data name="SaveLabel" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="SavingFrndDtls" xml:space="preserve">
+    <value>Διάσωση φίλο λεπτομέρειες</value>
+  </data>
+  <data name="SendAutoEmailLabel" xml:space="preserve">
+    <value>Στείλτε Auto Email</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="WarnDtlsReq" xml:space="preserve">
+    <value>Στοιχεία που απαιτούνται</value>
+  </data>
+  <data name="WarnNameBdayCompulsory" xml:space="preserve">
+    <value>Όνομα και γενέθλια είναι υποχρεωτική</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>σχετικά με</value>
+  </data>
+  <data name="BdayMsgLabel" xml:space="preserve">
+    <value>Γενέθλια μήνυμα</value>
+  </data>
+  <data name="BdayReminderSettingsTitle" xml:space="preserve">
+    <value>ΡΥΘΜΊΣΕΙΣ ΥΠΕΝΘΎΜΙΣΗ ΓΕΝΕΘΛΊΩΝ</value>
+  </data>
+  <data name="BdaySetupMessage" xml:space="preserve">
+    <value>Δεν έχετε οποιεσδήποτε επαφές αποθηκεύονται επί του παρόντος. Θα θέλατε να κατεβάσετε τις επαφές facebook σας;</value>
+  </data>
+  <data name="BdaySetupTitle" xml:space="preserve">
+    <value>Τα γενέθλια της εγκατάστασης</value>
+  </data>
+  <data name="BirthdayWishTitle" xml:space="preserve">
+    <value>επιθυμίες</value>
+  </data>
+  <data name="ContactNotUpdatedMessage" xml:space="preserve">
+    <value>Επαφές σας έχουν δεν είναι συγχρονισμένη σε μια στιγμή. Θέλετε να ενημερώσετε τους τώρα;</value>
+  </data>
+  <data name="ContactsTitle" xml:space="preserve">
+    <value>επαφές</value>
+  </data>
+  <data name="ContactSyncRedirectMsg" xml:space="preserve">
+    <value>Επαφές σας θα είναι τώρα να συγχρονιστούν και θα μεταφερθείτε στην επαφή οθόνη Sync. Θέλετε να συγχρονίσετε τις επαφές σας τώρα;</value>
+  </data>
+  <data name="ErrAppBarDisplay" xml:space="preserve">
+    <value>Σφάλμα εμφάνιση App μπαρ</value>
+  </data>
+  <data name="ErrAppBarLoad" xml:space="preserve">
+    <value>Σφάλμα φόρτωσης App μπαρ</value>
+  </data>
+  <data name="ErrAppInitialise" xml:space="preserve">
+    <value>Σφάλμα κατά την εκκίνηση του ελέγχου. Μερικές από τις λειτουργίες ενδέχεται να μην λειτουργούν.</value>
+  </data>
+  <data name="ErrFbLogin" xml:space="preserve">
+    <value>Σφάλμα σύνδεση στο Facebook</value>
+  </data>
+  <data name="ErrFbLogout" xml:space="preserve">
+    <value>Σφάλμα καταγραφή έξω από το Facebook</value>
+  </data>
+  <data name="ErrInitialiseTitle" xml:space="preserve">
+    <value>Σφάλμα κατά την εκκίνηση</value>
+  </data>
+  <data name="ErrLoadSyncScreen" xml:space="preserve">
+    <value>Σφάλμα φόρτωσης Sync οθόνη</value>
+  </data>
+  <data name="ErrNavigatingSettings" xml:space="preserve">
+    <value>Παρουσιάστηκε σφάλμα κατά την πλοήγηση στις ρυθμίσεις</value>
+  </data>
+  <data name="ErrOpeningApp" xml:space="preserve">
+    <value>Σφάλμα ανοίγοντας εφαρμογή</value>
+  </data>
+  <data name="ErrSaveSettings" xml:space="preserve">
+    <value>Σφάλμα κατά την αποθήκευση των ρυθμίσεων</value>
+  </data>
+  <data name="ErrSendingEmail" xml:space="preserve">
+    <value>Σφάλμα αποστολής ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="HappyBdayMessage" xml:space="preserve">
+    <value>Χαρούμενα Γενέθλια</value>
+  </data>
+  <data name="LastSyncedLabel" xml:space="preserve">
+    <value>Τελευταία συγχρονισμένες</value>
+  </data>
+  <data name="LaterLabel" xml:space="preserve">
+    <value>Αργότερα</value>
+  </data>
+  <data name="LoadingSettingsLabel" xml:space="preserve">
+    <value>Φόρτωση ρυθμίσεων σας</value>
+  </data>
+  <data name="LoginFbBtnnLabel" xml:space="preserve">
+    <value>Συνδεθείτε στο Facebook</value>
+  </data>
+  <data name="LogoutFbBtnLabel" xml:space="preserve">
+    <value>Αποσυνδεθείτε από το Facebook</value>
+  </data>
+  <data name="MsgPostedFb" xml:space="preserve">
+    <value>Το μήνυμά σας έχει καταχωρηθεί</value>
+  </data>
+  <data name="PictureLabel" xml:space="preserve">
+    <value>Εικόνα</value>
+  </data>
+  <data name="ProfileTitle" xml:space="preserve">
+    <value>προφίλ</value>
+  </data>
+  <data name="RateAppBtnLabel" xml:space="preserve">
+    <value>Βαθμολογήστε αυτό το App</value>
+  </data>
+  <data name="RateAppText" xml:space="preserve">
+    <value>Αν σας αρέσει μας το app και αυτό έχει κάνει τη ζωή σας ευκολότερη, παρακαλώ ποσοστό/Αγοράστε αυτό!</value>
+  </data>
+  <data name="RemindByEmailLabel" xml:space="preserve">
+    <value>Υπενθυμίσω μέσω ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="ReminderTitle" xml:space="preserve">
+    <value>υπενθύμιση</value>
+  </data>
+  <data name="ReminderUpdatedTitle" xml:space="preserve">
+    <value>Υπενθυμίσεις ενημέρωση</value>
+  </data>
+  <data name="ReminderUpdateSuccess" xml:space="preserve">
+    <value>Ενημερωθεί επιτυχώς υπενθυμίσεις για τα γενέθλια</value>
+  </data>
+  <data name="SendEmailText" xml:space="preserve">
+    <value>Εάν αντιμετωπίζετε οποιαδήποτε ζητήματα ή έχετε οποιεσδήποτε προτάσεις/αιτήσεις, μη διστάσετε να επικοινωνήσετε μαζί μας!</value>
+  </data>
+  <data name="SendPicLabel" xml:space="preserve">
+    <value>Στείλτε εικόνες</value>
+  </data>
+  <data name="SendUsEmailBtnLabel" xml:space="preserve">
+    <value>Στείλτε μας ένα email</value>
+  </data>
+  <data name="SettingsSavedLabel" xml:space="preserve">
+    <value>Οι ρυθμίσεις αποθηκεύονται</value>
+  </data>
+  <data name="SettingsUpdateSuccessMsg" xml:space="preserve">
+    <value>Ρυθμίσεις έχουν ενημερωθεί με επιτυχία</value>
+  </data>
+  <data name="ShowNotifLabel" xml:space="preserve">
+    <value>Εμφάνιση ειδοποιήσεων</value>
+  </data>
+  <data name="SupportEmailLabel" xml:space="preserve">
+    <value>Υποστήριξη ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="SyncContactsLabel" xml:space="preserve">
+    <value>Συγχρονισμός επαφών</value>
+  </data>
+  <data name="SyncFbContactLabel" xml:space="preserve">
+    <value>Συγχρονισμός επαφών Facebook</value>
+  </data>
+  <data name="SyncIntervalLabel" xml:space="preserve">
+    <value>Εσωτερική συγχρονισμού</value>
+  </data>
+  <data name="SyncIntrvlOptionAfter" xml:space="preserve">
+    <value>Μετά</value>
+  </data>
+  <data name="SyncIntrvlOptionBefore" xml:space="preserve">
+    <value>Πριν από την</value>
+  </data>
+  <data name="SyncIntrvlOptionDaily" xml:space="preserve">
+    <value>Καθημερινή</value>
+  </data>
+  <data name="SyncIntrvlOptionHour" xml:space="preserve">
+    <value>Ώρες</value>
+  </data>
+  <data name="SyncIntrvlOptionManual" xml:space="preserve">
+    <value>Εγχειρίδιο</value>
+  </data>
+  <data name="SyncIntrvlOptionMin" xml:space="preserve">
+    <value>Λεπτά</value>
+  </data>
+  <data name="SyncIntrvlOptionMonthly" xml:space="preserve">
+    <value>Μηνιαία</value>
+  </data>
+  <data name="SyncIntrvlOptionOnTime" xml:space="preserve">
+    <value>Για την ώρα</value>
+  </data>
+  <data name="SyncIntrvlOptionSec" xml:space="preserve">
+    <value>Δευτερόλεπτα</value>
+  </data>
+  <data name="SyncIntrvlOptionWeekly" xml:space="preserve">
+    <value>Εβδομαδιαία</value>
+  </data>
+  <data name="SyncLocalContactLabel" xml:space="preserve">
+    <value>Οι τοπικά επαφές συγχρονισμού</value>
+  </data>
+  <data name="SyncNowBtnLabel" xml:space="preserve">
+    <value>Sync τώρα</value>
+  </data>
+  <data name="WarnInternetMsg" xml:space="preserve">
+    <value>Κανόνι συνδέω σε Διαδίκτυο. Παρακαλώ ξαναπροσπαθήστε με έναs ηλικία εργασίας Διαδίκτυο σύνδεση.</value>
+  </data>
+  <data name="WarnNwTitle" xml:space="preserve">
+    <value>Σφάλμα δικτύου</value>
+  </data>
+  <data name="WarnValidHourValue" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε μια έγκυρη ώρα τιμή μεταξύ 0 και 23</value>
+  </data>
+  <data name="WarnValidMinValue" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε μια έγκυρη λεπτό τιμή μεταξύ του 0 και του 59</value>
+  </data>
+  <data name="WarnValidSecvalue" xml:space="preserve">
+    <value>Εισαγάγετε μια έγκυρη δευτερόλεπτα τιμή μεταξύ του 0 και του 59</value>
+  </data>
+  <data name="WhenToRemindLabel" xml:space="preserve">
+    <value>Πότε να υπενθυμίσω</value>
+  </data>
+  <data name="WishByEmailLabel" xml:space="preserve">
+    <value>Επιθυμούν μέσω ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="YesLabel" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="YourContactNoLabel" xml:space="preserve">
+    <value>Τηλέφωνο επικοινωνίας σας</value>
+  </data>
+  <data name="YourEmailLabel" xml:space="preserve">
+    <value>Το email σας</value>
+  </data>
+  <data name="YourNameLabel" xml:space="preserve">
+    <value>Το όνομά σου</value>
+  </data>
+  <data name="DeleteLabel" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="BirthdayReminderMessage" xml:space="preserve">
+    <value>του γενέθλια σήμερα. Πατήστε για να του στείλω ένα μήνυμα</value>
+  </data>
+  <data name="ErrBindingData" xml:space="preserve">
+    <value>Σφάλμα κατά τη λήψη των δεδομένων που θα εμφανίζονται</value>
+  </data>
+  <data name="ErrRenewBgndTask" xml:space="preserve">
+    <value>Παρουσιάστηκε σφάλμα κατά την ανανέωση φόντο πράκτορα</value>
+  </data>
+  <data name="WarnReEnableBgTask" xml:space="preserve">
+    <value>Φόντο πράκτορας έχει απενεργοποιηθεί για αυτό το app. Παρακαλώ ενεργοποιήσετε ξανά να πάρει ειδοποιήσεις ευκαιρία και ανακοινώσεις. Πηγαίνετε στο ρυθμίσεις - εφαρμογές - καθήκοντα υπόβαθρο. Επιλέξτε το πλαίσιο ελέγχου για να επιτρέψει τα καθήκοντα υπόβαθρο.</value>
+  </data>
+  <data name="UpdateBdayRemindr" xml:space="preserve">
+    <value>Ενημέρωση γενέθλια υπενθυμίσεις</value>
+  </data>
+  <data name="LaterThisWkLabel" xml:space="preserve">
+    <value>Αργότερα αυτή την εβδομάδα</value>
+  </data>
+  <data name="TodayLabel" xml:space="preserve">
+    <value>Σήμερα</value>
+  </data>
+  <data name="TomorrowLabel" xml:space="preserve">
+    <value>Αύριο</value>
+  </data>
+  <data name="ErrDeleting" xml:space="preserve">
+    <value>Σφάλμα κατά τη διαγραφή</value>
+  </data>
+  <data name="ErrSelecting" xml:space="preserve">
+    <value>Σφάλμα κατά την επιλογή</value>
+  </data>
+  <data name="WarnSelectItem" xml:space="preserve">
+    <value>Επιλέξτε ένα στοιχείο και στη συνέχεια προσπαθήστε ξανά</value>
+  </data>
+  <data name="WarnTryAgain" xml:space="preserve">
+    <value>Παρακαλώ προσπαθήστε ξανά</value>
+  </data>
+  <data name="BdayCardsPgTitle" xml:space="preserve">
+    <value>κάρτες</value>
+  </data>
+  <data name="DeleteConfirmMessage" xml:space="preserve">
+    <value>Είστε βέβαιοι ότι θέλετε να καταργήσετε τα επιλεγμένα στοιχεία;</value>
+  </data>
+  <data name="ErrAddCard" xml:space="preserve">
+    <value>Σφάλμα προσθήκη κάρτας</value>
+  </data>
+  <data name="ErrAddFriend" xml:space="preserve">
+    <value>Σφάλμα Προσθήκη φίλου</value>
+  </data>
+  <data name="LoadingFbPageMsg" xml:space="preserve">
+    <value>Να πάρει φορτώνεται η σελίδα στο Facebook</value>
+  </data>
+  <data name="DownloadImagesTitle" xml:space="preserve">
+    <value>Κατεβάστε εικόνες για τα προφίλ</value>
+  </data>
+  <data name="DownloadnProfileImgMsg" xml:space="preserve">
+    <value>Θέλετε να κατεβάσετε εικόνες για τα προφίλ των φίλων σας; Μετά τη λήψη των εικόνων, θα είστε σε θέση να δείτε τους phtotos στην έναρξη πλακιδίων. Αλλά παρακαλώ να είστε υπομονετικοί, καθώς αυτή η διαδικασία μπορεί να διαρκέσει μερικά λεπτά, ανάλογα με την ταχύτητα της σύνδεσής σας στο internet. Θέλετε να κατεβάσετε τις εικόνες τώρα;</value>
+  </data>
+  <data name="SetAsDefaultLabel" xml:space="preserve">
+    <value>Ορισμός ως προεπιλογή</value>
+  </data>
+  <data name="ChooseCardLabel" xml:space="preserve">
+    <value>Επιλέξετε την κάρτα</value>
+  </data>
+  <data name="CardLimitExceedCaption" xml:space="preserve">
+    <value>Έχει υπερβεί το όριο</value>
+  </data>
+  <data name="CardLimitMsg" xml:space="preserve">
+    <value>Δεν μπορούν να προστεθούν περισσότερα από 10 φύλλα. Παρακαλώ διαγράψτε μερικές παλιές κάρτες Εάν θέλετε να προσθέσετε νέες κάρτες.</value>
+  </data>
+  <data name="ConnOpenWarnCaption" xml:space="preserve">
+    <value>Σύνδεση είναι απασχολημένη</value>
+  </data>
+  <data name="ImageUploadDownloadBusyMsg" xml:space="preserve">
+    <value>Εικόνα παίρνει αποθηκεύονται ή να διαγραφεί. Σας παρακαλώ να περιμένετε για λίγα δευτερόλεπτα και προσπαθήστε ξανά.</value>
+  </data>
+  <data name="AddEditFriendNotAllowed" xml:space="preserve">
+    <value>Προσθέτοντας ένα νέο φίλο ή επεξεργασία τις υπάρχουσες λεπτομέρειες φίλος δεν επιτρέπεται στη δοκιμαστική έκδοση της εφαρμογής. Παρακαλείσθε να αγοράσουν την πλήρη έκδοση για να χρησιμοποιήσετε αυτήν τη δυνατότητα και να ξεκλειδώσετε πολλά άλλα χαρακτηριστικά.</value>
+  </data>
+  <data name="BuyAppForCard" xml:space="preserve">
+    <value>Η δοκιμαστική έκδοση της εφαρμογής επιτρέπει μόνο μέχρι 5 κάρτες. Παρακαλείσθε να αγοράσουν την πλήρη έκδοση για να αποθηκεύσετε περισσότερες κάρτες και να ξεκλειδώσετε πολλά άλλα χαρακτηριστικά.</value>
+  </data>
+  <data name="BuyFullVersion" xml:space="preserve">
+    <value>Αγοράστε την πλήρη έκδοση</value>
+  </data>
+  <data name="BuyLabel" xml:space="preserve">
+    <value>Αγορά</value>
+  </data>
+  <data name="DeletingCardsNotAllowed" xml:space="preserve">
+    <value>Διαγραφή κάρτες δεν επιτρέπεται στη δοκιμαστική έκδοση της εφαρμογής. Παρακαλείσθε να αγοράσουν την πλήρη έκδοση για να χρησιμοποιήσετε αυτήν τη δυνατότητα και να ξεκλειδώσετε πολλά άλλα χαρακτηριστικά.</value>
+  </data>
+  <data name="NotAllowedLabel" xml:space="preserve">
+    <value>Δεν επιτρέπεται</value>
+  </data>
+  <data name="Only100CardsMessage" xml:space="preserve">
+    <value>Η εφαρμογή επιτρέπει να αποθηκεύσετε μόνο 100 κάρτες αυτή τη στιγμή. Παρακαλώ διαγράψτε μερικές παλιές κάρτες να σώσει νέες.</value>
+  </data>
+  <data name="SyncFeatureNotAllowed" xml:space="preserve">
+    <value>Αυτό το χαρακτηριστικό γνώρισμα δεν επιτρέπεται στη δοκιμαστική έκδοση της εφαρμογής. Παρακαλείσθε να αγοράσουν την πλήρη έκδοση της εφαρμογής για να χρησιμοποιήσετε αυτό το χαρακτηριστικό γνώρισμα και να ξεκλειδώσετε πολλά άλλα χαρακτηριστικά.</value>
+  </data>
+  <data name="BuyAppForAddFriend" xml:space="preserve">
+    <value>Η δοκιμαστική έκδοση της εφαρμογής δεν επιτρέπει την προσθήκη ή την επεξεργασία λεπτομέρειες φίλο. Παρακαλείσθε να αγοράσουν την πλήρη έκδοση για να χρησιμοποιήσετε αυτήν τη δυνατότητα και να ξεκλειδώσετε πολλά άλλα χαρακτηριστικά.</value>
+  </data>
+  <data name="BuyAppForDelete" xml:space="preserve">
+    <value>Η δοκιμαστική έκδοση της εφαρμογής δεν επιτρέπει τη διαγραφή των στοιχείων. Παρακαλείσθε να αγοράσουν την πλήρη έκδοση για να διαγράψετε στοιχεία και να ξεκλειδώσετε πολλά άλλα χαρακτηριστικά.</value>
+  </data>
+  <data name="BuyAppGenericMessage" xml:space="preserve">
+    <value>Η δοκιμαστική έκδοση της αίτησης δεν επιτρέπει αυτήν τη δυνατότητα. Παρακαλείσθε να αγοράσουν την πλήρη έκδοση για να χρησιμοποιήσετε αυτήν τη δυνατότητα και να ξεκλειδώσετε πολλά άλλα χαρακτηριστικά.</value>
+  </data>
+  <data name="BuyAppSaveSettings" xml:space="preserve">
+    <value>Η δοκιμαστική έκδοση της εφαρμογής δεν επιτρέπουν την αλλαγή ρυθμίσεων. Παρακαλείσθε να αγοράσουν την πλήρη έκδοση για να χρησιμοποιήσετε αυτήν τη δυνατότητα και να ξεκλειδώσετε πολλά άλλα χαρακτηριστικά.</value>
+  </data>
+  <data name="BuyAppForAllFriends" xml:space="preserve">
+    <value>Η δοκιμαστική έκδοση της εφαρμογής δεν επιτρέπει περισσότερες από 100 φίλους για να σωθούν. Μόνο 100 φίλους facebook έχουν σωθεί. Παρακαλείσθε να αγοράσουν την πλήρη έκδοση για την διάσωση όλους τους φίλους του facebook και να ξεκλειδώσετε πολλά άλλα χαρακτηριστικά. Αφού αποκτήσετε την πλήρη έκδοση, παρακαλούμε να συγχρονίσετε τη λίστα φίλος μεταβαίνοντας στις ρυθμίσεις για να κατεβάζω όλους τους φίλους.</value>
+  </data>
+  <data name="DaysLabel" xml:space="preserve">
+    <value>Ημέρες</value>
+  </data>
+</root>

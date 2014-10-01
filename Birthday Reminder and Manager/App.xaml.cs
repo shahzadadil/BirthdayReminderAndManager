@@ -95,7 +95,7 @@ namespace BirthdayReminder
                 recycleBackAgent();
 
                 //load user preferences or create it
-                App.UserPreferences = SettingsUtility.getUserPreferences();
+                UserPreferences = SettingsUtility.GetUserPreferences();
             }
             catch (InvalidOperationException invalidException)
             {

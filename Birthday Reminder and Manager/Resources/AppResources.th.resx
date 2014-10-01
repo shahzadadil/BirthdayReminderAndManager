@@ -1,110 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
+<?xml version="1.0"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <resheader name="resmimetype">
     <value>text/microsoft-resx</value>
   </resheader>
@@ -117,29 +12,52 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AboutTitle" xml:space="preserve">
-    <value>เกี่ยวกับ</value>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
-  <data name="AddLabel" xml:space="preserve">
-    <value>เพิ่ม</value>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>th</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
     <value>เตือนวันเกิด</value>
   </data>
-  <data name="BdayCardsPgTitle" xml:space="preserve">
-    <value>บัตร</value>
+  <data name="DownloadingFbContact" xml:space="preserve">
+    <value>ติดต่อ Facebook มีการดาวน์โหลด</value>
   </data>
-  <data name="BdayMsgLabel" xml:space="preserve">
-    <value>ข้อความวันเกิด</value>
+  <data name="CreateBdayReminder" xml:space="preserve">
+    <value>การสร้างจดหมายเตือนชำระเงินในวันเกิด</value>
   </data>
-  <data name="BdayReminderSettingsTitle" xml:space="preserve">
-    <value>การตั้งค่าการเตือนวันเกิด</value>
+  <data name="ErrBuildBdayList" xml:space="preserve">
+    <value>สร้างข้อผิดพลาดวันเกิดรายการ</value>
   </data>
-  <data name="BdaySetupMessage" xml:space="preserve">
-    <value>คุณไม่ได้ติดต่อใด ๆ ที่บันทึกอยู่ในขณะนี้ คุณต้องการดาวน์โหลดติดต่อ facebook หรือไม่</value>
+  <data name="ErrSaveBday" xml:space="preserve">
+    <value>ข้อผิดพลาดในการบันทึกวันเกิด</value>
   </data>
-  <data name="BdaySetupTitle" xml:space="preserve">
-    <value>ตั้งค่าวันเกิด</value>
+  <data name="ErrSaveBdayNContact" xml:space="preserve">
+    <value>ข้อผิดพลาดในการบันทึกวันเกิดและผู้ติดต่อ</value>
+  </data>
+  <data name="FbLoginFailedText" xml:space="preserve">
+    <value>เข้าระบบ facebook ที่ล้มเหลว</value>
+  </data>
+  <data name="FbLoginFailedTitle" xml:space="preserve">
+    <value>เข้าสู่ระบบล้มเหลว</value>
+  </data>
+  <data name="FrndDtlsTitle" xml:space="preserve">
+    <value>รายละเอียดของเพื่อน</value>
+  </data>
+  <data name="RetrieveLocalContact" xml:space="preserve">
+    <value>ดึงข้อมูลรายละเอียดการติดต่อในท้องถิ่น</value>
+  </data>
+  <data name="RetrievingFbFriend" xml:space="preserve">
+    <value>ดึงรายละเอียดเพื่อน Facebook</value>
+  </data>
+  <data name="SaveBdays" xml:space="preserve">
+    <value>บันทึกวันเกิด</value>
+  </data>
+  <data name="AddLabel" xml:space="preserve">
+    <value>เพิ่ม</value>
   </data>
   <data name="BirthdayLabel" xml:space="preserve">
     <value>วันเกิด</value>
@@ -150,145 +68,31 @@
   <data name="BirthdayOnLabel" xml:space="preserve">
     <value>วันเกิดบน</value>
   </data>
-  <data name="BirthdayReminderMessage" xml:space="preserve">
-    <value>ของวันเกิดวันนี้ เคาะเพื่อส่งข้อความ</value>
-  </data>
-  <data name="BirthdayWishTitle" xml:space="preserve">
-    <value>ด้วยความปรารถนา</value>
-  </data>
   <data name="CallLabel" xml:space="preserve">
     <value>โทร</value>
-  </data>
-  <data name="CardLimitExceedCaption" xml:space="preserve">
-    <value>เกินขีดจำกัด</value>
-  </data>
-  <data name="CardLimitMsg" xml:space="preserve">
-    <value>ไม่สามารถเพิ่มกว่า 10 บัตร โปรดลบบางบัตรเก่าถ้าคุณต้องการเพิ่มบัตรใหม่</value>
-  </data>
-  <data name="ChooseCardLabel" xml:space="preserve">
-    <value>เลือกบัตร</value>
-  </data>
-  <data name="ConnOpenWarnCaption" xml:space="preserve">
-    <value>เชื่อมต่อไม่ว่าง</value>
   </data>
   <data name="ContactNoLabel" xml:space="preserve">
     <value>หมายเลขติดต่อ</value>
   </data>
-  <data name="ContactNotUpdatedMessage" xml:space="preserve">
-    <value>ไม่มีแล้วเพื่อติดต่อในขณะ คุณต้องการปรับปรุงพวกเขาตอนนี้</value>
-  </data>
-  <data name="ContactsTitle" xml:space="preserve">
-    <value>ติดต่อ</value>
-  </data>
-  <data name="ContactSyncRedirectMsg" xml:space="preserve">
-    <value>ตอนนี้จะมีเพื่อติดต่อ และคุณจะถูกเปลี่ยนเส้นทางไปยังหน้าจอซิงค์ผู้ติดต่อ คุณต้องการซิงค์ผู้ติดต่อของคุณเดี๋ยวนี้หรือไม่</value>
-  </data>
-  <data name="CreateBdayReminder" xml:space="preserve">
-    <value>การสร้างจดหมายเตือนชำระเงินในวันเกิด</value>
-  </data>
-  <data name="DeleteConfirmMessage" xml:space="preserve">
-    <value>คุณแน่ใจคุณต้องการเอารายการที่เลือกหรือไม่</value>
-  </data>
-  <data name="DeleteLabel" xml:space="preserve">
-    <value>ลบ</value>
-  </data>
-  <data name="DownloadImagesTitle" xml:space="preserve">
-    <value>ดาวน์โหลดรูปโพรไฟล์</value>
-  </data>
-  <data name="DownloadingFbContact" xml:space="preserve">
-    <value>ติดต่อ Facebook มีการดาวน์โหลด</value>
-  </data>
-  <data name="DownloadnProfileImgMsg" xml:space="preserve">
-    <value>คุณต้องการดาวน์โหลดรูปภาพโปรไฟล์ของเพื่อนของคุณหรือไม่ หลังจากดาวน์โหลดภาพ คุณจะได้เห็นของพวกเขา phtotos ในไพ่เริ่มต้น แต่กรุณาอดเป็นกระบวนการนี้อาจใช้เวลาสองสามนาทีขึ้นอยู่กับความเร็วในการเชื่อมต่ออินเทอร์เน็ต คุณต้องการดาวน์โหลดรูปภาพนี้หรือไม่</value>
-  </data>
   <data name="EmailLabel" xml:space="preserve">
     <value>อีเมล</value>
-  </data>
-  <data name="ErrAddCard" xml:space="preserve">
-    <value>ข้อผิดพลาดเพิ่มบัตร</value>
-  </data>
-  <data name="ErrAddFriend" xml:space="preserve">
-    <value>ข้อผิดพลาดเพิ่มเพื่อน</value>
-  </data>
-  <data name="ErrAppBarDisplay" xml:space="preserve">
-    <value>ข้อผิดพลาดที่แสดงแถบ App</value>
-  </data>
-  <data name="ErrAppBarLoad" xml:space="preserve">
-    <value>ข้อผิดพลาดการโหลด App บาร์</value>
-  </data>
-  <data name="ErrAppInitialise" xml:space="preserve">
-    <value>ข้อผิดพลาดระหว่างการตรวจสอบ initialisation บางฟังก์ชันที่อาจไม่ทำงาน</value>
-  </data>
-  <data name="ErrBindingData" xml:space="preserve">
-    <value>รับข้อมูลจะแสดงข้อผิดพลาด</value>
-  </data>
-  <data name="ErrBuildBdayList" xml:space="preserve">
-    <value>สร้างข้อผิดพลาดวันเกิดรายการ</value>
-  </data>
-  <data name="ErrDeleting" xml:space="preserve">
-    <value>ข้อผิดพลาดในระหว่างการลบ</value>
   </data>
   <data name="ErrDisplaSaveBtn" xml:space="preserve">
     <value>แสดงข้อผิดพลาดบันทึกปุ่ม</value>
   </data>
-  <data name="ErrFbLogin" xml:space="preserve">
-    <value>ข้อผิดพลาดในการเข้าสู่ Facebook</value>
-  </data>
-  <data name="ErrFbLogout" xml:space="preserve">
-    <value>ข้อผิดพลาดในการเข้าสู่ระบบออกจาก Facebook</value>
-  </data>
-  <data name="ErrInitialiseTitle" xml:space="preserve">
-    <value>ข้อผิดพลาด initialisation</value>
-  </data>
-  <data name="ErrLoadSyncScreen" xml:space="preserve">
-    <value>หน้าจอข้อผิดพลาดการโหลดการซิงค์</value>
-  </data>
-  <data name="ErrNavigatingSettings" xml:space="preserve">
-    <value>ข้อผิดพลาดขณะนำทางไปยังการตั้งค่า</value>
-  </data>
   <data name="ErrOnNavigation" xml:space="preserve">
     <value>ข้อผิดพลาดในการนำทาง</value>
-  </data>
-  <data name="ErrOpeningApp" xml:space="preserve">
-    <value>ข้อผิดพลาดเปิดแอพลิเคชัน</value>
   </data>
   <data name="ErrPostingToWall" xml:space="preserve">
     <value>ข้อผิดพลาดที่โพสต์บนวอลล์ของ Facebook</value>
   </data>
-  <data name="ErrRenewBgndTask" xml:space="preserve">
-    <value>ข้อผิดพลาดขณะต่ออายุตัวแทนพื้นหลัง</value>
-  </data>
-  <data name="ErrSaveBday" xml:space="preserve">
-    <value>ข้อผิดพลาดในการบันทึกวันเกิด</value>
-  </data>
-  <data name="ErrSaveBdayNContact" xml:space="preserve">
-    <value>ข้อผิดพลาดในการบันทึกวันเกิดและผู้ติดต่อ</value>
-  </data>
-  <data name="ErrSaveSettings" xml:space="preserve">
-    <value>ข้อผิดพลาดในการบันทึกการตั้งค่า</value>
-  </data>
   <data name="ErrSavingFrndDtls" xml:space="preserve">
     <value>ข้อผิดพลาดในการบันทึกรายละเอียดของเพื่อน</value>
-  </data>
-  <data name="ErrSelecting" xml:space="preserve">
-    <value>ข้อผิดพลาดระหว่างการเลือก</value>
-  </data>
-  <data name="ErrSendingEmail" xml:space="preserve">
-    <value>ข้อผิดพลาดการส่งอีเมล์</value>
   </data>
   <data name="ErrSendingMessage" xml:space="preserve">
     <value>ข้อผิดพลาดการส่งข้อความ</value>
   </data>
-  <data name="FbLoginFailedText" xml:space="preserve">
-    <value>เข้าระบบ facebook ที่ล้มเหลว</value>
-  </data>
-  <data name="FbLoginFailedTitle" xml:space="preserve">
-    <value>เข้าสู่ระบบล้มเหลว</value>
-  </data>
   <data name="FrndDtlsPgTitlle" xml:space="preserve">
-    <value>รายละเอียดของเพื่อน</value>
-  </data>
-  <data name="FrndDtlsTitle" xml:space="preserve">
     <value>รายละเอียดของเพื่อน</value>
   </data>
   <data name="FrndDtlsUpdated" xml:space="preserve">
@@ -296,33 +100,6 @@
   </data>
   <data name="FrndDtlsUpdatedTitle" xml:space="preserve">
     <value>รายละเอียดเพื่อนปรับปรุง</value>
-  </data>
-  <data name="HappyBdayMessage" xml:space="preserve">
-    <value>สุขสันต์วันเกิด</value>
-  </data>
-  <data name="ImageUploadDownloadBusyMsg" xml:space="preserve">
-    <value>ภาพที่กำลังบันทึก หรือลบ กรุณารอไม่กี่วินาที แล้วลองอีกครั้ง</value>
-  </data>
-  <data name="LastSyncedLabel" xml:space="preserve">
-    <value>ซิงค์ล่าสุด</value>
-  </data>
-  <data name="LaterLabel" xml:space="preserve">
-    <value>ในภายหลัง</value>
-  </data>
-  <data name="LaterThisWkLabel" xml:space="preserve">
-    <value>ปลายสัปดาห์นี้</value>
-  </data>
-  <data name="LoadingFbPageMsg" xml:space="preserve">
-    <value>รับโหลดหน้าเฟสบุ๊ค</value>
-  </data>
-  <data name="LoadingSettingsLabel" xml:space="preserve">
-    <value>การโหลดการตั้งค่าของคุณ</value>
-  </data>
-  <data name="LoginFbBtnnLabel" xml:space="preserve">
-    <value>เข้าสู่เฟสบุ๊ค</value>
-  </data>
-  <data name="LogoutFbBtnLabel" xml:space="preserve">
-    <value>ออกจาก Facebook</value>
   </data>
   <data name="MainPageAllTitle" xml:space="preserve">
     <value>ทั้งหมด</value>
@@ -336,9 +113,6 @@
   <data name="MessageLabel" xml:space="preserve">
     <value>ข้อความ</value>
   </data>
-  <data name="MsgPostedFb" xml:space="preserve">
-    <value>ข้อความของคุณได้ถูกลงรายการบัญชี</value>
-  </data>
   <data name="NameLabel" xml:space="preserve">
     <value>ชื่อ</value>
   </data>
@@ -351,11 +125,110 @@
   <data name="NotKnownLabel" xml:space="preserve">
     <value>ไม่เป็นที่รู้จัก</value>
   </data>
-  <data name="PictureLabel" xml:space="preserve">
-    <value>รูปภาพ</value>
-  </data>
   <data name="PostToWall" xml:space="preserve">
     <value>ลงสู่ผนัง</value>
+  </data>
+  <data name="SaveLabel" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="SavingFrndDtls" xml:space="preserve">
+    <value>บันทึกรายละเอียดของเพื่อน</value>
+  </data>
+  <data name="SendAutoEmailLabel" xml:space="preserve">
+    <value>ส่งอีเมล์อัตโนมัติ</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>การตั้งค่า</value>
+  </data>
+  <data name="WarnDtlsReq" xml:space="preserve">
+    <value>รายละเอียดที่จำเป็น</value>
+  </data>
+  <data name="WarnNameBdayCompulsory" xml:space="preserve">
+    <value>ชื่อและวันเกิดถูกบังคับ</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>เกี่ยวกับ</value>
+  </data>
+  <data name="BdayMsgLabel" xml:space="preserve">
+    <value>ข้อความวันเกิด</value>
+  </data>
+  <data name="BdayReminderSettingsTitle" xml:space="preserve">
+    <value>การตั้งค่าการเตือนวันเกิด</value>
+  </data>
+  <data name="BdaySetupMessage" xml:space="preserve">
+    <value>คุณไม่ได้ติดต่อใด ๆ ที่บันทึกอยู่ในขณะนี้ คุณต้องการดาวน์โหลดติดต่อ facebook หรือไม่</value>
+  </data>
+  <data name="BdaySetupTitle" xml:space="preserve">
+    <value>ตั้งค่าวันเกิด</value>
+  </data>
+  <data name="BirthdayWishTitle" xml:space="preserve">
+    <value>ด้วยความปรารถนา</value>
+  </data>
+  <data name="ContactNotUpdatedMessage" xml:space="preserve">
+    <value>ไม่มีแล้วเพื่อติดต่อในขณะ คุณต้องการปรับปรุงพวกเขาตอนนี้</value>
+  </data>
+  <data name="ContactsTitle" xml:space="preserve">
+    <value>ติดต่อ</value>
+  </data>
+  <data name="ContactSyncRedirectMsg" xml:space="preserve">
+    <value>ตอนนี้จะมีเพื่อติดต่อ และคุณจะถูกเปลี่ยนเส้นทางไปยังหน้าจอซิงค์ผู้ติดต่อ คุณต้องการซิงค์ผู้ติดต่อของคุณเดี๋ยวนี้หรือไม่</value>
+  </data>
+  <data name="ErrAppBarDisplay" xml:space="preserve">
+    <value>ข้อผิดพลาดที่แสดงแถบ App</value>
+  </data>
+  <data name="ErrAppBarLoad" xml:space="preserve">
+    <value>ข้อผิดพลาดการโหลด App บาร์</value>
+  </data>
+  <data name="ErrAppInitialise" xml:space="preserve">
+    <value>ข้อผิดพลาดระหว่างการตรวจสอบเริ่มต้น บางฟังก์ชันที่อาจไม่ทำงาน</value>
+  </data>
+  <data name="ErrFbLogin" xml:space="preserve">
+    <value>ข้อผิดพลาดในการเข้าสู่ Facebook</value>
+  </data>
+  <data name="ErrFbLogout" xml:space="preserve">
+    <value>ข้อผิดพลาดในการเข้าสู่ระบบออกจาก Facebook</value>
+  </data>
+  <data name="ErrInitialiseTitle" xml:space="preserve">
+    <value>ข้อผิดพลาดระหว่างการเริ่มต้น</value>
+  </data>
+  <data name="ErrLoadSyncScreen" xml:space="preserve">
+    <value>หน้าจอข้อผิดพลาดการโหลดการซิงค์</value>
+  </data>
+  <data name="ErrNavigatingSettings" xml:space="preserve">
+    <value>ข้อผิดพลาดขณะนำทางไปยังการตั้งค่า</value>
+  </data>
+  <data name="ErrOpeningApp" xml:space="preserve">
+    <value>ข้อผิดพลาดเปิดแอพลิเคชัน</value>
+  </data>
+  <data name="ErrSaveSettings" xml:space="preserve">
+    <value>ข้อผิดพลาดในการบันทึกการตั้งค่า</value>
+  </data>
+  <data name="ErrSendingEmail" xml:space="preserve">
+    <value>ข้อผิดพลาดการส่งอีเมล์</value>
+  </data>
+  <data name="HappyBdayMessage" xml:space="preserve">
+    <value>สุขสันต์วันเกิด</value>
+  </data>
+  <data name="LastSyncedLabel" xml:space="preserve">
+    <value>ซิงค์ล่าสุด</value>
+  </data>
+  <data name="LaterLabel" xml:space="preserve">
+    <value>ในภายหลัง</value>
+  </data>
+  <data name="LoadingSettingsLabel" xml:space="preserve">
+    <value>การโหลดการตั้งค่าของคุณ</value>
+  </data>
+  <data name="LoginFbBtnnLabel" xml:space="preserve">
+    <value>เข้าสู่เฟสบุ๊ค</value>
+  </data>
+  <data name="LogoutFbBtnLabel" xml:space="preserve">
+    <value>ออกจาก Facebook</value>
+  </data>
+  <data name="MsgPostedFb" xml:space="preserve">
+    <value>ข้อความของคุณได้ถูกลงรายการบัญชี</value>
+  </data>
+  <data name="PictureLabel" xml:space="preserve">
+    <value>รูปภาพ</value>
   </data>
   <data name="ProfileTitle" xml:space="preserve">
     <value>ส่วนกำหนดค่า</value>
@@ -364,7 +237,7 @@
     <value>ราคา App นี้</value>
   </data>
   <data name="RateAppText" xml:space="preserve">
-    <value>ถ้าคุณต้องการ app ของเรา และจะได้ทำชีวิตของคุณง่ายขึ้น โปรดให้คะแนน</value>
+    <value>ถ้าคุณต้องการ app ของเรา และจะได้ทำชีวิตของคุณง่ายขึ้น กรุณาอัตรา/ซื้อมัน</value>
   </data>
   <data name="RemindByEmailLabel" xml:space="preserve">
     <value>เตือนทางอีเมล์</value>
@@ -378,30 +251,6 @@
   <data name="ReminderUpdateSuccess" xml:space="preserve">
     <value>ปรับปรุงเรียบร้อยแล้วแจ้งเตือนวันเกิด</value>
   </data>
-  <data name="ResourceFlowDirection" xml:space="preserve">
-    <value>LeftToRight</value>
-  </data>
-  <data name="ResourceLanguage" xml:space="preserve">
-    <value>th</value>
-  </data>
-  <data name="RetrieveLocalContact" xml:space="preserve">
-    <value>ดึงข้อมูลรายละเอียดการติดต่อในท้องถิ่น</value>
-  </data>
-  <data name="RetrievingFbFriend" xml:space="preserve">
-    <value>ดึงรายละเอียดเพื่อน Facebook</value>
-  </data>
-  <data name="SaveBdays" xml:space="preserve">
-    <value>บันทึกวันเกิด</value>
-  </data>
-  <data name="SaveLabel" xml:space="preserve">
-    <value>บันทึก</value>
-  </data>
-  <data name="SavingFrndDtls" xml:space="preserve">
-    <value>บันทึกรายละเอียดของเพื่อน</value>
-  </data>
-  <data name="SendAutoEmailLabel" xml:space="preserve">
-    <value>ส่งอีเมล์อัตโนมัติ</value>
-  </data>
   <data name="SendEmailText" xml:space="preserve">
     <value>ถ้าคุณประสบปัญหาใด ๆ หรือให้ข้อเสนอแนะ/คำร้องขอ โปรดติดต่อเรา</value>
   </data>
@@ -410,12 +259,6 @@
   </data>
   <data name="SendUsEmailBtnLabel" xml:space="preserve">
     <value>ส่งอีเมล์</value>
-  </data>
-  <data name="SetAsDefaultLabel" xml:space="preserve">
-    <value>ตั้งค่าเป็นค่าเริ่มต้น</value>
-  </data>
-  <data name="SettingsLabel" xml:space="preserve">
-    <value>การตั้งค่า</value>
   </data>
   <data name="SettingsSavedLabel" xml:space="preserve">
     <value>บันทึกการตั้งค่า</value>
@@ -474,35 +317,11 @@
   <data name="SyncNowBtnLabel" xml:space="preserve">
     <value>ซิงค์ตอนนี้</value>
   </data>
-  <data name="TodayLabel" xml:space="preserve">
-    <value>วันนี้</value>
-  </data>
-  <data name="TomorrowLabel" xml:space="preserve">
-    <value>วันพรุ่งนี้</value>
-  </data>
-  <data name="UpdateBdayRemindr" xml:space="preserve">
-    <value>อัพเดตการแจ้งเตือนวันเกิด</value>
-  </data>
-  <data name="WarnDtlsReq" xml:space="preserve">
-    <value>รายละเอียดที่จำเป็น</value>
-  </data>
   <data name="WarnInternetMsg" xml:space="preserve">
     <value>ไม่สามารถเชื่อมต่อกับอินเทอร์เน็ต กรุณาลองเชื่อมต่ออินเทอร์เน็ต</value>
   </data>
-  <data name="WarnNameBdayCompulsory" xml:space="preserve">
-    <value>ชื่อและวันเกิดถูกบังคับ</value>
-  </data>
   <data name="WarnNwTitle" xml:space="preserve">
     <value>ข้อผิดพลาดเครือข่าย</value>
-  </data>
-  <data name="WarnReEnableBgTask" xml:space="preserve">
-    <value>แทนพื้นหลังได้ถูกปิดใช้งานสำหรับโปรแกรมประยุกต์นี้ กรุณาเปิดใช้งานอีกจะได้รับข้อความแจ้งเตือนและการแจ้งเตือน ไปงาน -งาน - การตั้งค่าพื้นหลัง เลือกกล่องกาเครื่องหมายเพื่อเปิดใช้งานพื้นหลัง</value>
-  </data>
-  <data name="WarnSelectItem" xml:space="preserve">
-    <value>โปรดเลือกรายการ และลองอีกครั้ง</value>
-  </data>
-  <data name="WarnTryAgain" xml:space="preserve">
-    <value>โปรดลองอีกครั้ง</value>
   </data>
   <data name="WarnValidHourValue" xml:space="preserve">
     <value>กรุณาใส่ค่าชั่วโมงที่ถูกต้องระหว่าง 0 ถึง 23</value>
@@ -530,5 +349,125 @@
   </data>
   <data name="YourNameLabel" xml:space="preserve">
     <value>ชื่อของเธอ</value>
+  </data>
+  <data name="DeleteLabel" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="BirthdayReminderMessage" xml:space="preserve">
+    <value>ของวันเกิดวันนี้ เคาะเพื่อส่งข้อความ</value>
+  </data>
+  <data name="ErrBindingData" xml:space="preserve">
+    <value>รับข้อมูลจะแสดงข้อผิดพลาด</value>
+  </data>
+  <data name="ErrRenewBgndTask" xml:space="preserve">
+    <value>ข้อผิดพลาดขณะต่ออายุตัวแทนพื้นหลัง</value>
+  </data>
+  <data name="WarnReEnableBgTask" xml:space="preserve">
+    <value>แทนพื้นหลังได้ถูกปิดใช้งานสำหรับโปรแกรมประยุกต์นี้ กรุณาเปิดใช้งานอีกจะได้รับข้อความแจ้งเตือนและการแจ้งเตือน ไปงาน -งาน - การตั้งค่าพื้นหลัง เลือกกล่องกาเครื่องหมายเพื่อเปิดใช้งานพื้นหลัง</value>
+  </data>
+  <data name="UpdateBdayRemindr" xml:space="preserve">
+    <value>อัพเดตการแจ้งเตือนวันเกิด</value>
+  </data>
+  <data name="LaterThisWkLabel" xml:space="preserve">
+    <value>ปลายสัปดาห์นี้</value>
+  </data>
+  <data name="TodayLabel" xml:space="preserve">
+    <value>วันนี้</value>
+  </data>
+  <data name="TomorrowLabel" xml:space="preserve">
+    <value>วันพรุ่งนี้</value>
+  </data>
+  <data name="ErrDeleting" xml:space="preserve">
+    <value>ข้อผิดพลาดในระหว่างการลบ</value>
+  </data>
+  <data name="ErrSelecting" xml:space="preserve">
+    <value>ข้อผิดพลาดระหว่างการเลือก</value>
+  </data>
+  <data name="WarnSelectItem" xml:space="preserve">
+    <value>โปรดเลือกรายการ และลองอีกครั้ง</value>
+  </data>
+  <data name="WarnTryAgain" xml:space="preserve">
+    <value>โปรดลองอีกครั้ง</value>
+  </data>
+  <data name="BdayCardsPgTitle" xml:space="preserve">
+    <value>บัตร</value>
+  </data>
+  <data name="DeleteConfirmMessage" xml:space="preserve">
+    <value>คุณแน่ใจคุณต้องการเอารายการที่เลือกหรือไม่</value>
+  </data>
+  <data name="ErrAddCard" xml:space="preserve">
+    <value>ข้อผิดพลาดเพิ่มบัตร</value>
+  </data>
+  <data name="ErrAddFriend" xml:space="preserve">
+    <value>ข้อผิดพลาดเพิ่มเพื่อน</value>
+  </data>
+  <data name="LoadingFbPageMsg" xml:space="preserve">
+    <value>รับโหลดหน้าเฟสบุ๊ค</value>
+  </data>
+  <data name="DownloadImagesTitle" xml:space="preserve">
+    <value>ดาวน์โหลดรูปโพรไฟล์</value>
+  </data>
+  <data name="DownloadnProfileImgMsg" xml:space="preserve">
+    <value>คุณต้องการดาวน์โหลดรูปภาพโปรไฟล์ของเพื่อนของคุณหรือไม่ หลังจากดาวน์โหลดภาพ คุณจะได้เห็นของพวกเขา phtotos ในไพ่เริ่มต้น แต่กรุณาอดเป็นกระบวนการนี้อาจใช้เวลาสองสามนาทีขึ้นอยู่กับความเร็วในการเชื่อมต่ออินเทอร์เน็ต คุณต้องการดาวน์โหลดภาพเดี๋ยวนี้หรือไม่</value>
+  </data>
+  <data name="SetAsDefaultLabel" xml:space="preserve">
+    <value>ตั้งค่าเป็นค่าเริ่มต้น</value>
+  </data>
+  <data name="ChooseCardLabel" xml:space="preserve">
+    <value>เลือกบัตร</value>
+  </data>
+  <data name="CardLimitExceedCaption" xml:space="preserve">
+    <value>เกินขีดจำกัด</value>
+  </data>
+  <data name="CardLimitMsg" xml:space="preserve">
+    <value>ไม่สามารถเพิ่มกว่า 10 บัตร โปรดลบบางบัตรเก่าถ้าคุณต้องการเพิ่มบัตรใหม่</value>
+  </data>
+  <data name="ConnOpenWarnCaption" xml:space="preserve">
+    <value>เชื่อมต่อไม่ว่าง</value>
+  </data>
+  <data name="ImageUploadDownloadBusyMsg" xml:space="preserve">
+    <value>ภาพที่กำลังบันทึก หรือลบ กรุณารอไม่กี่วินาที แล้วลองอีกครั้ง</value>
+  </data>
+  <data name="AddEditFriendNotAllowed" xml:space="preserve">
+    <value>เพิ่มเพื่อนใหม่ หรือแก้ไขรายละเอียดเพื่อนอยู่ไม่ได้ในโปรแกรมประยุกต์รุ่นทดลอง กรุณาซื้อเวอร์ชันเต็มให้ใช้คุณลักษณะนี้ และปลดล็อคคุณสมบัติอื่น ๆ มากมาย</value>
+  </data>
+  <data name="BuyAppForCard" xml:space="preserve">
+    <value>รุ่นทดลองของแอพลิเคชันช่วยให้บัตรสูงสุด 5 เท่า กรุณาซื้อเวอร์ชันเต็มบันทึกไพ่ และปลดล็อกจำนวนมากคุณสมบัติอื่น ๆ</value>
+  </data>
+  <data name="BuyFullVersion" xml:space="preserve">
+    <value>ซื้อเวอร์ชันเต็ม</value>
+  </data>
+  <data name="BuyLabel" xml:space="preserve">
+    <value>ซื้อ</value>
+  </data>
+  <data name="DeletingCardsNotAllowed" xml:space="preserve">
+    <value>ไม่อนุญาตให้ลบบัตรในรุ่นทดลองใช้ กรุณาซื้อเวอร์ชันเต็ม ให้ใช้คุณลักษณะนี้ และปลดล็อคของคุณลักษณะอื่น ๆ</value>
+  </data>
+  <data name="NotAllowedLabel" xml:space="preserve">
+    <value>ไม่ได้รับอนุญาต</value>
+  </data>
+  <data name="Only100CardsMessage" xml:space="preserve">
+    <value>โปรแกรมประยุกต์ช่วยให้การบันทึกบัตรเพียง 100 ตอน โปรดลบบางบัตรเก่าการบันทึกใหม่</value>
+  </data>
+  <data name="SyncFeatureNotAllowed" xml:space="preserve">
+    <value>คุณลักษณะนี้ไม่ได้รับการอนุญาตในแอพลิเคชันรุ่นทดลอง กรุณาซื้อเวอร์ชันเต็มของโปรแกรมประยุกต์ เพื่อใช้คุณลักษณะนี้ และปลดล็อคคุณสมบัติอื่น ๆ มากมาย</value>
+  </data>
+  <data name="BuyAppForAddFriend" xml:space="preserve">
+    <value>รุ่นทดลองของโปรแกรมประยุกต์ไม่สามารถเพิ่ม หรือแก้ไขรายละเอียดของเพื่อน กรุณาซื้อเวอร์ชันเต็ม ให้ใช้คุณลักษณะนี้ และปลดล็อคของคุณลักษณะอื่น ๆ</value>
+  </data>
+  <data name="BuyAppForDelete" xml:space="preserve">
+    <value>รุ่นทดลองของโปรแกรมประยุกต์ไม่สามารถลบสินค้า กรุณาซื้อเวอร์ชันเต็มลบรายการ และปลดล็อกจำนวนมากคุณสมบัติอื่น ๆ</value>
+  </data>
+  <data name="BuyAppGenericMessage" xml:space="preserve">
+    <value>รุ่นทดลองของโปรแกรมประยุกต์เปิดใช้คุณลักษณะนี้ กรุณาซื้อเวอร์ชันเต็ม ให้ใช้คุณลักษณะนี้ และปลดล็อคของคุณลักษณะอื่น ๆ</value>
+  </data>
+  <data name="BuyAppSaveSettings" xml:space="preserve">
+    <value>รุ่นทดลองของแอพลิเคชันไม่อนุญาตให้เปลี่ยนการตั้งค่า กรุณาซื้อเวอร์ชันเต็ม ให้ใช้คุณลักษณะนี้ และปลดล็อคของคุณลักษณะอื่น ๆ</value>
+  </data>
+  <data name="BuyAppForAllFriends" xml:space="preserve">
+    <value>รุ่นทดลองของแอพลิเคชันให้เพื่อนมากกว่า 100 บันทึก ได้เพื่อน facebook เพียง 100 กรุณาซื้อรุ่นเต็ม สำหรับการบันทึกเพื่อน facebook ทั้งหมด และปลดล็อกจำนวนมากคุณสมบัติอื่น ๆ หลังจากที่คุณซื้อเวอร์ชันเต็ม กรุณาตรงรายชื่อเพื่อนไปยังการตั้งค่าการดาวน์โหลดเพื่อนทั้งหมด</value>
+  </data>
+  <data name="DaysLabel" xml:space="preserve">
+    <value>วัน</value>
   </data>
 </root>
